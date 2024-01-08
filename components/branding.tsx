@@ -4,6 +4,8 @@ import Logo from "./logo";
 import Link from 'next/link';
 import Image from 'next/image';
 
+import MedFiles from "../public/assets/MedFiles.svg";
+
 function Branding(props: any) {
 
     const textColor = 'black';
@@ -12,7 +14,7 @@ function Branding(props: any) {
 
     return (
         <div className={`flex title-font font-medium items-center text-${textColor} mb-4 md:mb-0`}>
-            <Logo />
+            <MedFiles className="h-16 w-16" />
             <div className="ml-3 text-xl">House of Charts</div>
         </div>
     )

@@ -3,30 +3,49 @@ import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/Logo.svg";
 import MedFiles from "../../public/assets/MedFiles.svg";
 import Branding from "../branding";
+import ButtonPrimary from "../misc/ButtonPrimary";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
+  const [hideHeader, setHideHeader] = useState(false); // New state for header visibility
+
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    let lastScrollTop = 0; // Keep track of the last scroll position
+
+    const onScroll = () => {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > lastScrollTop) {
+        // Scrolling down
+        setHideHeader(true); // Hide the header
+      } else {
+        // Scrolling up
+        setHideHeader(false); // Show the header
+      }
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
       setScrollActive(window.scrollY > 20);
-    });
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll); // Clean up the event listener
   }, []);
   return (
     <>
       <header
         className={
           "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
-          (scrollActive ? " shadow-md pt-0" : " pt-4")
+          (scrollActive ? " shadow-md pt-0" : " pt-4") +
+          (hideHeader ? " hidden" : "")
         }
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
-          <div className="col-start-1 col-end-2 flex items-center">
+          <div className="col-start-1 col-end-2 flex items-center align-items justify-content">
             {/* <LogoVPN className="h-8 w-auto" /> */}
-            <MedFiles className="h-16 w-auto" />
+            <div className="flex items-center align-items justify-content">
+            <Branding />
+            </div>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
@@ -49,21 +68,21 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="feature"
+              to="features"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("feature");
+                setActiveLink("features");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "feature"
+                (activeLink === "features"
                   ? " text-orange-500 animation-active "
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Feature
+              Features
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -85,30 +104,31 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="testimonials"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("testimonials");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
+                (activeLink === "testimonials"
                   ? " text-orange-500 animation-active "
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Testimonial
+              Testimonials
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <Link href="/">
+          <ButtonPrimary>Let's Talk</ButtonPrimary>
+          {/*    <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                 Sign In
               </a>
             </Link>
-            <ButtonOutline>Sign Up</ButtonOutline>
+            <ButtonOutline>Sign Up</ButtonOutline> */}
           </div>
         </nav>
       </header>
@@ -151,16 +171,16 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="feature"
+              to="features"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("feature");
+                setActiveLink("features");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "feature"
+                (activeLink === "features"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
@@ -179,7 +199,7 @@ const Header = () => {
                   d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                 />
               </svg>
-              Feature
+              Features
             </LinkScroll>
             <LinkScroll
               activeClas="active"
@@ -215,16 +235,16 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="testimonials"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("testimonials");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "testimoni"
+                (activeLink === "testimonials"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
@@ -243,7 +263,7 @@ const Header = () => {
                   d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
                 />
               </svg>
-              Testimonial
+              Testimonials
             </LinkScroll>
           </ul>
         </div>

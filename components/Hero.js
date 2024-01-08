@@ -41,10 +41,10 @@ const Hero = ({
               Not <strong>Paperwork</strong>.
             </h1>
             <p className="text-black-500 mt-4 mb-6">
-              Free up time for you and your patient's quality time with Automation & AI. <br />
+              Free up patient's and your quality time with Automation & AI. <br />
               Don't know where to start? We're here to help.
             </p>
-            <ButtonPrimary>Let's Talk</ButtonPrimary>
+            <ButtonPrimary>Book a Demo</ButtonPrimary>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
