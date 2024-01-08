@@ -16,7 +16,7 @@ const Footer = () => {
           <p className="mb-4">
             <strong className="font-medium">House of Charts</strong> is an automation tool that helps medical professionals save time.
           </p>
-          <div className="flex w-full mt-2 mb-8 -mx-2">
+          {/* <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Facebook className="h-6 w-6" />
             </div>
@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
             </div>
-          </div>
+          </div> */}
           <p className="text-gray-400">©{new Date().getFullYear()} - House of Charts</p>
         </div>
         

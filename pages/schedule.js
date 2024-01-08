@@ -1,5 +1,6 @@
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
+import Script from 'next/script';
 
 export default function Schedule() {
  const handleMeetingWidgetLoad = () => {
@@ -9,24 +10,10 @@ export default function Schedule() {
     <>
       <SeoHead title='Schedule House of Charts - Demo' />
       <Layout>
-      <div id="hs-meeting-widget"></div>
-      <script src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
-      <script>
-        {`
-          var options = {
-            portalId: 'your_portal_id',
-            formId: 'your_form_id',
-            target: '#hs-meeting-widget',
-            width: '100%',
-            height: '100%',
-            borderColor: '#ffffff',
-            backgroundColor: '#ffffff',
-            lang: 'en',
-            onLoad: ${handleMeetingWidgetLoad}
-          };
-          window.HSBootstrap.loadMeetingWidget(options);
-        `}
-      </script>
+      <div id="max-w-screen-xl mt-10 pt-80 px-8 xl:px-16 mx-auto">
+         <div className="meetings-iframe-container" data-src="https://meetings-eu1.hubspot.com/sven-schuepbach?embed=true"></div>
+         <Script src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js" strategy="beforeInteractive" />
+       </div>
       </Layout>
     </>
   );

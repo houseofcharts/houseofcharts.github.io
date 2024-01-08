@@ -24,7 +24,7 @@ const Features = () => {
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/docOnPC.png"
-              alt="VPN Illustrasi"
+              alt="Illustrasi"
               layout="responsive"
               quality={100}
               height={414}

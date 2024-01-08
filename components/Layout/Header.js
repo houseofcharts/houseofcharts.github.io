@@ -202,7 +202,7 @@ const Header = () => {
               Features
             </LinkScroll>
             <LinkScroll
-              activeClas="active"
+              activeClass="active"
               to="pricing"
               spy={true}
               smooth={true}
