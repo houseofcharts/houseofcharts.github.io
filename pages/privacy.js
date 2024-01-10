@@ -7,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Privacy() {
   return (
     <>
-      <SeoHead title='LaslesVPN Landing Page' />
+      <SeoHead title='House of Charts - Privacy Policy' />
       <Layout>
       <div className="max-w-screen-xl mt-10 pt-40 px-8 xl:px-16 mx-auto">
   <style

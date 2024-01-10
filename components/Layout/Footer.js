@@ -1,10 +1,6 @@
 import React from "react";
-import LogoVPN from "../../public/assets/Logo.svg";
-import Facebook from "../../public/assets/Icon/facebook.svg";
-import Twitter from "../../public/assets/Icon/twitter.svg";
-import Instagram from "../../public/assets/Icon/instagram.svg";
 import Branding from "../branding";
-import MedFiles from "../../public/assets/MedFiles.svg";
+
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
