@@ -1,0 +1,22 @@
+{
+  "main": [
+    {
+      "name": "Über uns",
+      "url": "/about"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Terms & Conditions",
+      "url": "/terms-policy"
+    }
+  ]
+}

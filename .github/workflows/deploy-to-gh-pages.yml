@@ -1,0 +1,29 @@
+# File: .github/workflows/deploy-to-gh-pages.yml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+
+      - name: Install and Build
+        run: |
+          npm ci
+          npm run build
+          npm run export
+          touch out/.nojekyll
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: out
+          token: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }}
