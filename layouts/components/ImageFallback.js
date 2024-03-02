@@ -2,7 +2,7 @@
 //BACK_TO_FULLSTACK: UNCOMMENT & img -> Image in jsx below
 //import Image from "next/image";
 // And comment this + remove the conditional below
-const isProd = process.env.NODE_ENV === 'production';
+//const isProd = process.env.NODE_ENV === 'production';
 
 
 import { useEffect, useState } from "react";
@@ -18,7 +18,7 @@ const ImageFallback = (props) => {
   return (
     <img
       {...rest}
-      src={isProd ? '/houseofcharts.github.io/' + imgSrc : '' + imgSrc}
+      src={imgSrc}
       onError={() => {
         setImgSrc(fallback);
       }}

@@ -9,7 +9,7 @@ import { MDXRemote } from "next-mdx-remote";
 //BACK_TO_FULLSTACK: UNCOMMENT & img -> Image in jsx below
 //import Image from "next/image";
 // ALSO REMOVE
-const isProd = process.env.NODE_ENV === 'production';
+//const isProd = process.env.NODE_ENV === 'production';
 import Cta from "./components/Cta";
 import ImageFallback from "./components/ImageFallback";
 import Post from "./partials/Post";
@@ -29,7 +29,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
               <div className="lg:col-10">
                 {image && (
                   <img
-                    src={ isProd ? '/houseofcharts.github.io/' + image : '' + image}
+                    src={ image}
                     height="700"
                     width="1120"
                     alt={title}
