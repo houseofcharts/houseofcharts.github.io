@@ -1,3 +1,5 @@
+"use client"
+
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import Script from 'next/script';
