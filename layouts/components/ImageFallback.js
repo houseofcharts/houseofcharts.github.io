@@ -18,7 +18,7 @@ const ImageFallback = (props) => {
   return (
     <img
       {...rest}
-      src={isProd ? '/hoc/' + imgSrc : '' + imgSrc}
+      src={isProd ? '/houseofcharts.github.io/' + imgSrc : '' + imgSrc}
       onError={() => {
         setImgSrc(fallback);
       }}

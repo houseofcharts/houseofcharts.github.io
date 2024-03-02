@@ -29,7 +29,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
               <div className="lg:col-10">
                 {image && (
                   <img
-                    src={ isProd ? '/hoc/' + image : '' + image}
+                    src={ isProd ? '/houseofcharts.github.io/' + image : '' + image}
                     height="700"
                     width="1120"
                     alt={title}

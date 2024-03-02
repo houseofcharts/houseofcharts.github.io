@@ -12,8 +12,8 @@ const nextConfig = {
   },
   //BACK_TO_FULLSTACK: remove prefix in production
   // Use the prefix and basePath only in production (when deploying to GitHub Pages)
-  assetPrefix: isProd ? '/hoc/' : '',
-  basePath: isProd ? '/hoc' : '',
+  assetPrefix: isProd ? '/houseofcharts.github.io/' : '',
+  basePath: isProd ? '/houseofcharts.github.io' : '',
 };
 
 module.exports = nextConfig;
