@@ -101,7 +101,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
 
       <Benefits speciality={speciality}/>
 
-      <Testimonials testimonial={testimonial}/>
+      {/*<Testimonials testimonial={testimonial}/> */}
 
       {/* Cta */}
       <Cta />
