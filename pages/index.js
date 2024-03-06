@@ -1,18 +1,9 @@
 import Base from "@layouts/Baseof";
-import Circle from "@layouts/components/Circle";
 import Cta from "@layouts/components/Cta";
-import ImageFallback from "@layouts/components/ImageFallback";
 import { getListPage } from "@lib/contentParser";
-import { gsap } from "@lib/gsap";
-import { markdownify } from "@lib/utils/textConverter";
-import Link from "next/link";
-import { useEffect, useRef } from "react";
-import { Autoplay, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 import Features from "@layouts/components/Features";
 import Benefits from "@layouts/components/Benefits";
-import Testimonials from "@layouts/components/Testimonials";
 import LandingBanner from "../layouts/components/LandingBanner";
 
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {

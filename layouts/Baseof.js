@@ -6,6 +6,8 @@ import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
+import GoogleAnaytics from "../lib/GoogleAnalytics";
+import CookieBanner from "./components/cookie-banner";
 
 const Base = ({
   title,
@@ -149,10 +151,15 @@ const Base = ({
           content={`${base_url}${image ? image : meta_image}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
+        
+        
+
       </Head>
+      <GoogleAnaytics GA_MEASUREMENT_ID='G-HVF2C0X375'/>
       <Header />
       {/* main site */}
       <main ref={main}>{children}</main>
+      <CookieBanner />
       <Footer />
     </>
   );

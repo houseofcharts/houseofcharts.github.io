@@ -48,7 +48,7 @@ features:
       content: Einfache Generierung von medizinischen Stellungnahmen, unterstützt durch klinische Datenintegration.
     - icon: "user-check"
       title: Patientenberichte
-      content: Übersetzung der medizinischen Befunde ins verständliche Sprache Patientenberichte.
+      content: Übersetzung der medizinischen Befunde in für Patienten verständliche Sprache.
     - icon: "search"
       title: KG Smart Search
       content: Intelligente Suchfunktionen, die den Zugriff auf klinische Informationen vereinfachen und beschleunigen.
@@ -85,13 +85,13 @@ speciality:
     subtitle: WENIGER ADMINISTRATION
     description: House of Charts automatisiert wiederkehrende Verwaltungsaufgaben, wie die Erstellung von Austrittsberichten und die Zusammenfassung von Verlaufseinträgen. Das spart Zeit und ermöglicht es dem medizinischen Personal, sich auf die Patientenversorgung zu konzentrieren.
     image: /images/features-01.png
-  - title: Vielseitige Medizinische Unterstützung für Alle Fachbereiche
+  - title: Vielseitige Medizinische Unterstützung für alle Fachbereiche
     subtitle: DISZIPLINÜBERGREIFEND
     description: Unabhängig davon, ob es um Chirurgie oder Psychiatrie geht, bietet House of Charts Vielseitigkeit in allen medizinischen Fachbereichen, um Flexibilität und Komfort zu gewährleisten.
     image: /images/features-02.png
-  - title: Individuell Anpassbare Lösungen
+  - title: Individuell anpassbare Lösungen
     subtitle: PERSONALISIERTE SOFTWARE
-    description: Unsere Technologie passt sich den spezifischen Anforderungen Ihrer Klinik an. Von der direkten Integration in das Klinikinformationssystem bis hin zur massgeschneiderten Konfiguration unseres Portals – wir stellen sicher, dass unsere Lösungen Ihre Arbeitsabläufe optimal unterstützen.
+    description: Unsere Technologie passt sich den spezifischen Anforderungen Ihrer Klinik an. Von der direkten Integration in das Klinikinformationssystem bis hin zur massgeschneidert Konfiguration unseres Portals – wir stellen sicher, dass unsere Lösungen Ihre Arbeitsabläufe optimal unterstützen.
     image: /images/features-03.png
   - title: Höchste Datensicherheit
     subtitle: SICHER UND VERTRAULICH
@@ -101,9 +101,9 @@ speciality:
 #    subtitle: EINFACHE HANDHABUNG
 #    description: Zur Implementierung der Lösung benötigen wir nur minimale ärztliche Ressourcen. Unsere Plattform ist benutzerfreundlich und leicht zu erlernen.
 #    image: /images/features-05.png
-  - title: Einfach Integrierbar
+  - title: Einfach integrierbar
     subtitle: NAHTLOSE INTEGRATION
-    description: Wir passen uns an Ihre informatische Infrastruktur an und integrieren unsere Lösung nahtlos in Ihre bestehende Prozesse. Einfachheit und Effizienz stehen im Vordergrund.
+    description: Wir passen uns an Ihre informatische Infrastruktur an und integrieren unsere Lösung nahtlos in Ihre bestehenden Prozesse. Einfachheit und Effizienz stehen im Vordergrund.
     image: /images/features-06.png
 
 #Testimonial

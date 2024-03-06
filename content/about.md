@@ -55,15 +55,15 @@ our_member:
   content: Unsere Gründer, vereint durch die Vision, den administrativen Aufwand für medizinisches Personal zu reduzieren, </br> ermöglichen mehr Zeit für die direkte Patientenversorgung. Dieses Engagement für Innovation und Effizienz treibt uns an, </br> kontinuierlich Lösungen zu entwickeln, die nicht nur die Arbeitslast verringern, sondern auch die Patientenversorgung verbessern.
   list:
     - name: Ari Jordan
-      field: CTO
+      field: MSc ETH
       bio: Ari verfügt über einen Master of Science in Angewandter Mathematik von der ETH Zürich mit einer Spezialisierung auf maschinelles Lernen und Computer Vision. Mit seinem breiten technischen Spektrum hat er einige intelligente Systeme in hochkomplexen IT-Infrastrukturen entwickelt. Ari sorgt dafür, dass unsere Software stets auf dem neuesten Stand der Technik bleibt. Er setzt sich für höchste Sicherheits- und Datenschutzstandards ein und gewährleistet, dass wir immer mit den neuesten technologischen Entwicklungen Schritt halten.
       image: /images/about/team/01.jpg
     - name: Sven Schüpbach
-      field: CEO
+      field: Dr. med.
       bio: Sven ist ein technologieaffiner diplomierter Arzt mit einem Abschluss von der Universität Bern. Er verfügt über umfangreiche Erfahrungen in einer grossen Bandbreite von medizinischen Disziplinen. Zudem hat er Krankenhäuser in Bezug auf beste medizinische Praktiken, Prozesse und klinische Digitalstrategien beraten. Er stellt sicher, dass die Technologie von House of Charts den hohen Anforderungen des medizinischen Feldes entspricht und sich in das klinische Umfeld einfügt. Sven ist der Visionär, der kompromisslos darauf abzielt, das Wohlbefinden von Patienten und medizinischem Personal zu steigern, indem er die für Verwaltungsaufgaben aufgewendete Zeit des medizinischen Personals reduziert und die Zeit mit Patienten maximiert.
       image: /images/about/team/02.jpg
     - name: Emmanuel Bauer
-      field: COO
+      field: MSc ETH
       bio: Emmanuel besitzt einen Master of Science in Mathematik von der ETH Zürich mit einer Spezialisierung auf maschinelles Lernen und die Verarbeitung natürlicher Sprache. Seine Forschung konzentrierte sich auf die Anwendung neuester Technologien für zuverlässige Dokumentenverarbeitung und -erstellung. Emmanuel sorgt dafür, dass unsere KI- und Automatisierungsprozesse reibungslos funktionieren und von hoher Qualität sind. Es ist ihm wichtig, dass unsere Produkte von höchster Qualität sind und individuell auf die Bedürfnisse unserer Kunden zugeschnitten werden.
       image: /images/about/team/03.jpg
 

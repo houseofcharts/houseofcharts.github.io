@@ -20,10 +20,22 @@ const Footer = () => {
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Soziale Medien</h3>
             <div className="mt-5">
-              {email && <Link href={`mailto:${email}`}>{email}</Link>}
+
               {/* social icons */}
               <Social source={social} className="social-icons mt-5" />
             </div>
+          </div>
+          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
+            <h3 className="h5">Kontakt</h3>
+            <ul className="mt-5 leading-10">
+              <li className="text-sky-400">{email && <Link href={`mailto:${email}`}>{email}</Link>}</li>
+              <li>{markdownify(location)}</li>
+              {phone && (
+                <li>
+                  <Link href={`tel:${phone}`}>{phone}</Link>
+                </li>
+              )}
+            </ul>
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Sitemap</h3>
@@ -39,17 +51,6 @@ const Footer = () => {
                   </Link>
                 </li>
               ))}
-            </ul>
-          </div>
-          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Kontakt</h3>
-            <ul className="mt-5 leading-10">
-              <li>{markdownify(location)}</li>
-              {phone && (
-                <li>
-                  <Link href={`tel:${phone}`}>{phone}</Link>
-                </li>
-              )}
             </ul>
           </div>
         </div>
