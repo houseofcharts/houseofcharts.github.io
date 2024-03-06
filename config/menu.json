@@ -17,6 +17,10 @@
     {
       "name": "Terms & Conditions",
       "url": "/terms-policy"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy"
     }
   ]
 }
