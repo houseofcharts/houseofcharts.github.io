@@ -57,7 +57,7 @@ const Testimonials = ({testimonial}) => {
                               {markdownify(
                                 item.content,
                                 "p",
-                                "text-[17px] lg:text-lg text-body mt-4 md:mt-5 xl:mt-8"
+                                "text-[14px] lg:text-xs text-body mt-4 md:mt-5 xl:mt-8"
                               )}
                               <div className="mt-7 inline-block rounded-md bg-body p-7 shadow-[0_10px_50px_rgba(0,0,0,.08)] md:mt-5 lg:mt-8 xl:mt-5">
                                 <ImageFallback

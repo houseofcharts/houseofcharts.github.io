@@ -5,6 +5,7 @@ import { getListPage } from "@lib/contentParser";
 import Features from "@layouts/components/Features";
 import Benefits from "@layouts/components/Benefits";
 import LandingBanner from "../layouts/components/LandingBanner";
+import Testimonials from "../layouts/components/Testimonials";
 
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
 
@@ -92,7 +93,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
 
       <Benefits speciality={speciality}/>
 
-      {/*<Testimonials testimonial={testimonial}/> */}
+      <Testimonials testimonial={testimonial}/> 
 
       {/* Cta */}
       <Cta />
