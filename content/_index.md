@@ -112,7 +112,7 @@ testimonial:
   subtitle: UNSERE REFERENZEN
   description: Vertrauen ist die Basis unserer Zusammenarbeit. Lesen Sie, was Fachleute aus dem Gesundheitswesen über ihre Erfahrungen mit House of Charts berichten. </br> Unsere Technologie hat ihnen geholfen, den administrativen Aufwand zu minimieren und die Qualität der Patientenversorgung zu verbessern.
   list:
-    - author: Dr. med. pract. Kyra Hofmann
+    - author: med. pract. Kyra Hofmann
       avatar: /images/user-img/1640622939252.jpeg
       profession: Oberärztin, Spital Schaffhausen
       content: "Die Automatisierung von Berichten und anderen bürokratischen Aufgaben durch House of Charts ist eine Innovation, die den medizinischen Alltag revolutionieren kann. In meiner persönlichen Testphase war ich von der Qualität und der Schnelligkeit der erstellten Berichte beeindruckt. Mit House of Charts haben wir eine Lösung zur Reduktion ärztlicher administrativer Aufgaben und gewinnen im klinischen Alltag Zeit für was wirklich wichtig ist: die Zeit am Patienten und die klinische und operative Ausbildung unserer Assistenzärzte/-innen."
