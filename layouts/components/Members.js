@@ -1,7 +1,19 @@
 import { markdownify } from "@lib/utils/textConverter";
 import ImageFallback from "./ImageFallback";
+import { useMediaQuery } from 'react-responsive';
+
+  
 
 const Members = ({ members }) => {
+
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+
+  let member_list = members.list;
+
+  if (isMobile) {
+    // Shift elements back by one
+    member_list = [ ...member_list.slice(1, member_list.length), member_list[0]];
+   }
 
   return (
     <div className="section container">
@@ -13,7 +25,7 @@ const Members = ({ members }) => {
     <div className="row justify-center">
       <div className="lg:col-10">
         <div className="row">
-          {members.list.map((member, index) => (
+          {member_list.map((member, index) => (
             <div
               key={("member-", index)}
               className="animate mt-10 text-center md:col-6 lg:col-4"
