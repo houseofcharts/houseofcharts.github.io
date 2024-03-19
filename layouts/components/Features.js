@@ -2,8 +2,9 @@
 import { markdownify } from "@lib/utils/textConverter";
 import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import { useRef } from "react";
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 
 const Features = ({features}) => {
 
@@ -21,18 +22,17 @@ const Features = ({features}) => {
             </div>
             <div className="animate from-right relative mt-10">
               <Swiper
-                slidesPerView={1}
+                modules={[Pagination, Autoplay]}
                 pagination={{
                   type: "bullets",
                   el: paginationRef.current,
                   clickable: true,
                   dynamicBullets: true,
                 }}
-                // autoplay={{ delay: 3000 }}
+                autoplay={{ delay: 3000 }}
                 onBeforeInit={(swiper) => {
                   swiper.params.pagination.el = paginationRef.current;
                 }}
-                modules={[Pagination]}
                 breakpoints={{
                   768: {
                     slidesPerView: 2,

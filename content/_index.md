@@ -112,36 +112,16 @@ testimonial:
   subtitle: UNSERE REFERENZEN
   description: Vertrauen ist die Basis unserer Zusammenarbeit. Lesen Sie, was Fachleute aus dem Gesundheitswesen über ihre Erfahrungen mit House of Charts berichten. </br> Unsere Technologie hat ihnen geholfen, den administrativen Aufwand zu minimieren und die Qualität der Patientenversorgung zu verbessern.
   list:
-    - author: Dr. Richard Sommer
-      avatar: /images/user-img/07.jpg
-      profession: Oberarzt Dermatologie, Universitätsspital Basel
-      content: "Mit der Lösung von House of Charts haben wir einen Quantensprung in der Effizienz unserer klinischen Dokumentation gemacht. Ein echter Gewinn für Ärzte und Patienten."
-    - author: Julia Wu
-      avatar: /images/user-img/03.jpg
-      profession: Pflegedienstleitung, Allgemeines Krankenhaus Wien
-      content: "Das System von House of Charts hat die Zufriedenheit unseres Behandlungsteams deutlich gesteigert. Die vereinfachte Dokumentation ermöglicht eine bessere Patientenbetreuung."
-    - author: Dr. Simon Beck
-      avatar: /images/user-img/04.jpg
-      profession: Facharzt für Innere Medizin, Universitätsklinikum Freiburg
-      content: "Die Effizienz und Präzision der KI-Lösungen von House of Charts sind beeindruckend. Sie unterstützen uns enorm in der täglichen Diagnose und Behandlungsplanung."
-    - author: Mag. Petra Fischer
-      avatar: /images/user-img/05.jpg
-      profession: Klinische Psychologin, Graz
-      content: "Die KI-gestützte Analyse von Patientendaten bietet uns neue Perspektiven in der Behandlung. House of Charts ist ein Pionier in der Anwendung moderner Technologie im Gesundheitswesen."
-    - author: Dr. Lena Müller
-      avatar: /images/user-img/01.jpg
-      profession: Leitende Ärztin, Universitätsspital Zürich
-      content: "Die Implementierung der KI von House of Charts hat unsere Abläufe signifikant verbessert. Die automatisierte Erstellung von Austrittsberichten spart uns täglich wertvolle Stunden."
-    - author: Prof. Dr. Felix Pfaffhauser
-      avatar: /images/user-img/02.jpg
-      profession: Chefarzt Psychiatrie, Charité Berlin
-      content: "Dank House of Charts können wir uns mehr auf unsere Patienten konzentrieren. Die intuitive Bedienung und die präzise Datenanalyse sind für unser Team unverzichtbar geworden."
-    - author: Thomas Lang
-      avatar: /images/user-img/08.jpg
-      profession: Verwaltungsdirektor, Kantonsspital St. Gallen
-      content: "Die Zusammenarbeit mit House of Charts hat unsere Verwaltungsprozesse revolutioniert. Besonders die automatisierte Verarbeitung von Patientendaten erleichtert die tägliche Arbeit."
-    - author: Michael Wagner
-      avatar: /images/user-img/09.jpg
-      profession: Pflegefachmann, Universitätsklinikum Hamburg-Eppendorf
-      content: "Die benutzerfreundliche Software von House of Charts erleichtert nicht nur die Arbeit des Pflegepersonals, sondern verbessert auch die Qualität der Patientendokumentation."
+    - author: med. pract. Kyra Hofmann
+      avatar: /images/user-img/1640622939252.jpeg
+      profession: Oberärztin, Spital Schaffhausen
+      content: "Die Automatisierung von Berichten und anderen bürokratischen Aufgaben durch House of Charts ist eine Innovation, die den medizinischen Alltag revolutionieren kann. In meiner persönlichen Testphase war ich von der Qualität und der Schnelligkeit der erstellten Berichte beeindruckt. Mit House of Charts haben wir eine Lösung zur Reduktion ärztlicher administrativer Aufgaben und gewinnen im klinischen Alltag Zeit für was wirklich wichtig ist: die Zeit am Patienten und die klinische und operative Ausbildung unserer Assistenzärzte/-innen."
+    - author: Dr. med. Joël Galán Sousa
+      avatar: /images/user-img/1565858819304.jpeg
+      profession: Facharztanwärter Psychiatrie
+      content: "House of Charts weist mit seinem innovativen und zukunftsweisenden Ansatz der KI-basierten Analyse und Verarbeitung von anonymisierten Patientendaten endlich den Weg in eine Zukunft, in der zeitaufwändige administrativen Aufgaben und Prozesse semiautomatisiert abgewickelt werden und somit Ressourcen für das freimachen, was die Medizin im Kern ausmacht: Die Zeit am Patienten!"
+    - author: Kordian Caplazi
+      avatar: /images/user-img/1680987324336.jpeg
+      profession: Founder, Rimon Technologies
+      content: "House of Charts steht an der Spitze der digitalen Transformation im Gesundheitswesen. Ihre Fähigkeit, eng mit Kunden zusammenzuarbeiten und massgeschneiderte Lösungen zu liefern, die echte Probleme lösen, ist bemerkenswert. Das fundierte technische Wissen von Ari, kombiniert mit Svens klinischer Erfahrung und Emmanuels Spezialisierung auf maschinelles Lernen, macht sie zu einem unschlagbaren Team. Sie sind wahrhaftig Experten in dem, was sie tun."
 ---
