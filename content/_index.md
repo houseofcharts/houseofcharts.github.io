@@ -112,10 +112,14 @@ testimonial:
   subtitle: UNSERE REFERENZEN
   description: Vertrauen ist die Basis unserer Zusammenarbeit. Lesen Sie, was Fachleute aus dem Gesundheitswesen über ihre Erfahrungen mit House of Charts berichten. </br> Unsere Technologie hat ihnen geholfen, den administrativen Aufwand zu minimieren und die Qualität der Patientenversorgung zu verbessern.
   list:
+    - author: Dr. med. Francesco Merlo
+      avatar: /images/user-img/1680487524376.jpeg
+      profession: Assistentarzt und medizinischer Forscher
+      content: "Die Medizin hatte schon immer Mühe mit der Digitalisierung schrittzuhalten. Noch nie verbrachten Ärzte und Ärztinnen so viel Zeit mit administrativen Tätigkeiten. HouseofCharts leistet seinen Beitrag dazu bei, dass Krankenhäuser die aktuellen technologischen Fortschritte nutzen und endlich zeitgemäss arbeiten können. So haben wir in Zukunft wieder mehr Zeit für den direkten Kontakt mit Patienten und Patientinnen."
     - author: med. pract. Kyra Hofmann
       avatar: /images/user-img/1640622939252.jpeg
       profession: Oberärztin, Spital Schaffhausen
-      content: "Die Automatisierung von Berichten und anderen bürokratischen Aufgaben durch House of Charts ist eine Innovation, die den medizinischen Alltag revolutionieren kann. In meiner persönlichen Testphase war ich von der Qualität und der Schnelligkeit der erstellten Berichte beeindruckt. Mit House of Charts haben wir eine Lösung zur Reduktion ärztlicher administrativer Aufgaben und gewinnen im klinischen Alltag Zeit für was wirklich wichtig ist: die Zeit am Patienten und die klinische und operative Ausbildung unserer Assistenzärzte/-innen."
+      content: "Die Automatisierung von Berichten durch House of Charts ist eine Innovation, die den medizinischen Alltag revolutionieren kann. In meiner persönlichen Testphase war ich von der Qualität und der Schnelligkeit der erstellten Berichte beeindruckt. Mit House of Charts haben wir eine Lösung zur Reduktion ärztlicher administrativer Aufgaben und gewinnen im klinischen Alltag Zeit für was wirklich wichtig ist: die Zeit am Patienten und die klinische und operative Ausbildung unserer Assistenzärzte/-innen."
     - author: Dr. med. Joël Galán Sousa
       avatar: /images/user-img/1565858819304.jpeg
       profession: Facharztanwärter Psychiatrie
