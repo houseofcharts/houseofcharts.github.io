@@ -47,6 +47,7 @@ clients:
     - /images/brands/sph.png
     - /images/brands/shs.png
     - /images/brands/msft.png
+    - /images/brands/eth_ai_center_logo.png
 
 ## members
 our_member:
