@@ -51,8 +51,8 @@ clients:
 ## members
 our_member:
   subtitle: UNSER TEAM
-  title: Die Gründer von House of Charts
-  content: Unsere Gründer, vereint durch die Vision, den administrativen Aufwand für medizinisches Personal zu reduzieren, </br> ermöglichen mehr Zeit für die direkte Patientenversorgung. Dieses Engagement für Innovation und Effizienz treibt uns an, </br> kontinuierlich Lösungen zu entwickeln, die nicht nur die Arbeitslast verringern, sondern auch die Patientenversorgung verbessern.
+  title: Das Tean von House of Charts
+  content: Unser Team, vereint durch die Vision, den administrativen Aufwand für medizinisches Personal zu reduzieren, </br> ermöglichen mehr Zeit für die direkte Patientenversorgung. Dieses Engagement für Innovation und Effizienz treibt uns an, </br> kontinuierlich Lösungen zu entwickeln, die nicht nur die Arbeitslast verringern, sondern auch die Patientenversorgung verbessern.
   list:
     - name: Ari Jordan
       field: MSc ETH
