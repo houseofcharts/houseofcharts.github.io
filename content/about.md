@@ -45,14 +45,14 @@ clients:
   title:
   brands:
     - /images/brands/sph.png
+    - /images/brands/eth_ai_center_logo.png
     - /images/brands/shs.png
     - /images/brands/msft.png
-    - /images/brands/eth_ai_center_logo.png
 
 ## members
 our_member:
   subtitle: UNSER TEAM
-  title: Das Tean von House of Charts
+  title: Das Team von House of Charts
   content: Unser Team, vereint durch die Vision, den administrativen Aufwand für medizinisches Personal zu reduzieren, </br> ermöglichen mehr Zeit für die direkte Patientenversorgung. Dieses Engagement für Innovation und Effizienz treibt uns an, </br> kontinuierlich Lösungen zu entwickeln, die nicht nur die Arbeitslast verringern, sondern auch die Patientenversorgung verbessern.
   list:
     - name: Ari Jordan
