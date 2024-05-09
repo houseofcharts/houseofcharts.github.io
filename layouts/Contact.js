@@ -1,7 +1,7 @@
 import config from "@config/config.json";
 import Banner from "./components/Banner";
 import ImageFallback from "./components/ImageFallback";
-import CalendlyEmbed from "./components/CalendlyEmbed";
+import MeetingEmbed from "./components/MeetingEmbed";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
@@ -23,7 +23,7 @@ const Contact = ({ data }) => {
           </div>
           <div className="animate lg:col-5">
           <div className="contact-form rounded-xl shadow-[0_4px_25px_rgba(0,0,0,0.05)]">
-          <CalendlyEmbed url="https://calendly.com/d/3mc-3qk-fb3/house-of-charts-intro" />
+          <MeetingEmbed />
           </div>
           </div>
         </div>
