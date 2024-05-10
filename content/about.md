@@ -55,10 +55,6 @@ our_member:
   title: Das Team von House of Charts
   content: Unser Team, vereint durch die Vision, den administrativen Aufwand für medizinisches Personal zu reduzieren, </br> ermöglichen mehr Zeit für die direkte Patientenversorgung. Dieses Engagement für Innovation und Effizienz treibt uns an, </br> kontinuierlich Lösungen zu entwickeln, die nicht nur die Arbeitslast verringern, sondern auch die Patientenversorgung verbessern.
   list:
-    - name: Ari Jordan
-      field: MSc ETH
-      bio: Ari verfügt über einen Master of Science in Angewandter Mathematik von der ETH Zürich mit einer Spezialisierung auf maschinelles Lernen und Computer Vision. Mit seinem breiten technischen Spektrum hat er einige intelligente Systeme in hochkomplexen IT-Infrastrukturen entwickelt. Ari sorgt dafür, dass unsere Software stets auf dem neuesten Stand der Technik bleibt. Er setzt sich für höchste Sicherheits- und Datenschutzstandards ein und gewährleistet, dass wir immer mit den neuesten technologischen Entwicklungen Schritt halten.
-      image: /images/about/team/01.jpg
     - name: Sven Schüpbach
       field: Dr. med.
       bio: Sven ist ein technologieaffiner diplomierter Arzt mit einem Abschluss von der Universität Bern. Er verfügt über umfangreiche Erfahrungen in einer grossen Bandbreite von medizinischen Disziplinen. Zudem hat er Krankenhäuser in Bezug auf beste medizinische Praktiken, Prozesse und klinische Digitalstrategien beraten. Er stellt sicher, dass die Technologie von House of Charts den hohen Anforderungen des medizinischen Feldes entspricht und sich in das klinische Umfeld einfügt. Sven ist der Visionär, der kompromisslos darauf abzielt, das Wohlbefinden von Patienten und medizinischem Personal zu steigern, indem er die für Verwaltungsaufgaben aufgewendete Zeit des medizinischen Personals reduziert und die Zeit mit Patienten maximiert.
