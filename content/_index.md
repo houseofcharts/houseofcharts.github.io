@@ -127,5 +127,5 @@ testimonial:
     - author: Kordian Caplazi
       avatar: /images/user-img/1680987324336.jpeg
       profession: Founder, Rimon Technologies
-      content: "House of Charts steht an der Spitze der digitalen Transformation im Gesundheitswesen. Ihre Fähigkeit, eng mit Kunden zusammenzuarbeiten und massgeschneiderte Lösungen zu liefern, die echte Probleme lösen, ist bemerkenswert. Das fundierte technische Wissen von Ari, kombiniert mit Svens klinischer Erfahrung und Emmanuels Spezialisierung auf maschinelles Lernen, macht sie zu einem unschlagbaren Team. Sie sind wahrhaftig Experten in dem, was sie tun."
+      content: "House of Charts steht an der Spitze der digitalen Transformation im Gesundheitswesen. Ihre Fähigkeit, eng mit Kunden zusammenzuarbeiten und massgeschneiderte Lösungen zu liefern, die echte Probleme lösen, ist bemerkenswert. Svens klinische Erfahrung, kombiniert mit Emmanuels fundiertem technischen Wissen in den Bereichen maschinelles Lernen, KI und Softwareentwicklung, macht sie zu einem unschlagbaren Team. Sie sind wahrhaftig Experten in dem, was sie tun."
 ---

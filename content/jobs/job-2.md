@@ -2,8 +2,8 @@
 title: Software Engineer (m/w/d)
 image: /images/blog/02.jpg
 author:
-  name: Ari
-  avatar: /images/author/ari.jpg
+  name: Emmanuel
+  avatar: /images/author/emmanuel.jpg
 date: 2024-04-04T05:00:00Z
 draft: false
 ---
@@ -40,7 +40,7 @@ Wir suchen einen engagierten Software Engineer mit einer Leidenschaft für Daten
 - Attraktive Vergütungsmodelle und umfangreiche Sozialleistungen
 
 **Bewerbung:**
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an ari@houseofcharts.com.
+Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
 **Schlussdatum für Bewerbungen:** 
 
