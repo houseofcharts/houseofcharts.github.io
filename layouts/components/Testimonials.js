@@ -52,12 +52,12 @@ const Testimonials = ({testimonial}) => {
                             className="text-center"
                             key={"testimonial-" + index}
                           >
-                            <div className="py-4 px-8 sm:py-10 xl:py-5 md:px-10 lg:px-20 xl:px-12">
-                              <TbQuote className="mx-auto rotate-180 text-3xl text-body sm:text-4xl lg:text-6xl" />
+                            <div className="py-4 px-8 sm:py-10 xl:py-4 md:px-10 lg:px-20 xl:px-12">
+                              <TbQuote className="mx-auto rotate-180 text-3xl text-body sm:text-4xl lg:text-4xl" />
                               {markdownify(
                                 item.content,
                                 "p",
-                                "text-[14px] lg:text-sm text-body mt-4 md:mt-5 xl:mt-5"
+                                "text-[14px] lg:text-sm text-body mt-4 md:mt-5 xl:mt-3"
                               )}
                               <div className="mt-7 inline-block rounded-md bg-body p-7 shadow-[0_10px_50px_rgba(0,0,0,.08)] md:mt-5 lg:mt-8 xl:mt-5">
                                 <ImageFallback
