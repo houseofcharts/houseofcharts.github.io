@@ -184,11 +184,23 @@ const LandingBanner = ({banner, brands}) => {
                     <div className="animate from-right col-12">
                         <Swiper
                         loop={false}
-                        slidesPerView={3}
+                        slidesPerView={5}
                         breakpoints={{
-                            992: {
+                          300: {
+                            slidesPerView: 1,
+                          },
+                          400: {
+                            slidesPerView: 2,
+                          },
+                          600: {
+                            slidesPerView: 3,
+                          },
+                          900: {
+                            slidesPerView: 4,
+                          },
+                          1200: {
                             slidesPerView: 5,
-                            },
+                          },
                         }}
                         spaceBetween={20}
                         modules={[Autoplay]}

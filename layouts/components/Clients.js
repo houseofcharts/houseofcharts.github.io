@@ -17,6 +17,12 @@ const Clients = ({ clients }) => {
         loop={true}
         slidesPerView={3}
         breakpoints={{
+          500: {
+            slidesPerView: 1,
+          },
+          600: {
+            slidesPerView: 2,
+          },
           992: {
             slidesPerView: 3,
           },

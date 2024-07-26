@@ -4,7 +4,6 @@ import Circle from "./components/Circle";
 import Cta from "./components/Cta";
 import ImageFallback from "./components/ImageFallback";
 import Members from "./components/Members";
-import Mission from "./components/Mission";
 import Clients from "./components/Clients";
 import Offices from "./components/Offices";
 import Works from "./components/Works";
