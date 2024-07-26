@@ -1,47 +1,53 @@
 ---
-title: Software Engineer (m/w/d)
-image: /images/blog/02.jpg
+title: LLM Engineer (m/w/d)
+image: /images/blog/03.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
 date: 2024-04-04T05:00:00Z
 draft: false
+summary: Gestalten Sie bahnbrechende KI-Lösungen, indem Sie die Entwicklung unserer LLMs und NLP-Modelle vorantreiben. Optimieren Sie LLMOps-Pipelines und optimieren Sie die Verarbeitung klinischer Daten. Bringen Sie innovative Forschung und Entwicklung voran!
 ---
 
-**Standort:** Zürich, Schweiz oder Bern, Schweiz
+**Standort**: Zürich, Schweiz
 
-**Art der Beschäftigung:** Vollzeit
+**Art der Beschäftigung**: Vollzeit
 
-**Eintrittsdatum:** Nach Vereinbarung
+**Eintrittsdatum**: Nach Vereinbarung
 
-**Über House of Charts:**
-House of Charts ist ein Pionier in der Entwicklung von KI-gesteuerten Lösungen für das Gesundheitswesen, mit dem Ziel, den administrativen Aufwand zu minimieren und die Patientenversorgung zu optimieren. Unsere Technologien sind darauf ausgelegt, medizinisches Personal durch Automatisierung und intelligente Datenanalyse zu unterstützen.
+**Über House of Charts**:
+House of Charts ist ein Innovationsführer im Bereich medizinischer KI-Anwendungen, spezialisiert auf die Entwicklung und Integration von fortschrittlichen KI-Lösungen zur Optimierung klinischer Prozesse. Unsere Technologie ermöglicht es medizinischem Fachpersonal, sich mehr auf die Patientenversorgung zu konzentrieren und weniger Zeit mit Verwaltungsaufgaben zu verbringen.
 
-**Was wir suchen:**
-Wir suchen einen engagierten Software Engineer mit einer Leidenschaft für Datenwissenschaft, maschinelles Lernen und Softwareentwicklung. Der ideale Kandidat ist aufgeschlossen, motiviert und verfügt über eine schnelle Auffassungsgabe sowie ausgeprägte Team- und Kommunikationsfähigkeiten. Erfahrung im Bereich medizinischer Daten und Datensicherheit sind für diese Rolle entscheidend.
+**Was wir suchen**:
+Wir suchen einen hochmotivierten und aufgeschlossenen LLM Engineer, der eine tiefe Leidenschaft für Datenwissenschaften, Maschinelles Lernen, KI, NLP und LLMs mitbringt. Der ideale Kandidat verfügt über umfangreiche Erfahrung im Trainieren von LLMs, im Umgang mit medizinischen Daten und im Bereich MLOps.
 
-**Ihre Aufgaben:**
-- Entwicklung und Skalierung von maschinellen Lernsystemen unter Berücksichtigung strenger Datensicherheits- und Datenschutzstandards
-- Arbeit mit klinischen Informationssystemen zur Integration und Optimierung unserer KI-Lösungen
-- Implementierung und Wartung von Webservern und Backend-Systemen unter Verwendung modernster Technologien wie React, Vue, FastAPI, Flask, Django und Cloud-Computing-Plattformen
-- Unterstützung der DevOps-Prozesse, einschliesslich CI/CD-Pipelines und Containerisierung mit Docker und VMs
-- Beitrag zur Entwicklung von NLP- und Computer-Vision-Anwendungen als Teil unseres interdisziplinären Teams
+**Ihre Aufgaben**:
 
-**Was Sie mitbringen sollten:**
-- Fundierte Kenntnisse in der Softwareentwicklung und im Engineering, insbesondere in den Bereichen Datensicherheit und medizinische Daten
-- Beherrschung von Programmiersprachen und Frameworks wie Python, C++, JavaScript, PyTorch, JAX und TensorFlow
-- Erfahrung mit der Arbeit in hochverfügbaren, skalierbaren Systemen
-- Fliessende Kenntnisse in Deutsch und Englisch sowie mindestens einer weiteren Sprache
+- Entwicklung und Training von Large Language Models unter Verwendung modernster Techniken wie Supervised Learning, Unsupervised Learning und Reinforcement Learning
+- Implementierung von Information Retrieval Systemen, einschliesslich Satz- und Tokenklassifikation sowie Named Entity Recognition
+- Einsatz und Weiterentwicklung von LLMOps, einschliesslich Datenlabeling, Datenengineering, Training und Evaluationspipelines
+- Beitrag zur Forschung im Bereich Bionlp und zur Minimierung von Halluzinationen in Sprachmodellen
+- Entwicklung und Wartung von Code in einer hochmodernen Cloud-Computing-Umgebung unter Verwendung von Git, Docker und verschiedenen Programmiersprachen
 
-**Was wir bieten:**
-- Eine führende Rolle in einem innovativen und schnell wachsenden Unternehmen im Gesundheitssektor
-- Die Möglichkeit, bei der Gestaltung von bahnbrechenden Technologien mitzuwirken, die das Leben von Menschen weltweit verbessern
-- Ein dynamisches Arbeitsumfeld, das Kreativität, Innovation und kontinuierliche Weiterbildung fördert
-- Attraktive Vergütungsmodelle und umfangreiche Sozialleistungen
+**Was Sie mitbringen sollten**:
 
-**Bewerbung:**
+- Tiefgehendes Verständnis in der Arbeit mit LLMs und spezialisierten NLP-Systemen
+- Fähigkeit zur Analyse und Verarbeitung klinischer Daten
+- Starke Kommunikationsfähigkeiten in Deutsch und Englisch sowie mindestens einer weiteren Sprache
+- Profunde Kenntnisse in Python, C++, Cloud-Technologien, GPUs und paralleler Verarbeitung
+- Erfahrung mit Frameworks wie PyTorch, JAX, TensorFlow sowie Tools wie Huggingface und Spacy
+  Wissenschaftliche Forschungserfahrung, insbesondere im Bereich LLMs
+
+**Was wir bieten**:
+
+- Die Möglichkeit, an der Spitze der medizinischen KI-Entwicklung zu arbeiten und echte Innovationen zu gestalten
+- Engagierte Zusammenarbeit in einem multidisziplinären Team von KI-Forschern, Software-Entwicklern und Medizinern
+- Ein dynamisches, flexibles und unterstützendes Arbeitsumfeld
+- Wettbewerbsfähige Vergütung und attraktive Sozialleistungen
+
+**Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-**Schlussdatum für Bewerbungen:** 
+Schlussdatum für Bewerbungen: 29.08.24
 
-Wir freuen uns darauf, mehr über Sie zu erfahren und Sie vielleicht bald in unserem engagierten Team begrüssen zu dürfen!
+House of Charts freut sich darauf, Sie kennenzulernen und vielleicht bald in unserem innovativen Team willkommen zu heissen!

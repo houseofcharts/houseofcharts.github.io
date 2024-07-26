@@ -7,6 +7,10 @@
     {
       "name": "Kontakt",
       "url": "/contact"
+    },
+    {
+      "name": "Jobs",
+      "url": "/jobs"
     }
   ],
   "footer": [

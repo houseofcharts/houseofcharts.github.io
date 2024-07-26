@@ -1,52 +1,54 @@
 ---
-title: LLM Engineer (m/w/d)
-image: /images/blog/03.jpg
+title: Business Developer (m/w/d)
+image: /images/blog/01.jpg
 author:
-  name: Emmanuel
-  avatar: /images/author/emmanuel.jpg
-date: 2022-04-04T05:00:00Z
+  name: Sven
+  avatar: /images/author/sven.jpg
+date: 2024-04-04T05:00:00Z
 draft: false
+summary: Arbeiten Sie direkt mit unserem CEO, um die Zukunft der medizinischen Technologie zu gestalten! Gewinnen Sie Kunden, verhandeln Sie Geschäftsabschlüsse und entwickeln Sie maßgeschneiderte Lösungen.
 ---
 
-**Standort**: Zürich, Schweiz
+**Standort:** Zürich, Schweiz oder Berlin, Deutschland
 
-**Art der Beschäftigung**: Vollzeit
+**Art der Beschäftigung:** Vollzeit
 
-**Eintrittsdatum**: Nach Vereinbarung
+**Eintrittsdatum:** Nach Vereinbarung
 
-**Über House of Charts**:
-House of Charts ist ein Innovationsführer im Bereich medizinischer KI-Anwendungen, spezialisiert auf die Entwicklung und Integration von fortschrittlichen KI-Lösungen zur Optimierung klinischer Prozesse. Unsere Technologie ermöglicht es medizinischem Fachpersonal, sich mehr auf die Patientenversorgung zu konzentrieren und weniger Zeit mit Verwaltungsaufgaben zu verbringen.
+**Über House of Charts:**
+House of Charts ist ein führendes Startup im Bereich medizinischer KI-Technologien. Wir spezialisieren uns darauf, den administrativen Aufwand für medizinisches Personal zu reduzieren und die Qualität der Patientenbetreuung zu steigern. Unsere fortschrittlichen Lösungen integrieren sich nahtlos in bestehende Klinikinformationssysteme und unterstützen Ärzte bei der effizienten Datenverarbeitung und Entscheidungsfindung.
 
-**Was wir suchen**:
-Wir suchen einen hochmotivierten und aufgeschlossenen LLM Engineer, der eine tiefe Leidenschaft für Datenwissenschaften, Maschinelles Lernen, KI, NLP und LLMs mitbringt. Der ideale Kandidat verfügt über umfangreiche Erfahrung im Trainieren von LLMs, im Umgang mit medizinischen Daten und im Bereich MLOps.
+**Was wir suchen:**
+Wir suchen einen motivierten und aufgeschlossenen Business Developer mit einer Passion für Technologie und strategischem unternehmerischem Denken. Sie bringen tiefe Kenntnisse im medizinischen Bereich und Spitalwesen mit und haben Erfahrung in der Softwarebranche, insbesondere im Verkauf von Lösungen im klinischen Umfeld.
 
-**Ihre Aufgaben**:
+**Ihre Aufgaben:**
 
-    Entwicklung und Training von Large Language Models unter Verwendung modernster Techniken wie Supervised Learning, Unsupervised Learning und Reinforcement Learning
-    Implementierung von Information Retrieval Systemen, einschliesslich Satz- und Tokenklassifikation sowie Named Entity Recognition
-    Einsatz und Weiterentwicklung von LLMOps, einschliesslich Datenlabeling, Datenengineering, Training und Evaluationspipelines
-    Beitrag zur Forschung im Bereich Bionlp und zur Minimierung von Halluzinationen in Sprachmodellen
-    Entwicklung und Wartung von Code in einer hochmodernen Cloud-Computing-Umgebung unter Verwendung von Git, Docker und verschiedenen Programmiersprachen
+- Direkte Zusammenarbeit mit unserem CEO bei der Neukundengewinnung und -betreuung
+- Führung und Protokollierung von Kundengesprächen, Erfassung von Kundenbedürfnissen und Mitwirkung bei der Lösungsentwicklung
+- Verhandlung und Abwicklung von Geschäftsabschlüssen
+- Durchführung von Marktanalysen und Beratung der Geschäftsleitung
+- Erstellung und Design von Marketing- und Verkaufsmaterialien
+- Verfassen von Vertragsdokumenten und Offerten
 
-**Was Sie mitbringen sollten**:
+**Was Sie mitbringen sollten:**
 
-    Tiefgehendes Verständnis in der Arbeit mit LLMs und spezialisierten NLP-Systemen
-    Fähigkeit zur Analyse und Verarbeitung klinischer Daten
-    Starke Kommunikationsfähigkeiten in Deutsch und Englisch sowie mindestens einer weiteren Sprache
-    Profunde Kenntnisse in Python, C++, Cloud-Technologien, GPUs und paralleler Verarbeitung
-    Erfahrung mit Frameworks wie PyTorch, JAX, TensorFlow sowie Tools wie Huggingface und Spacy
-    Wissenschaftliche Forschungserfahrung, insbesondere im Bereich LLMs
+- Fundiertes Wissen über medizinische Prozesse und das Spitalwesen
+- Erfahrung im Kundenkontakt und Verkauf von Softwarelösungen, idealerweise im Gesundheitssektor
+- Fähigkeit, komplexe Verträge zu gestalten und geschäftliche Präsentationen zu erstellen
+- Exzellente Kommunikationsfähigkeiten in Wort und Schrift
+- Analytische Fähigkeiten und schnelle Auffassungsgabe
+- Teamfähigkeit und hohe Anpassungsfähigkeit in einem dynamischen Arbeitsumfeld
 
-**Was wir bieten**:
+**Was wir bieten:**
 
-    Die Möglichkeit, an der Spitze der medizinischen KI-Entwicklung zu arbeiten und echte Innovationen zu gestalten
-    Engagierte Zusammenarbeit in einem multidisziplinären Team von KI-Forschern, Software-Entwicklern und Medizinern
-    Ein dynamisches, flexibles und unterstützendes Arbeitsumfeld
-    Wettbewerbsfähige Vergütung und attraktive Sozialleistungen
+- Die einmalige Chance, direkt mit dem CEO zu arbeiten und tiefgreifende Einblicke in die Führung eines innovativen Technologieunternehmens zu erhalten
+- Aktive Beteiligung an der Gestaltung der Zukunft der medizinischen Versorgung durch den Einsatz von KI
+- Ein dynamisches und unterstützendes Arbeitsumfeld, das Kreativität und persönliche Entwicklung fördert
+- Wettbewerbsfähige Vergütung und Möglichkeiten zur beruflichen Weiterentwicklung
 
-**Bewerbung**:
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
+**Bewerbung:**
+Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an sven@houseofcharts.com.
 
-Schlussdatum für Bewerbungen: 29.01.24
+**Schlussdatum für Bewerbungen:** 21.12.24
 
-House of Charts freut sich darauf, Sie kennenzulernen und vielleicht bald in unserem innovativen Team willkommen zu heissen!
+Wir freuen uns darauf, Sie kennenzulernen und vielleicht bald in unserem Team willkommen zu heissen!

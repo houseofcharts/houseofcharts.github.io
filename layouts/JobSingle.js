@@ -1,6 +1,5 @@
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
-import dateFormat from "@lib/utils/dateFormat";
 
 import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
@@ -16,6 +15,9 @@ import Job from "./partials/Job";
 
 const JobSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
   let { description, title, date, image, author } = frontmatter;
+  console.log("hello")
+  console.log(description)
+  console.log("bye")
   description = description ? description : content.slice(0, 120);
 
   const { disqus } = config;
