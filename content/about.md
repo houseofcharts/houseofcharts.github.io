@@ -48,6 +48,8 @@ clients:
     - /images/brands/eth_ai_center_logo.png
     - /images/brands/shs.png
     - /images/brands/msft.png
+    - /images/brands/boost-winner-transparent.png
+    - /images/brands/google-startups.png
 
 ## members
 our_member:
