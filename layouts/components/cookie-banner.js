@@ -32,9 +32,9 @@ export default function CookieBanner() {
         setLocalStorage('cookie_consent', cookieConsent)
 
         // For testing
-        console.log(process.env.GA_MEASUREMENT_ID)
+        console.log("in banner component process.env: ", process.env.GA_MEASUREMENT_ID)
         console.log("Cookie Consent: ", cookieConsent)
-        console.log(process.env.GA_MEASUREMENT_ID)
+        console.log("in banner component process.env: ", process.env.GA_MEASUREMENT_ID)
     })
 
     return (
