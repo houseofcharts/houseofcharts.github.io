@@ -159,9 +159,10 @@ const LandingBanner = ({banner, brands}) => {
                           "mb-8 banner-title opacity-0"
                           )}
                           <div className="banner-btn opacity-0 sm:space-x-10 flex flex-col sm:flex-row items-center justify-center">
-                              <Link className="btn btn-secondary hover:bg-opacity-10 mb-4 sm:mb-0" href={banner.cta_secondary.href}>
+                              {/*<Link className="btn btn-secondary hover:bg-opacity-10 mb-4 sm:mb-0" href={banner.cta_secondary.href}>
                                   {banner.cta_secondary.label}
                               </Link>
+                              */}
                               <Link className="btn btn-primary" href={banner.cta_primary.href}>
                                   {banner.cta_primary.label}
                               </Link>
@@ -198,7 +199,7 @@ const LandingBanner = ({banner, brands}) => {
                           900: {
                             slidesPerView: 4,
                           },
-                          1200: {
+                          1300: {
                             slidesPerView: 5,
                           },
                         }}
