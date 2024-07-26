@@ -181,7 +181,11 @@ const LandingBanner = ({banner, brands}) => {
                         </div>
                     </div>
                     </div>
+                    <div className="flex items-center justify-center">
+                      <p>{"KOMPATIBEL MIT"}</p>
+                    </div>
                     <div className="row border-y border-border py-5">
+                    
                     <div className="animate from-right col-12">
                         <Swiper
                         loop={false}
