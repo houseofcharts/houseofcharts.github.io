@@ -13,7 +13,7 @@ const Article = ({ post, authors, mdxContent, slug, recentPosts }) => {
   const router = useRouter(); // Initialize useRouter
 
   useEffect(() => {
-    router.push('/contact'); // Redirect to /contact
+    router.replace('/contact'); // Redirect to /contact
   }, [router]);
 
   return (<div></div>)
