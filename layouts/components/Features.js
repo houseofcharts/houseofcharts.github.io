@@ -4,7 +4,7 @@ import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import { useRef } from "react";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Link from "next/link";
 
 const Features = ({features}) => {
 
@@ -44,6 +44,7 @@ const Features = ({features}) => {
               >
                 {features.list.map((item, index) => (
                   <SwiperSlide key={"feature-" + index}>
+                    <Link href={"/features/feature-" + index}>
                     <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
                       <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
                         <FeatherIcon icon={item.icon} />
@@ -51,6 +52,7 @@ const Features = ({features}) => {
                       <h3 className="h4 mt-6 mb-5">{item.title}</h3>
                       <p>{item.content}</p>
                     </div>
+                    </Link>
                   </SwiperSlide>
                 ))}
               </Swiper>

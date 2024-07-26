@@ -13,7 +13,8 @@
     "pagination": 6,
     "summary_length": 200,
     "blog_folder": "posts",
-    "jobs_folder": "jobs"
+    "jobs_folder": "jobs",
+    "features_folder": "features"
   },
 
   "params": {
