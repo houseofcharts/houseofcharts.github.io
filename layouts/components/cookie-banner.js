@@ -14,16 +14,18 @@ export default function CookieBanner() {
     const textColor = 'gray-900';
 
     useEffect(() => {
-        const storedCookieConsent = getLocalStorage('cookie_consent', null)
+        // Get Cookie Consent value saved in storage
+        // if it is unavailable, set to true.
+        const cookieConsentNotDenied = getLocalStorage('cookie_consent', true);
+        const consentAvailable = getLocalStorage('cookie_consent', null);
 
 
-
-        setCookieConsent(storedCookieConsent)
+        setCookieConsent(cookieConsentNotDenied);
     }, [setCookieConsent]);
 
 
     useEffect(() => {
-        const newValue = cookieConsent ? 'granted' : 'denied'
+        const newValue = consentAvailable ? 'granted' : 'denied'
 
         window.gtag("consent", "update", {
             "analytics_storage": newValue
@@ -32,9 +34,7 @@ export default function CookieBanner() {
         setLocalStorage('cookie_consent', cookieConsent)
 
         // For testing
-        console.log("in banner component process.env: ", process.env.GA_MEASUREMENT_ID)
         console.log("Cookie Consent: ", cookieConsent)
-        console.log("in banner component process.env: ", process.env.GA_MEASUREMENT_ID)
     })
 
     return (
