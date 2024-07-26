@@ -96,7 +96,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       <Testimonials testimonial={testimonial}/> 
 
       {/* Cta */}
-      <Cta />
+      <Cta secondary={true}/>
     </Base>
   );
 };

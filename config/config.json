@@ -46,9 +46,13 @@
     "enable": true,
     "title": "Demo Buchen",
     "content": "Entdecken Sie, wie wir Ihr Behandlungsteam entlasten können: </br> Jetzt Termin buchen um mehr Zeit für Patienten zu gewinnen!",
-    "button": {
+    "primary_button": {
       "label": "Demo Buchen",
       "link": "/contact"
+    },
+    "secondary_button": {
+      "label": "Über uns",
+      "link": "/about"
     }
   },
 

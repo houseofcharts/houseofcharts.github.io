@@ -4,8 +4,8 @@ import Link from "next/link";
 import Circle from "./Circle";
 import ImageFallback from "./ImageFallback";
 
-function Cta() {
-  const { title, content, button, enable } = config.call_to_action;
+function Cta({secondary}) {
+  const { title, content, primary_button, secondary_button, enable } = config.call_to_action;
   if (!enable) return;
 
   return (
@@ -15,9 +15,14 @@ function Cta() {
           <div className="animate">
             {markdownify(title, "h2", "section-title")}
             {markdownify(content, "p", "mt-10")}
-            <Link href={button.link} className="btn btn-primary mt-10">
-              {button.label}
+            <div className="sm:space-x-10 flex flex-col sm:flex-row items-center justify-center align-items mt-10">
+            {secondary && <Link className="btn btn-secondary hover:bg-opacity-10 mb-4 sm:mb-0" href={secondary_button.link}>
+            {secondary_button.label}
+            </Link>}
+            <Link href={primary_button.link} className="btn btn-primary">
+              {primary_button.label}
             </Link>
+            </div>
           </div>
           <div className="bg-theme animated-bg absolute top-0 left-0 w-full after:hidden">
             <ImageFallback
