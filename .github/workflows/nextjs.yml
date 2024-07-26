@@ -31,24 +31,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Load environment variables
-        run: |
-          echo "Loading environment variables..."
-          # Replace spaces with newlines and split on '=' to read .env.deploy file
-          env=$(cat .env.deploy | tr '\n' ' ' | sed 's/\(.*\)=\(.*\)/\1=\2/g')
-          echo "$env" | while read -r line ; do
-            if printf '%s\n' "$line" | grep -q '='; then
-              varname=$(printf '%s\n' "$line" | sed -e 's/=.*//')
-              varvalue=$(printf '%s\n' "$line" | sed -e 's/[^=]*=//')
-              echo "exporting $varname"
-              echo "$varname=$varvalue" >> $GITHUB_ENV
-            fi
-          done
-      # Debugging step to print environment variables
-      - name: Print Environment Variables
-        run: |
-          env | grep GA_MEASUREMENT_ID # Replace MY_VARIABLE_NAME with an actual variable name you expect
-
       - name: Detect package manager
         id: detect-package-manager
         run: |
