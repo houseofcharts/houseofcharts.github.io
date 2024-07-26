@@ -156,7 +156,7 @@ const Base = ({
         
 
       </Head>
-      <GoogleAnaytics GA_MEASUREMENT_ID={process.env.GA_MEASUREMENT_ID}/>
+      <GoogleAnaytics GA_MEASUREMENT_ID={process.env.GA_MEASUREMENT_ID ? process.env.GA_MEASUREMENT_ID : "G-HVF2C0X375"}/>
       <Header />
       {/* main site */}
       <main ref={main}>{children}</main>
