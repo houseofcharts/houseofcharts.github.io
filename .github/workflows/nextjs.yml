@@ -47,7 +47,7 @@ jobs:
       # Debugging step to print environment variables
       - name: Print Environment Variables
         run: |
-          env | grep MY_VARIABLE_NAME # Replace MY_VARIABLE_NAME with an actual variable name you expect
+          env | grep GA_MEASUREMENT_ID # Replace MY_VARIABLE_NAME with an actual variable name you expect
 
       - name: Detect package manager
         id: detect-package-manager
