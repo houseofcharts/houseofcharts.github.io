@@ -209,7 +209,7 @@ const LandingBanner = ({banner, brands}) => {
                         }}
                         spaceBetween={20}
                         modules={[Autoplay]}
-                        autoplay={{ delay: 3000 }}
+                        autoplay={{ delay: 2300 }}
                         >
                         {brands.map((brand, index) => (
                             <SwiperSlide
