@@ -9,23 +9,26 @@ import { useEffect, useState } from 'react';
 
 export default function CookieBanner() {
 
-    const [cookieConsent, setCookieConsent] = useState(false);
+    const [cookieConsent, setCookieConsent] = useState(true);
+    const [storedCookieConsent, setStoredCookieConsent] = useState(false);
 
     const textColor = 'gray-900';
 
     useEffect(() => {
         // Get Cookie Consent value saved in storage
         // if it is unavailable, set to true.
-        const cookieConsentNotDenied = getLocalStorage('cookie_consent', true);
-        const consentAvailable = getLocalStorage('cookie_consent', null);
+        const storedCookieConsent = getLocalStorage('cookie_consent', null);
 
 
-        setCookieConsent(cookieConsentNotDenied);
+        setCookieConsent(storedCookieConsent != false);
+        setStoredCookieConsent(storedCookieConsent);
+        console.log(storedCookieConsent != false)
+        console.log(storedCookieConsent)
     }, [setCookieConsent]);
 
 
     useEffect(() => {
-        const newValue = consentAvailable ? 'granted' : 'denied'
+        const newValue = cookieConsent ? 'granted' : 'denied'
 
         window.gtag("consent", "update", {
             "analytics_storage": newValue
@@ -40,7 +43,7 @@ export default function CookieBanner() {
     return (
         <div className={`my-2 mx-auto max-w-max md:max-w-screen-sm
                         fixed bottom-0 left-0 right-0 
-                        ${cookieConsent != null ? "hidden" : "flex"} px-3 md:px-4 py-3 justify-between items-center flex-col sm:flex-row gap-4  
+                        ${storedCookieConsent == null ? "hidden" : "flex"} px-3 md:px-4 py-3 justify-between items-center flex-col sm:flex-row gap-4  
                          bg-white rounded-lg shadow`}>
 
             <div className='text-center'>
