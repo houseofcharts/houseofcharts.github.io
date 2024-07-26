@@ -15,7 +15,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
     <Base>
       
       <LandingBanner banner={banner} brands={brands}/>
-
+      
       <Features features={features}/>
 
       {/* Short Into */}

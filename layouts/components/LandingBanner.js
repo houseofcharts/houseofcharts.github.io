@@ -153,17 +153,20 @@ const LandingBanner = ({banner, brands}) => {
                     <div className="col-12">
                         <div className="row relative justify-center pb-10">
                         <div className="banner-content col-10 pt-20 pb-10 text-center">
-                            {markdownify(
-                            banner.title,
-                            "h1",
-                            "mb-8 banner-title opacity-0"
-                            )}
-                            <div className="banner-btn opacity-0">
-                            <Link className="btn btn-primary" href={banner.link.href}>
-                                {banner.link.label}
-                            </Link>
-                            </div>
-                        </div>
+                          {markdownify(
+                          banner.title,
+                          "h1",
+                          "mb-8 banner-title opacity-0"
+                          )}
+                          <div className="banner-btn opacity-0 sm:space-x-10 flex flex-col sm:flex-row items-center justify-center">
+                              <Link className="btn btn-secondary hover:bg-opacity-10 mb-4 sm:mb-0" href={banner.cta_secondary.href}>
+                                  {banner.cta_secondary.label}
+                              </Link>
+                              <Link className="btn btn-primary" href={banner.cta_primary.href}>
+                                  {banner.cta_primary.label}
+                              </Link>
+                          </div>
+                      </div>
                         <div className="col-10">
                             <ImageFallback
                             className="banner-img opacity-0"

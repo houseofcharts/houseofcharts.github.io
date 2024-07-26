@@ -2,9 +2,12 @@
 banner:
   title: "Mehr Zeit für Patienten </br> Weniger administrativer Aufwand"
   image: /images/banner-app.png
-  link:
+  cta_primary:
     label: Demo Buchen
     href: "/contact"
+  cta_secondary:
+    label: Über Uns
+    href: "/about"
 
 ##brands
 brands:
@@ -14,7 +17,7 @@ brands:
   - /images/brands/04-colored.png
   - /images/brands/05-colored.png
   - /images/brands/06-colored.png
-  - /images/brands/07-colored.png 
+  - /images/brands/07-colored.png
 
 #features
 features:
@@ -97,10 +100,10 @@ speciality:
     subtitle: SICHER UND VERTRAULICH
     description: Wir gewährleisten Datenschutz und Sicherheit mit unseren stets aktuellen und robusten Sicherheitsmassnahmen. Ihre Daten sind bei uns in sicheren Händen.
     image: /images/features-04.png
-#  - title: Intuitive Bedienung
-#    subtitle: EINFACHE HANDHABUNG
-#    description: Zur Implementierung der Lösung benötigen wir nur minimale ärztliche Ressourcen. Unsere Plattform ist benutzerfreundlich und leicht zu erlernen.
-#    image: /images/features-05.png
+  #  - title: Intuitive Bedienung
+  #    subtitle: EINFACHE HANDHABUNG
+  #    description: Zur Implementierung der Lösung benötigen wir nur minimale ärztliche Ressourcen. Unsere Plattform ist benutzerfreundlich und leicht zu erlernen.
+  #    image: /images/features-05.png
   - title: Einfach integrierbar
     subtitle: NAHTLOSE INTEGRATION
     description: Wir passen uns an Ihre informatische Infrastruktur an und integrieren unsere Lösung nahtlos in Ihre bestehenden Prozesse. Einfachheit und Effizienz stehen im Vordergrund.
