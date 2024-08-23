@@ -6,6 +6,7 @@ author:
   avatar: /images/author/emmanuel.jpg
 date: 2024-04-15T05:00:00Z
 draft: false
+summary: Sichern Sie die Zukunft unserer Cloud-Infrastruktur und bringen Sie Ihre DevOps-Fähigkeiten auf die nächste Stufe. Werden Sie Teil unseres Teams und gestalten Sie sichere, skalierbare und innovative Lösungen für das Gesundheitswesen!
 ---
 
 **Standort**: Zürich, Schweiz
