@@ -46,6 +46,6 @@ Wir suchen einen engagierten Software Engineer mit einer Leidenschaft für Daten
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-Schlussdatum für Bewerbungen: 29.08.24
+Schlussdatum für Bewerbungen: 29.01.25
 
 House of Charts freut sich darauf, Sie kennenzulernen und vielleicht bald in unserem innovativen Team willkommen zu heissen!

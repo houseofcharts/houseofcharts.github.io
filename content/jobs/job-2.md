@@ -48,4 +48,4 @@ Wir suchen einen hochmotivierten und aufgeschlossenen LLM Engineer, der eine tie
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-**Schlussdatum für Bewerbungen:** 15.10.24
+**Schlussdatum für Bewerbungen:** 03.02.25

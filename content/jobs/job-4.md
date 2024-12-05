@@ -50,6 +50,6 @@ Wir suchen einen erfahrenen DevOps Engineer mit einem starken Fokus auf Sicherhe
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-Schlussdatum für Bewerbungen: 29.09.24
+Schlussdatum für Bewerbungen: 24.01.25
 
 Wir freuen uns darauf, mehr über Sie zu erfahren und Sie vielleicht bald in unserem engagierten Team begrüßen zu dürfen!
