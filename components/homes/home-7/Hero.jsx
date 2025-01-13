@@ -2,6 +2,19 @@
 import Brands from "@/components/common/Brands";
 import Link from "next/link";
 import Image from "next/image";
+import { openContactModal } from "@/utlis/toggleContactModal";
+
+/*
+<span className="fs-6 fw-bold text-primary dark:text-secondary">
+EFFIZIENTER DOKUMENTIEREN
+</span>
+<h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
+Mehr Zeit für Patienten
+Weniger administrativer Aufwand
+</h1>
+<p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
+Beschleunigen Sie die Dokumentationsprozesse in Ihrer Klinik, um Ihre klinische Leistung zu erhöhen.
+*/
 
 export default function Hero() {
   return (
@@ -160,40 +173,33 @@ export default function Hero() {
                   className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end"
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
-                  <span className="fs-6 fw-bold text-primary dark:text-secondary">
-                    CRM Tool Workflow
-                  </span>
-                  <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
-                    Streamline your Tool Workflow.
-                  </h1>
-                  <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Keep data consistent, with native CRM integrations that
-                    streamline your entire Tool workflow.
-                  </p>
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    className="row child-cols g-1 mt-1 sm:mt-2"
-                  >
-                    <div>
-                      <input
-                        className="form-control h-48px lg:h-56px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                        type="text"
-                        placeholder="Your email address"
-                        required
-                      />
-                    </div>
-                    <div className="col-12 sm:col-auto">
-                      <Link
-                        href={`/page-pricing`}
-                        className="btn btn-md h-48px lg:h-56px w-100 sm:min-w-150px btn-primary text-white"
-                      >
-                        Start free trial
-                      </Link>
-                    </div>
-                  </form>
-                  <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                    No credit card required.
-                  </p>
+                  <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
+                  Mehr Zeit für Patienten,
+                  Weniger Aufwand
+              </h1>
+              <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
+                Beschleunigen Sie die Dokumentationsprozesse in Ihrer Klinik, 
+                <br className="d-none sm:d-block" />
+                um Ihre klinische Leistung zu erhöhen.
+              </p>
+              <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column">
+                <a
+                  onClick={openContactModal}
+                  className="btn btn-md lg:btn-lg btn-primary text-white"
+                >
+                  Klinik heute optimieren
+                </a>
+                <Link
+                  href={`/page-pricing`}
+                  className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
+                  data-uc-toggle=""
+                >
+                  Mehr erfahren
+                </Link>
+              </div>
+              <p className="text-dark dark:text-white text-opacity-70 sm:mt-1 lg:mt-0">
+                
+              </p>
                 </div>
               </div>
               <div className="col-12 lg:col-6 xl:col-7">

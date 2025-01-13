@@ -1,13 +1,12 @@
 import Footer3 from "@/components/footers/Footer3";
 import Header3 from "@/components/headers/Header3";
 import Blogs from "@/components/homes/home-4/Blogs";
-import Brands from "@/components/homes/home-4/Brands";
 import Cta from "@/components/homes/home-4/Cta";
 import Cta2 from "@/components/homes/home-4/Cta2";
-import Facts from "@/components/homes/home-4/Facts";
+import Facts from "@/components/homes/home-7/Facts";
 import Faq from "@/components/homes/home-4/Faq";
 import Features from "@/components/homes/home-4/Features";
-import Hero from "@/components/homes/home-2/Hero";
+import Hero from "@/components/homes/home-7/Hero";
 import Pricing from "@/components/homes/home-4/Pricing";
 import Team from "@/components/homes/home-4/Team";
 import Feedback from "@/components/homes/home-2/Feedback";
@@ -25,7 +24,7 @@ export default function HomePage4() {
         <Header3 />
         <div id="wrapper" className="wrap">
           <Hero />
-          <Brands />
+          <div className="mt-120"></div>
           <Facts />
           <Features />
           <Cta />
