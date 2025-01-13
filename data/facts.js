@@ -33,12 +33,12 @@ export const facts = [
 export const factItems = [
   {
     id: 1,
-    value: "280+",
-    description: "Track of leads",
+    value: "80%",
+    description: "Weniger Zeitaufwand",
   },
   {
     id: 2,
-    value: "90%",
+    value: "100%",
     description: "Satisfied users",
   },
   {
