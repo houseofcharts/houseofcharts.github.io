@@ -1,4 +1,4 @@
-import { features2 } from "@/data/features";
+import { features7 } from "@/data/features";
 import Link from "next/link";
 import React from "react";
 
@@ -23,7 +23,7 @@ export default function KeyFeatures() {
                   className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 xl:child-cols-3 items-center justify-center col-match g-3"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
-                  {features2.map((feature, index) => (
+                  {features7.map((feature, index) => (
                     <div key={index}>
                       <div
                         className={`feature-item panel p-4 rounded-2 hover:bg-primary dark:text-white hover:text-white hover:scale-105 duration-150 transition-all ${feature.backgroundColor}`}

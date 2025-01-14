@@ -190,6 +190,37 @@ export const features4 = [
   },
 ];
 
+export const features7 = [
+  {
+    icon: "unicon-document",
+    title: "Proposals",
+    description:
+      "Share Tools in minutes with pre-built, customizable templates.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Quotes",
+    description:
+      "Find out in real time when they’re opened, viewed and signed.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Contracts",
+    description:
+      "Use our native CRM integrations to pull customer data into your Tools fast.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "eSignatures",
+    description:
+      "Keep your data secure with our legally-binding e-Signature software.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+];
+
 export const featureItems = [
   {
     imageSrc: "/assets/images/template/home-four-feature-01.png",

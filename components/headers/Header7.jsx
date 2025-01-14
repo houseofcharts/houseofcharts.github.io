@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Nav2 from "./component/Nav2";
+import Nav7 from "./component/Nav7";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 
@@ -85,12 +85,44 @@ export default function Header7() {
                   />
                 </Link>
               </div>
+              {/*
               <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
-                <Nav2 />
+                <Nav7 />
               </ul>
+              */}
             </div>
             <div className="uc-navbar-right">
               <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
+                <li>
+                  <Link
+                  href={'/about'}
+                  >
+                    Über uns
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                  href={'/contact'}
+                  >
+                    Kontakt
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                  href={'/careers'}
+                  >
+                    Jobs
+                  </Link>
+                </li>
+                {["", "", "", "", "", "", "", "", "", "", "", "", ""].map((item)=>
+                <li>
+                  <a>
+                    {item}
+                  </a>
+                </li>
+                )
+                }
+                {/*
                 <li ref={elementRef}>
                   <a
                     onClick={() => setIsDDOpen((pre) => !pre)}
@@ -167,6 +199,7 @@ export default function Header7() {
                     </p>
                   </div>
                 </li>
+                */}
               </ul>
               <Link
                 className="btn btn-sm btn-primary rounded-default text-white text-none d-none lg:d-inline-flex"

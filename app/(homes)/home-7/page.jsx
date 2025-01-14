@@ -6,10 +6,11 @@ import Cta2 from "@/components/homes/home-4/Cta2";
 import Facts from "@/components/homes/home-7/Facts";
 import Faq from "@/components/homes/home-4/Faq";
 import Features from "@/components/homes/home-4/Features";
+import Offerings from "@/components/homes/home-7/Offerings";
 import Hero from "@/components/homes/home-7/Hero";
-import Pricing from "@/components/homes/home-4/Pricing";
 import Team from "@/components/homes/home-4/Team";
 import Feedback from "@/components/homes/home-2/Feedback";
+import KeyFeatures from "@/components/homes/home-7/KeyFeatures";
 import React from "react";
 export const metadata = {
   title:
@@ -26,9 +27,10 @@ export default function HomePage4() {
           <Hero />
           <div className="mt-120"></div>
           <Facts />
+          <Offerings />
+          <KeyFeatures />
           <Features />
           <Cta />
-          <Pricing />
           <Feedback />
           <Faq />
           <Team />
