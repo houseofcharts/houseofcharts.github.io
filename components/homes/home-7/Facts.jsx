@@ -6,20 +6,20 @@ export default function Facts() {
     <div
       id="facts_numbers"
       className="facts-numbers section panel overflow-hidden"
+      style={{ marginBottom: '80px' }} // Added inline style for margin-bottom
     >
       <div className="section-outer panel pt-4 md:pt-6 xl:pt-9">
-        <div className="container sm:max-w-lg xl:max-w-xl">
+        <div className="container sm:max-w-lg xl:max-w-xlm">
           <div className="section-inner panel">
             <div
               className="panel vstack items-center gap-2 mb-4 lg:mb-8 max-w-800px mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h4 md:h3 m-0">
-                Everything you need is right at your fingertips
+              Effizienz, die Sie weiterbringt
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                Lexend is designed to make your work life easier and more
-                efficient.
+              Eine Lösung, die Prozesse beschleunigt, Ressourcen spart und Nutzer begeistert.
               </p>
             </div>
             <div

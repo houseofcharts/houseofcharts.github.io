@@ -27,13 +27,10 @@ export default function HomePage4() {
           <Hero />
           <div className="mt-120"></div>
           <Facts />
-          <Offerings />
           <KeyFeatures />
           <Features />
           <Cta />
           <Feedback />
-          <Faq />
-          <Team />
           <Blogs />
           <Cta2 />
         </div>
