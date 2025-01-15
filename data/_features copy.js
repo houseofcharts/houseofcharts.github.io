@@ -224,40 +224,40 @@ export const features7 = [
 export const featureItems = [
   {
     imageSrc: "/assets/images/template/home-four-feature-01.png",
-    altText: "Effizienzsteigerung durch Automatisierung",
-    title: "Effizienzsteigerung durch Automatisierung",
+    altText: "Ensuring timely delivery and maximum efficiency",
+    title: "Ensuring timely delivery and maximum efficiency",
     description:
-      "House of Charts automatisiert wiederkehrende Verwaltungsaufgaben, wie die Erstellung von Austrittsberichten und die Zusammenfassung von Verlaufseinträgen. Das spart Zeit und ermöglicht es dem medizinischen Personal, sich auf die Patientenversorgung zu konzentrieren",
+      "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
     linkText: "Let's find out",
     icon: "unicon-cloud-download",
     reverseOrder: false,
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-02.png",
-    altText: "Disziplinübergreifende Lösungen für alle Fachbereiche",
-    title: "Disziplinübergreifende Lösungen für alle Fachbereiche",
+    altText: "No more digging endless reports and spreadsheets",
+    title: "No more digging endless reports and spreadsheets",
     description:
-      "Unsere Technologie ist flexibel und unterstützt alle medizinischen Fachbereiche – von Chirurgie bis Psychiatrie. Egal, wo Sie tätig sind, House of Charts passt sich Ihren Anforderungen an.",
+      "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
     linkText: "See all spreadsheets",
     icon: "unicon-course",
     reverseOrder: true,
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-03.png",
-    altText: "Individuell anpassbar und nahtlos integrierbar",
-    title: "Individuell anpassbar und nahtlos integrierbar",
+    altText: "Share files, and communicate with your team in real-time",
+    title: "Share files, and communicate with your team in real-time",
     description:
-      "Unsere Lösungen sind massgeschneidert und lassen sich einfach in Ihre bestehenden Systeme integrieren.",
+      "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
     linkText: "See apps & integrations",
     icon: "unicon-volume-block-storage",
     reverseOrder: false,
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-04.png",
-    altText: "Höchste Datensicherheit und Vertraulichkeit",
-    title: "Höchste Datensicherheit und Vertraulichkeit",
+    altText: "Collaboration is made seamless with Lexend",
+    title: "Collaboration is made seamless with Lexend",
     description:
-      "Bei House of Charts stehen Sicherheit und Datenschutz an erster Stelle. Unsere robusten Sicherheitsmassnahmen gewährleisten, dass Ihre Daten stets geschützt sind.",
+      "Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
     linkText: "Let's find out",
     icon: "unicon-model",
     reverseOrder: true,
