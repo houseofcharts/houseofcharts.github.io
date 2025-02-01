@@ -1,10 +1,10 @@
 ---
-title: DevOps Engineer (m/w/d)
+title: DevOps/MLOps Internship (m/w/d)
 image: /images/blog/02.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2024-04-15T05:00:00Z
+date: 2025-02-01T05:00:00Z
 draft: false
 summary: Sichern Sie die Zukunft unserer Cloud-Infrastruktur und bringen Sie Ihre DevOps-Fähigkeiten auf die nächste Stufe. Werden Sie Teil unseres Teams und gestalten Sie sichere, skalierbare und innovative Lösungen für das Gesundheitswesen!
 ---
@@ -19,7 +19,9 @@ summary: Sichern Sie die Zukunft unserer Cloud-Infrastruktur und bringen Sie Ihr
 House of Charts ist ein Vorreiter in der Entwicklung von KI-gesteuerten Lösungen für das Gesundheitswesen. Unser Ziel ist es, den administrativen Aufwand zu minimieren und die Patientenversorgung durch innovative Technologien zu optimieren. Unser dynamisches Team arbeitet an der Schnittstelle von Technologie und Gesundheitswesen, um bahnbrechende Lösungen zu entwickeln.
 
 **Was wir suchen**:
-Wir suchen einen erfahrenen DevOps Engineer mit einem starken Fokus auf Sicherheit und der Fähigkeit, ML Ops zu unterstützen. Der ideale Kandidat sollte über umfassende Erfahrung in der Einrichtung und Verwaltung verteilter Anwendungen verfügen, sowie in der Bereitstellung von Machine-Learning-Modellen. Erfahrung mit der Konfiguration von Cloud-Infrastrukturen, insbesondere auf Azure, ist ein großes Plus.
+Wir bieten eine spannende Gelegenheit für motivierte Studierende oder Quereinsteiger, die praktische Erfahrung im Bereich DevOps, MLOps und IT-Sicherheit sammeln möchten. Bei uns hast du die Chance, mit modernen Technologien zu arbeiten und dein Wissen im Aufbau sowie in der sicheren Verwaltung verteilter Anwendungen zu vertiefen.
+
+Idealerweise hast du bereits Erfahrung in der Einrichtung und Absicherung von IT-Infrastrukturen oder ein starkes Interesse an Sicherheitsaspekten in DevOps-Prozessen. Kenntnisse in der Bereitstellung von Machine-Learning-Modellen sind ein Plus, aber nicht zwingend erforderlich. Erfahrung mit der Konfiguration von Cloud-Infrastrukturen – insbesondere auf Azure – ist von Vorteil.
 
 **Ihre Aufgaben**:
 
@@ -50,6 +52,6 @@ Wir suchen einen erfahrenen DevOps Engineer mit einem starken Fokus auf Sicherhe
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-Schlussdatum für Bewerbungen: 24.01.25
+Schlussdatum für Bewerbungen: 24.03.25
 
 Wir freuen uns darauf, mehr über Sie zu erfahren und Sie vielleicht bald in unserem engagierten Team begrüßen zu dürfen!

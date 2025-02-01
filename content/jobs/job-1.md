@@ -1,5 +1,5 @@
 ---
-title: Software Engineer (m/w/d)
+title: Internship in Software Engineering (m/w/d)
 image: /images/blog/02.jpg
 author:
   name: Emmanuel
@@ -19,7 +19,7 @@ summary: Entwickeln Sie performante, zuverlässige und sichere Systeme mit moder
 House of Charts ist ein Pionier in der Entwicklung von KI-gesteuerten Lösungen für das Gesundheitswesen, mit dem Ziel, den administrativen Aufwand zu minimieren und die Patientenversorgung zu optimieren. Unsere Technologien sind darauf ausgelegt, medizinisches Personal durch Automatisierung und intelligente Datenanalyse zu unterstützen.
 
 **Was wir suchen:**
-Wir suchen einen engagierten Software Engineer mit einer Leidenschaft für Datenwissenschaft, maschinelles Lernen und Softwareentwicklung. Der ideale Kandidat ist aufgeschlossen, motiviert und verfügt über eine schnelle Auffassungsgabe sowie ausgeprägte Team- und Kommunikationsfähigkeiten. Erfahrung im Bereich medizinischer Daten und Datensicherheit sind für diese Rolle entscheidend.
+Wir suchen einen engagierten Software Engineer Praktikant mit einer Leidenschaft für Datenwissenschaft, maschinelles Lernen und Softwareentwicklung. Der ideale Kandidat ist aufgeschlossen, motiviert und verfügt über eine schnelle Auffassungsgabe sowie ausgeprägte Team- und Kommunikationsfähigkeiten. Erfahrung im Bereich medizinischer Daten und Datensicherheit sind für diese Rolle entscheidend.
 
 **Ihre Aufgaben:**
 
@@ -46,6 +46,6 @@ Wir suchen einen engagierten Software Engineer mit einer Leidenschaft für Daten
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-Schlussdatum für Bewerbungen: 29.01.25
+Schlussdatum für Bewerbungen: 29.02.25
 
 House of Charts freut sich darauf, Sie kennenzulernen und vielleicht bald in unserem innovativen Team willkommen zu heissen!

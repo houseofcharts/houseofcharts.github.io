@@ -49,6 +49,6 @@ Wir suchen einen motivierten und aufgeschlossenen Business Developer mit einer P
 **Bewerbung:**
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an sven@houseofcharts.com.
 
-**Schlussdatum für Bewerbungen:** 21.01.25
+**Schlussdatum für Bewerbungen:** 21.02.25
 
 Wir freuen uns darauf, Sie kennenzulernen und vielleicht bald in unserem Team willkommen zu heissen!

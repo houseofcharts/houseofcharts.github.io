@@ -1,5 +1,5 @@
 ---
-title: LLM Engineer (m/w/d)
+title: Internship in NLP & LLMs (m/w/d)
 image: /images/blog/03.jpg
 author:
   name: Emmanuel
@@ -19,7 +19,7 @@ summary: Gestalten Sie bahnbrechende KI-Lösungen, indem Sie die Entwicklung uns
 House of Charts ist ein Innovationsführer im Bereich medizinischer KI-Anwendungen, spezialisiert auf die Entwicklung und Integration von fortschrittlichen KI-Lösungen zur Optimierung klinischer Prozesse. Unsere Technologie ermöglicht es medizinischem Fachpersonal, sich mehr auf die Patientenversorgung zu konzentrieren und weniger Zeit mit Verwaltungsaufgaben zu verbringen.
 
 **Was wir suchen**:
-Wir suchen einen hochmotivierten und aufgeschlossenen LLM Engineer, der eine tiefe Leidenschaft für Datenwissenschaften, Maschinelles Lernen, KI, NLP und LLMs mitbringt. Der ideale Kandidat verfügt über umfangreiche Erfahrung im Trainieren von LLMs, im Umgang mit medizinischen Daten und im Bereich MLOps.
+Wir suchen einen hochmotivierten und aufgeschlossenen NLP/LLM Engineer Praktikant mit einer ausgeprägten Leidenschaft für Datenwissenschaft, Maschinelles Lernen, KI, NLP und LLMs. Der ideale Kandidat verfügt über umfangreiche Erfahrung im Trainieren von LLMs und andere NLP Modelle, im Umgang mit medizinischen Daten und im Bereich MLOps.
 
 **Ihre Aufgaben**:
 
