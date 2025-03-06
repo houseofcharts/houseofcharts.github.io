@@ -1,7 +1,7 @@
 export const brands = [
   {
     id: 1,
-    src: "/assets/images/brands/brand-01.svg",
+    src: "/assets/images/brands/brand_pdag.svg",
     alt: "Proline",
   },
   {

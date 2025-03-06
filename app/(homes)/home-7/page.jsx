@@ -9,7 +9,7 @@ import Features from "@/components/homes/home-4/Features";
 import Offerings from "@/components/homes/home-7/Offerings";
 import Hero from "@/components/homes/home-7/Hero";
 import Team from "@/components/homes/home-4/Team";
-import Feedback from "@/components/homes/home-2/Feedback";
+import Feedback from "@/components/homes/home-7/Feedback";
 import KeyFeatures from "@/components/homes/home-7/KeyFeatures";
 import React from "react";
 export const metadata = {
@@ -27,10 +27,10 @@ export default function HomePage4() {
           <Hero />
           <div className="mt-120"></div>
           <Facts />
+          <Feedback />
           <KeyFeatures />
           <Features />
           <Cta />
-          <Feedback />
           <Blogs />
           <Cta2 />
         </div>
