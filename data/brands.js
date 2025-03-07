@@ -1,7 +1,7 @@
 export const brands = [
   {
     id: 1,
-    src: "/assets/images/brands/brand_pdag.svg",
+    src: "/assets/images/brands/pdag_cropped.svg",
     alt: "Proline",
   },
   {
@@ -16,49 +16,49 @@ export const brands = [
   },
   {
     id: 4,
-    src: "/assets/images/brands/brand-04.svg",
+    src: "/assets/images/brands/bluelion.svg",
     alt: "Clues",
   },
   {
     id: 5,
-    src: "/assets/images/brands/brand-05.svg",
+    src: "/assets/images/brands/svar.svg",
     alt: "Snowflake",
   },
   {
     id: 6,
-    src: "/assets/images/brands/brand-06.svg",
+    src: "/assets/images/brands/shs_horizontal.svg",
     alt: "Proline",
   },
   {
     id: 7,
-    src: "/assets/images/brands/brand-01.svg",
+    src: "/assets/images/brands/innosuisse_initial_n.svg",
     alt: "Proline",
   },
   {
     id: 8,
-    src: "/assets/images/brands/brand-02.svg",
+    src: "/assets/images/brands/runway.svg",
     alt: "Iceberg",
   },
   {
     id: 9,
-    src: "/assets/images/brands/brand-03.svg",
+    src: "/assets/images/brands/ms_startups.svg",
     alt: "PinPoint",
   },
   {
     id: 10,
-    src: "/assets/images/brands/brand-04.svg",
+    src: "/assets/images/brands/Google_for_Startups_logo.svg",
     alt: "Clues",
-  },
-  {
-    id: 11,
-    src: "/assets/images/brands/brand-05.svg",
-    alt: "Snowflake",
-  },
-  {
-    id: 12,
-    src: "/assets/images/brands/brand-06.svg",
-    alt: "Proline",
-  },
+  }
+  // ,{
+  //   id: 11,
+  //   src: "/assets/images/brands/brand-05.svg",
+  //   alt: "Snowflake",
+  // },
+  // {
+  //   id: 12,
+  //   src: "/assets/images/brands/brand-06.svg",
+  //   alt: "Proline",
+  // },
 ];
 
 export const reviewLogos = [

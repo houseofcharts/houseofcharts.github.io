@@ -159,7 +159,7 @@ export const testimonials2 = [
 
 export const testimonials3 = [
   {
-    brandImgSrc: "/assets/images/brands/brand_pdag.svg",
+    brandImgSrc: "/assets/images/brands/pdag_cropped_left.svg",
     brandImgAlt: "Brand",
     text: "“Henry liefert qualitativ hochwertige Austrittsberichte und reduziert den administrativen Aufwand spürbar. Das schafft mehr Zeit für die direkte Patientenversorgung.”",
     avatarImgSrc: "/assets/images/avatars/01.png",
@@ -168,7 +168,7 @@ export const testimonials3 = [
     position: "Klinikleiter und Chefarzt",
   },
   {
-    brandImgSrc: "/assets/images/brands/brand-06.svg",
+    brandImgSrc: "/assets/images/brands/pdag_cropped_left.svg",
     brandImgAlt: "Brand",
     text: "“Henry nimmt uns viel Arbeit ab. So können wir uns auf das Wesentliche konzentrieren, und die Qualität der Berichte stimmt auf Anhieb.”",
     avatarImgSrc: "/assets/images/avatars/04.png",
@@ -177,7 +177,7 @@ export const testimonials3 = [
     position: "Leitende Ärztin",
   },
   {
-    brandImgSrc: "/assets/images/brands/brand-08.svg",
+    brandImgSrc: "/assets/images/brands/pdag_cropped_left.svg",
     brandImgAlt: "Brand",
     text: "“Mit Henry werden die zentralen Aspekte des Aufenthaltes übersichtlich dargestellt. Kleine Ergänzungen und Korrekturen sind leicht möglich, da ich mich an der von Henry erstellten Struktur orientieren kann.”",
     avatarImgSrc: "/assets/images/avatars/03.png",
