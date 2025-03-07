@@ -381,19 +381,6 @@ export const blogsPosts4 = [
     authorName: "Allen",
     date: "Apr 3, 2024",
   },
-  {
-    id: 37,
-    category: "Success Story",
-    imgSrc: "/assets/images/blog/Psychologist-pana.png",
-    imgAlt: "Case Study: Automatisierte Austrittsberichte",
-    imgCaption: "Case Study: Automatisierte Austrittsberichte",
-    title: "Case Study: Automatisierte Austrittsberichte",
-    authorImg: "/assets/images/avatars/sven.png",
-    authorAlt: "Schüpbach",
-    desc: "Wie künstliche Intelligenz Prozesse optimiert und Fachkräfte entlastet",
-    authorName: "Schüpbach",
-    date: "Mar 3, 2025",
-  }
 ];
 
 export const blogPosts5 = [
