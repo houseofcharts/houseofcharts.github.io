@@ -203,7 +203,7 @@ export default function Header7() {
               </ul>
               <Link
                 className="btn btn-sm btn-primary rounded-default text-white text-none d-none lg:d-inline-flex"
-                href={`/page-pricing`}
+                href={`/contact`}
               >
                 Demo buchen
               </Link>

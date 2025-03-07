@@ -239,6 +239,19 @@ export const blogPosts3 = [
 
 export const blogsPosts4 = [
   {
+    id: 37,
+    category: "Success Story",
+    imgSrc: "/assets/images/blog/Psychologist-pana.png",
+    imgAlt: "Case Study: Automatisierte Austrittsberichte",
+    imgCaption: "Case Study: Automatisierte Austrittsberichte",
+    title: "Case Study: Automatisierte Austrittsberichte",
+    authorImg: "/assets/images/avatars/sven.png",
+    authorAlt: "Sven",
+    desc: "Wie künstliche Intelligenz Prozesse optimiert und Fachkräfte entlastet",
+    authorName: "Sven",
+    date: "Mar 3, 2025",
+  },
+  {
     id: 26,
     category: "Strategy",
     imgSrc: "/assets/images/blog/img-01.jpg",
@@ -380,19 +393,6 @@ export const blogsPosts4 = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Allen",
     date: "Apr 3, 2024",
-  },
-  {
-    id: 37,
-    category: "Success Story",
-    imgSrc: "/assets/images/blog/Psychologist-pana.png",
-    imgAlt: "Case Study: Automatisierte Austrittsberichte",
-    imgCaption: "Case Study: Automatisierte Austrittsberichte",
-    title: "Case Study: Automatisierte Austrittsberichte",
-    authorImg: "/assets/images/avatars/sven.png",
-    authorAlt: "Schüpbach",
-    desc: "Wie künstliche Intelligenz Prozesse optimiert und Fachkräfte entlastet",
-    authorName: "Schüpbach",
-    date: "Mar 3, 2025",
   }
 ];
 

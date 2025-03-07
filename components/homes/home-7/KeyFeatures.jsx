@@ -50,7 +50,7 @@ export default function KeyFeatures() {
                   ))}
                 </div>
               </div>
-              <Link
+              {/* <Link
                 href={`/page-features`}
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow"
                 style={{
@@ -60,7 +60,7 @@ export default function KeyFeatures() {
               >
                 <span>Discover all features</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

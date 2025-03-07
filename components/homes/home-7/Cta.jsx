@@ -28,10 +28,10 @@ export default function Cta() {
                   <span>Demo buchen</span>
                 </a>
                 <Link
-                  href={`/page-pricing`}
+                  href={`/blog`}
                   className="btn btn-md btn-primary rounded-default text-white shadow-xs"
                 >
-                  Start free trial
+                  Mehr erfahren
                 </Link>
               </div>
             </div>

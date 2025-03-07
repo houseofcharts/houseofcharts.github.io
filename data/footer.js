@@ -60,7 +60,7 @@ export const footerLinks_HOC = [
   },
   {
     links: [
-      { href: "/sign-in", label: "Demo buchen" },
+      { href: "/page-contact", label: "Demo buchen" },
       { href: "/page-contact", label: "Kontakt" },
 
 

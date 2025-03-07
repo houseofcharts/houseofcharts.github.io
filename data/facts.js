@@ -43,7 +43,7 @@ export const factItems = [
   },
   {
     id: 3,
-    value: "4-5x",
+    value: "5x",
     description: "Schnellere Durchlaufzeit",
   },
 ];
