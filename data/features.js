@@ -193,30 +193,30 @@ export const features4 = [
 export const features7 = [
   {
     icon: "unicon-document",
-    title: "Proposals",
+    title: "Entlassbriefe",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Automatisierte Erstellung von Entlassberichten aus klinischen Daten.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "Versicherungsbriefe",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Effiziente Erstellung standardisierter Dokumente zur Kostensicherung.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "KG Smart Search",
     description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
+      "Blitzschneller Zugriff auf klinische Informationen, dank KI-Suchfunktion.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "Kodierungsunterstützung",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "KI-gestützte Vorschläge für Diagnosen und medizinische Prozeduren.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
 ];
