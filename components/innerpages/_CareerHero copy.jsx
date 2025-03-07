@@ -44,13 +44,13 @@ export default function CareerHero() {
           >
             <div className="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-850px mx-auto text-center">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Karriere.
+                Careers.
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-              Wir suchen Menschen, die unsere Vision teilen.  
-    Bist du anpassungsfähig, ehrgeizig und teamfähig?  
-    Fühlst du dich in einem dynamischen Arbeitsumfeld wohl, in dem Zusammenarbeit an erster Stelle steht?  
-    Wenn ja, dann bist du genau die Person, die wir suchen.  
+                We are looking for people that share our vision. Are you
+                adaptable, driven, and friendly? Do you thrive in a fast-paced
+                work environment where collaboration is the norm? If the answer
+                is yes, then you’re a what we looking for.
               </p>
             </div>
             <div className="panel">

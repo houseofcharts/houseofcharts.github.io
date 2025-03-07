@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header7";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/FooterHOC";
 import CareerHero from "@/components/innerpages/CareerHero";
 import CareerBenefits from "@/components/innerpages/CareerBenefits";
 import CareerOpenings from "@/components/innerpages/CareerOpenings";
@@ -9,7 +9,7 @@ import Brands from "@/components/innerpages/Brands";
 import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
-    "Career || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Career || House of Charts",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
@@ -22,7 +22,7 @@ export default function CareerPage() {
           <CareerHero />
           <CareerBenefits />
           <CareerOpenings />
-          <Feedback />
+          {/* <Feedback /> */}
           <Brands />
           <Blogs />
         </div>
