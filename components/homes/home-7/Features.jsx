@@ -73,10 +73,10 @@ export default function Features() {
                                   {elm.description}
                                 </p>
                                 <a
-                                  href="#"
+                                  href="contact"
                                   className="uc-link dark:text-secondary fw-bold hstack gap-narrow sm:mt-1 lg:mt-2"
                                 >
-                                  <span>Let's find out</span>
+                                  <span>Mehr erfahren</span>
                                   <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
                                 </a>
                               </div>

@@ -1,7 +1,7 @@
 export const footerLinks = [
   {
     links: [
-      { href: "/page-about", label: "Über uns" },
+      { href: "/page-about", label: "About" },
       { href: "/page-pricing", label: "Pricing" },
       { href: "/page-features", label: "Features" },
       { href: "/page-integrations", label: "Integrations" },
@@ -41,35 +41,6 @@ export const footerLinks = [
       { href: "/coming-soon", label: "Coming Soon" },
       { href: "/page-terms", label: "Terms of service" },
       { href: "/page-privacy", label: "Privacy policy" },
-    ],
-  },
-];
-
-export const footerLinks_HOC = [
-  {
-    links: [
-      { href: "/page-about", label: "Über uns" },
-      { href: "/page-career", label: "Karriere" },
-    ],
-  },
-  {
-    links: [
-      { href: "/page-features", label: "Features" },
-      { href: "/page-integrations", label: "Integrationen" },
-    ],
-  },
-  {
-    links: [
-      { href: "/sign-in", label: "Demo buchen" },
-      { href: "/page-contact", label: "Kontakt" },
-
-
-    ],
-  },
-  {
-    links: [
-      { href: "/blog", label: "Blog" },
-      { href: "/page-terms", label: "FAQ" },
     ],
   },
 ];
@@ -234,9 +205,9 @@ export const footerLinks4 = [
 ];
 
 export const socialLinks = [
-  { href: "https://www.linkedin.com/company/houseofcharts", iconClass: "unicon-logo-linkedin" },
-  // { href: "#", iconClass: "unicon-logo-facebook" },
-  // { href: "#", iconClass: "unicon-logo-x-filled" },
-  // { href: "#", iconClass: "unicon-logo-instagram" },
-  // { href: "#", iconClass: "unicon-logo-youtube" },
+  { href: "#", iconClass: "unicon-logo-linkedin" },
+  { href: "#", iconClass: "unicon-logo-facebook" },
+  { href: "#", iconClass: "unicon-logo-x-filled" },
+  { href: "#", iconClass: "unicon-logo-instagram" },
+  { href: "#", iconClass: "unicon-logo-youtube" },
 ];

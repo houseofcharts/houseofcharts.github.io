@@ -43,9 +43,11 @@ export default function Contact1() {
           >
             <div className="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-Kontaktieren Sie uns.              </h1>
+                Let's get in touch.
+              </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-              Zögern Sie nicht, uns über die untenstehenden Optionen zu kontaktieren – unser engagiertes Team wird Ihre Anfrage umgehend beantworten.
+                Feel free to reach out to us using the options below, and our
+                dedicated team will respond to your inquiries promptly.
               </p>
             </div>
             <div className="panel rounded-3 overflow-hidden bg-secondary dark:bg-gray-800">

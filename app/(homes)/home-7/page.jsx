@@ -1,7 +1,7 @@
-import Footer3 from "@/components/footers/Footer3";
+import Footer1 from "@/components/footers/FooterHOC";
 import Header7 from "@/components/headers/Header7";
 import Blogs from "@/components/homes/home-4/Blogs";
-import Cta from "@/components/homes/home-4/Cta";
+import Cta from "@/components/homes/home-7/Cta";
 import Cta2 from "@/components/homes/home-4/Cta2";
 import Facts from "@/components/homes/home-7/Facts";
 import Faq from "@/components/homes/home-4/Faq";
@@ -31,10 +31,10 @@ export default function HomePage4() {
           <KeyFeatures />
           <Features />
           <Cta />
-          <Blogs />
-          <Cta2 />
+          {/* <Blogs /> */}
+          {/* <Cta2 /> */}
         </div>
-        <Footer3 />
+        <Footer1 />
       </div>
     </>
   );
