@@ -5,7 +5,7 @@ import Cta from "@/components/homes/home-4/Cta";
 import Cta2 from "@/components/homes/home-4/Cta2";
 import Facts from "@/components/homes/home-7/Facts";
 import Faq from "@/components/homes/home-4/Faq";
-import Features from "@/components/homes/home-4/Features";
+import Features from "@/components/homes/home-7/Features";
 import Offerings from "@/components/homes/home-7/Offerings";
 import Hero from "@/components/homes/home-7/Hero";
 import Team from "@/components/homes/home-4/Team";

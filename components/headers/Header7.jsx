@@ -205,7 +205,7 @@ export default function Header7() {
                 className="btn btn-sm btn-primary rounded-default text-white text-none d-none lg:d-inline-flex"
                 href={`/page-pricing`}
               >
-                Start free trial
+                Demo buchen
               </Link>
               <a
                 className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"

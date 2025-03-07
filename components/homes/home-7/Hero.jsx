@@ -161,13 +161,12 @@ export default function Hero() {
                   className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end"
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
-                  <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
+                  <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
                   Mehr Patienten,
-                  kein Problem.
+                  weniger Dokumentation.
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Beschleunigen Sie Ihre klinischce Dokumentationsprozesse,
-                und erhöhen Sie zugleich Ihre Leistungen.
+              Automatisierte Dokumentation für Ihre Klinik. Effizient, präzise, und sicher integriert
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column">
                 <a
