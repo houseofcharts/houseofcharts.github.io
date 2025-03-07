@@ -213,7 +213,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-            <div className="brands panel overflow-hidden mt-4 sm:mt-6 lg:mt-8 opacity-50">
+            <div className="brands panel overflow-hidden mt-4 sm:mt-6 lg:mt-6 opacity-50">
               <div
                 className="block-panel panel"
                 data-anime="opacity: [0, 1]; duration: 450; delay: 750;"

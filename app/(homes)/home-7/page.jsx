@@ -25,7 +25,7 @@ export default function HomePage4() {
         <Header7 />
         <div id="wrapper" className="wrap">
           <Hero />
-          <div className="mt-120"></div>
+          <div className="mt-1"></div>
           <Facts />
           <Feedback />
           <KeyFeatures />
