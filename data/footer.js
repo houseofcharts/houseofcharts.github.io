@@ -48,7 +48,7 @@ export const footerLinks = [
 export const footerLinks_HOC = [
   {
     links: [
-      { href: "/page-about", label: "Über uns" },
+      { href: "/about", label: "Über uns" },
       { href: "/page-career", label: "Karriere" },
     ],
   },

@@ -50,22 +50,22 @@ export const factItems = [
 
 export const panelsData = [
   {
-    value: 2014,
-    text: "Lexend founded.",
+    value: 2024,
+    text: "House of Charts gegründet.",
     animationData:
       "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 50,
-    text: "Hardworking group.",
+    value: 3,
+    text: "Auszeichnungen.",
     animationData:
       "onview: -100; textContent: [0, 50]; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 100,
-    text: "Document workflows.",
+    value: 1,
+    text: "Vision.",
     animationData:
       "onview: -100; textContent: [0, 100]; round: 1; easing: linear; duration: 1200;",
-    suffix: "k",
+    suffix: "",
   },
 ];

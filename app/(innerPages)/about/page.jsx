@@ -1,17 +1,17 @@
-import Header2 from "@/components/headers/Header2";
+import Header7 from "@/components/headers/Header7";
 
-import Footer2 from "@/components/footers/Footer2";
+import FooterHOC from "@/components/footers/FooterHOC";
 import About from "@/components/innerpages/About";
 import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
 import AboutValues from "@/components/innerpages/AboutValues";
 import Feedback from "@/components/homes/home-2/Feedback";
 import Timeline from "@/components/homes/home-1/Timeline";
-import Team from "@/components/homes/home-1/Team";
+import Team from "@/components/homes/home-7/Team";
 import Cta from "@/components/innerpages/Cta";
 export const metadata = {
   title:
-    "About || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "About || House of Charts",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
@@ -19,7 +19,7 @@ export default function AboutPage() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
+        <Header7 />
         <div id="wrapper" className="wrap">
           <About />
           <div
@@ -43,12 +43,12 @@ export default function AboutPage() {
           </div>
           <About2 />
           <AboutValues />
-          <Feedback />
-          <Timeline />
+          {/* <Feedback /> */}
+          {/* <Timeline /> */}
           <Team />
           <Cta />
         </div>
-        <Footer2 />
+        <FooterHOC />
       </div>
     </>
   );

@@ -1,38 +1,38 @@
 export const panelsData = [
   {
     id: 1,
-    lightImgSrc: "/assets/images/template/icon-diamond.svg",
-    darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
+    lightImgSrc: "/assets/images/template/icon-crown.svg",
+    darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
     altText: "impact-icon",
-    title: "Make an impact",
+    title: "Kundennahe",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "Unsere Lösungen werden in enger Zusammenarbeit mit unseren Kundinnen und Kunden entwickelt, um sicherzustellen, dass sie ihre Bedürfnisse erfüllen.",
   },
   {
     id: 2,
     lightImgSrc: "/assets/images/template/icon-trophy.svg",
     darkImgSrc: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
-    title: "Learn",
+    title: "Zielgerichtet",
     description:
-      "Lexend team are masters of their craft. Even though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "Wir nutzen unsere medizinisch gewichtende KI, um repetitive administrative Aufgaben zu automatisieren, wodurch ihr Behandlungsteam wertvolle Zeit spart."
   },
   {
     id: 3,
-    lightImgSrc: "/assets/images/template/icon-globe.svg",
-    darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
+    lightImgSrc: "/assets/images/template/icon-diamond.svg",
+    darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
     altText: "fun-icon",
-    title: "Have fun",
+    title: "Innovativ",
     description:
-      "We work hard and play harder. We believe in the importance of celebrating wins big or small, for the business or individuals.",
+      "Mit stetiger Optimierung unserer Systeme sichern wir unsere Position an der vordersten Front der Innovation.",
   },
   {
     id: 4,
-    lightImgSrc: "/assets/images/template/icon-crown.svg",
-    darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
+    lightImgSrc: "/assets/images/template/icon-globe.svg",
+    darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
     altText: "empathy-icon",
-    title: "Empathy",
+    title: "Lokal",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we can provide a better experience for all.",
+      "Wir kennen die lokalen Bedürfnisse und reagieren schnell mit massgeschneiderten Lösungen für das Schweizer Gesundheitswesen.",
   },
 ];

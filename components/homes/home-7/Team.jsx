@@ -41,13 +41,13 @@ export default function Team() {
                   </div>
                 ))}
               </div>
-              <Link
+              {/* <Link
                 href={`/page-about`}
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow"
               >
                 <span>More about us</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
