@@ -91,7 +91,7 @@ export default function Cta() {
               Hast du das Zeug dazu, Teil unseres Teams zu sein?
               </p>
               <Link
-                href={`/page-career`}
+                href={`/careers`}
                 className="btn btn-md lg:btn-lg btn-primary text-white mt-1 xl:mt-2"
               >
                 Aktuelle Stellenangebote ansehen

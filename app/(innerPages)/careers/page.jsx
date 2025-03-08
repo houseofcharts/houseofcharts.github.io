@@ -23,8 +23,8 @@ export default function CareerPage() {
           <CareerBenefits />
           <CareerOpenings />
           {/* <Feedback /> */}
-          <Brands />
-          <Blogs />
+          {/* <Brands /> */}
+          {/* <Blogs /> */}
         </div>
         <Footer2 />
       </div>

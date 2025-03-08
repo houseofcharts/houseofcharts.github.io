@@ -1,47 +1,42 @@
 export const benefitsData = [
-  "Competitive salary",
-  "Health benefits",
-  "Company equity",
-  "Flexible schedule",
-  "Regular outings",
-  "Office trips",
-  "Career growth",
-  "Fun team",
-  "Education benefits",
-  "Commuter benefits",
-  "Holidays",
-  "Generous PTO",
+  "Faire Bezahlung",
+  "Flexible Arbeitszeiten",
+  "Innovatives Umfeld",
+  "Hands-On Mentalität",
+  "Karriereentwicklung",
+  "Team-Events",
+  "Flache Hierarchie",
+  "Erfolgsbeteiligung",
+  "Direkter Impact",
+  "Neuste Technologien",
+  "Weiterbildung",
+  "Kreativer Freiraum",
 ];
 
 export const jobListings = [
   {
     id: 1,
-    title: "Senior Frontend Engineer, Core",
-    location: "Remotly",
+    title: "Intern in Software Engineering",
+    location: "Hybrid",
   },
   {
     id: 2,
-    title: "Senior Frontend Engineer, AI",
-    location: "Remotly",
+    title: "Intern in NLP & LLMs",
+    location: "Hybrid",
   },
   {
     id: 3,
-    title: "Senior Python Engineer, Growth",
-    location: "In-house",
+    title: "Intern in Marketing & Sales",
+    location: "Remote",
   },
   {
     id: 4,
-    title: "Director of Accounting",
+    title: "Business Developer & Sales Manager",
     location: "In-house",
   },
   {
     id: 5,
-    title: "Director, Marketing Operations",
+    title: "Intern DevOps/MLOps",
     location: "In-house (Preferably), Remotly",
-  },
-  {
-    id: 6,
-    title: "Team Lead, Data Science",
-    location: "Remotly",
-  },
+  }
 ];

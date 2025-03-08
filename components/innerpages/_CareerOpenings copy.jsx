@@ -16,7 +16,7 @@ export default function CareerOpenings() {
                 className="h4 sm:h2 m-0 text-center"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
               >
-                Offene Stellen
+                Current openings
               </h2>
               <div className="panel">
                 <div
