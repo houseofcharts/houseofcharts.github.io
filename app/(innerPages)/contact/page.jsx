@@ -1,6 +1,6 @@
 import Header2 from "@/components/headers/Header7";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/FooterHOC";
 import Contact1 from "@/components/innerpages/Contact1";
 import ContactLinks from "@/components/innerpages/ContactLinks";
 import Faq from "@/components/homes/home-2/Faq";
@@ -8,7 +8,7 @@ import Brands from "@/components/common/Brands2";
 import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
-    "Kontakt || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Kontakt || House of Charts",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
@@ -20,7 +20,7 @@ export default function ContactPage() {
         <div id="wrapper" className="wrap">
           <Contact1 />
 
-          <ContactLinks />
+          {/* <ContactLinks />
           <Faq />
           <div
             id="clients_brands"
@@ -43,7 +43,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          <Blogs />
+          <Blogs /> */}
         </div>
         <Footer2 />
       </div>

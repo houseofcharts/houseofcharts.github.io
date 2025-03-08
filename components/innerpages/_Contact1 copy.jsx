@@ -67,11 +67,13 @@ Kontaktieren Sie uns.              </h1>
                       <div className="panel z-1">
                         <div className="vstack gap-3">
                           <p className="fs-5 xl:fs-4 fw-medium">
-                            "Technologie sollte entlasten, nicht belasten. Mit House of Charts geben wir ihnen Zeit zurück für das, was wirklich zählt: die Patienten."
+                            “This software simplifies the website building
+                            process, making it a breeze to manage our online
+                            presence.”
                           </p>
                           <div className="vstack gap-0">
                             <p className="fs-6 lg:fs-5 fw-medium">
-                              Dr. med. Sven Schüpbach
+                              David Larry
                             </p>
                             <span className="fs-7 opacity-80">
                               Founder &amp; CEO
@@ -88,14 +90,15 @@ Kontaktieren Sie uns.              </h1>
                     className="vstack gap-2 p-3 sm:p-6 xl:p-8"
                   >
                     <p className="fs-6 text-dark dark:text-white text-opacity-70 mb-2">
-                    Haben Sie eine Frage oder Feedback? Füllen Sie das Formular unten aus und wir melden uns so schnell wie möglich bei Ihnen.
+                      Have a question or feedback? Fill out the form below, and
+                      we'll get back to you as soon as possible.
                     </p>
                     <div className="row child-cols-12 sm:child-cols-6 g-2">
                       <div>
                         <input
                           className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                           type="text"
-                          placeholder="Name"
+                          placeholder="Full name"
                           required
                         />
                       </div>
@@ -103,7 +106,7 @@ Kontaktieren Sie uns.              </h1>
                         <input
                           className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                           type="email"
-                          placeholder="Email"
+                          placeholder="Your email"
                           required
                         />
                       </div>
@@ -111,11 +114,11 @@ Kontaktieren Sie uns.              </h1>
                     <input
                       className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                       type="text"
-                      placeholder="Betreff"
+                      placeholder="Subject"
                     />
                     <textarea
                       className="form-control min-h-150px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                      placeholder="Ihre Nachricht.."
+                      placeholder="Your message.."
                       required
                       defaultValue={""}
                     />
@@ -123,12 +126,12 @@ Kontaktieren Sie uns.              </h1>
                       className="btn btn-primary btn-md text-white mt-2"
                       type="submit"
                     >
-                      Nachricht absenden
+                      Send message
                     </button>
                     <p className="text-center">
-                      oder senden Sie uns eine&nbsp;
-                      <a className="uc-link" href="mailto:contact@houseofcharts.com">
-                        Email
+                      Or drop us a message via
+                      <a className="uc-link" href="mailto:hello@lexend.co">
+                        email
                       </a>
                       .
                     </p>
