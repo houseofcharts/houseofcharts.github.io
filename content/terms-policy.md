@@ -60,9 +60,9 @@ Die folgenden allgemeinen Geschäftsbedingungen der **House of Charts AG**, Dufo
 
    6.1. <u>Laufzeit und ordentliche Vertragsauflösung</u>
 
-   6.1.1. Beide Parteien können den Vertrag unter Einhaltung einer Kündigungsfrist von dreissig (30) Tagen auf das Ende der festen Vertragsdauer kündigen. 
+   6.1.1. Beide Parteien können den Vertrag unter Einhaltung einer Kündigungsfrist von dreissig (30) Tagen auf das Ende der festen Vertragsdauer gemäss Offerte kündigen. 
 
-   6.1.2. Ohne eine solche Kündigung auf das Ende der festen Vertragsdauer erneuert sich dieser Vertrag automatisch um jeweils zwölf (12) Monate und ist beidseitig unter Einhaltung einer dreissigtägigen Kündigungsfrist auf das Ende jedes solchen zwölfmonatigen Zeitraums kündbar. 
+   6.1.2. Ohne eine solche Kündigung auf das Ende der festen Vertragsdauer gemäss Offerte erneuert sich dieser Vertrag automatisch um jeweils zwölf (12) Monate und ist beidseitig unter Einhaltung einer dreissigtägigen Kündigungsfrist auf das Ende jedes solchen zwölfmonatigen Zeitraums kündbar. 
 
    6.2. <u>Ausserordentliche / vorzeitige Vertragsauflösung</u>
 
@@ -160,7 +160,7 @@ Die folgenden allgemeinen Geschäftsbedingungen der **House of Charts AG**, Dufo
 
    10.3. Die Rechte und Pflichten aus diesem Vertrag dürfen weder ganz noch teilweise ohne schriftliche Zustimmung der jeweils anderen Partei abgetreten oder in sonstiger Weise auf Dritte übertragen werden.
 
-   10.4. House of Charts behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen nach entsprechender schriftlicher (inkl. E-Mail) Mitteilung und unter Einhaltung der festen Laufzeit und Kündigungsfrist gemäss Ziff. 6.1 zu ändern. Die geänderten Bedingungen treten mit Ablauf der entsprechenden festen Laufzeit des Vertrages in Kraft, sofern die Lizenznehmerin nicht innerhalb von dreissig (30) Tagen seit Erhalt dieser Mitteilung in gleicher Form widerspricht.
+   10.4. House of Charts behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen nach entsprechender schriftlicher (inkl. E-Mail) Mitteilung und unter Einhaltung der festen Laufzeit und Kündigungsfrist gemäss Ziff. 6.1 zu ändern. Die geänderten Bedingungen treten mit Ablauf der entsprechenden festen Vertragsdauer gemäss Offerte in Kraft, sofern die Lizenznehmerin nicht innerhalb von dreissig (30) Tagen seit Erhalt dieser Mitteilung in gleicher Form widerspricht.
 
    10.5. Die Nichtausübung oder die verspätete Ausübung eines oder mehrerer Rechte oder Rechtsbehelfe aus diesem Vertrag gilt weder als Verzicht auf das/die entsprechende/n Recht/e oder den/die entsprechenden Rechtsbehelf/e noch als genereller Verzicht auf die übrigen, im Zusammenhang mit dem vorliegenden Vertrag stehenden Rechte oder Rechtsbehelfe.
 
