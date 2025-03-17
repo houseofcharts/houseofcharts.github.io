@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Nav7 from "./component/Nav7";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 
@@ -49,15 +48,13 @@ export default function Header7() {
   return (
     <header
       style={{ "--uc-nav-height": "80px !important" }}
-      className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky ${
-        scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
-      }`}
+      className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky ${scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
+        }`}
       data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
     >
       <nav
-        className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 ${
-          scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
-        } `}
+        className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 ${scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
+          } `}
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
       >
         <div className="container max-w-xl">
@@ -93,33 +90,33 @@ export default function Header7() {
             </div>
             <div className="uc-navbar-right">
               <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
-                <li>
+                <li key="about">
                   <Link
-                  href={'/about'}
+                    href={'/about'}
                   >
                     Über uns
                   </Link>
                 </li>
-                <li>
+                <li key="contact">
                   <Link
-                  href={'/contact'}
+                    href={'/contact'}
                   >
                     Kontakt
                   </Link>
                 </li>
-                <li>
+                <li key="careers">
                   <Link
-                  href={'/careers'}
+                    href={'/careers'}
                   >
                     Jobs
                   </Link>
                 </li>
-                {["", "", "", "", "", "", "", "", "", "", "", "", ""].map((item)=>
-                <li>
-                  <a>
-                    {item}
-                  </a>
-                </li>
+                {["", "", "", "", "", "", "", "", "", "", "", "", ""].map((item, index) =>
+                  <li key={index}>
+                    <a>
+                      {item}
+                    </a>
+                  </li>
                 )
                 }
                 {/*
