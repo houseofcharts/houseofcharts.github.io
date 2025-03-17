@@ -191,7 +191,7 @@ export default function Hero() {
               className="hero-scene panel max-w-950px mx-auto"
               data-anime="targets: >*; scale: [0.9, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
             >
-              <div className="panel text-center overflow-hidden rounded-3 border border-5 border-dark dark:border-white dark:border-opacity-20">
+              <div className="panel text-center overflow-hidden rounded-3 border-5 border-dark dark:border-white dark:border-opacity-20">
                 <Image
                   alt="Main hero image"
                   src="/assets/images/template/dashboard.jpg"
