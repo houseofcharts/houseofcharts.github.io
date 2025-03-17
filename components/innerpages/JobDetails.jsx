@@ -59,7 +59,7 @@ export default function JobDetails() {
                             Full-time
                           </span>
                           <span className="px-1 py-narrow bg-white dark:bg-gray-800 rounded">
-                            Remotly
+                            Remotely
                           </span>
                         </div>
                       </div>

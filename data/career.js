@@ -37,6 +37,6 @@ export const jobListings = [
   {
     id: 5,
     title: "Intern DevOps/MLOps",
-    location: "In-house (Preferably), Remotly",
+    location: "In-house (Preferably), Remote",
   }
 ];
