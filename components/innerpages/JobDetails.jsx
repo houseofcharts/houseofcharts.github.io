@@ -1,7 +1,7 @@
 import { benefits, requirement, tasks } from "@/data/jobDetails";
 import React from "react";
 
-export default function JobDetails() {
+export default function JobDetails({ description,  }) {
   return (
     <div id="job_details" className="job-details section panel pb-6 xl:pb-9">
       <div className="section-outer panel">
@@ -12,11 +12,7 @@ export default function JobDetails() {
                 <div className="col-12 md:col-8 md:order-2">
                   <div className="panel fs-5 vstack gap-2">
                     <p>
-                      A Senior Product Designer is a creative and technical
-                      professional dedicated to designing the aesthetics,
-                      functionality, and usability of a product, ensuring it
-                      delivers an exceptional user experience and aligns with
-                      the company’s goals.
+                      {description}
                     </p>
                     <h3 className="h5 mt-2 mb-0">Tasks:</h3>
                     <ul className="m-0">

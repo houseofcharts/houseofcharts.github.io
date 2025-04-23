@@ -41,7 +41,7 @@ export default function CareerDetailsPage({ params }) {
             </div>
           </div>
 
-          <JobDetails />
+          <JobDetails description={jobItem.description}/>
           <CareerOpenings />
           <Feedback />
           <Brands />

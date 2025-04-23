@@ -74,7 +74,6 @@ export default function About() {
                     />
                   </figure>
                 </div>
-
               </div>
             </div>
           </div>
