@@ -1,10 +1,10 @@
 ---
-title: Business Developer (m/w/d)
+title: Founder's Associate (m/w/d)
 image: /images/blog/01.jpg
 author:
   name: Sven
   avatar: /images/author/sven.jpg
-date: 2024-04-04T05:00:00Z
+date: 2024-06-04T05:00:00Z
 draft: false
 summary: Arbeiten Sie direkt mit unserem CEO, um die Zukunft der medizinischen Technologie zu gestalten! Gewinnen Sie Kunden, verhandeln Sie Geschäftsabschlüsse und entwickeln Sie maßgeschneiderte Lösungen.
 ---
@@ -19,25 +19,66 @@ summary: Arbeiten Sie direkt mit unserem CEO, um die Zukunft der medizinischen T
 House of Charts ist ein führendes Startup im Bereich medizinischer KI-Technologien. Wir spezialisieren uns darauf, den administrativen Aufwand für medizinisches Personal zu reduzieren und die Qualität der Patientenbetreuung zu steigern. Unsere fortschrittlichen Lösungen integrieren sich nahtlos in bestehende Klinikinformationssysteme und unterstützen Ärzte bei der effizienten Datenverarbeitung und Entscheidungsfindung.
 
 **Was wir suchen:**
-Wir suchen einen motivierten und aufgeschlossenen Business Developer mit einer Passion für Technologie und strategischem unternehmerischem Denken. Sie bringen tiefe Kenntnisse im medizinischen Bereich und Spitalwesen mit und haben Erfahrung in der Softwarebranche, insbesondere im Verkauf von Lösungen im klinischen Umfeld.
+Als Founders' Associate arbeitest du eng mit Sven (CEO) und Emmanuel (CTO) an wichtigen Themen im Unternehmen.
 
-**Ihre Aufgaben:**
+Du unterstützt bei Planung, Umsetzung und Kommunikation und packst überall dort an, wo du gerade am meisten bewirken kannst. Kein Tag ist wie der andere.
+Du willst echte Startup-Luft schnuppern, suchst Verantwortung und möchtest direkt mit den Gründern zusammenarbeiten? Dann bist du bei House of Charts genau richtig!
 
-- Direkte Zusammenarbeit mit unserem CEO bei der Neukundengewinnung und -betreuung
-- Führung und Protokollierung von Kundengesprächen, Erfassung von Kundenbedürfnissen und Mitwirkung bei der Lösungsentwicklung
-- Verhandlung und Abwicklung von Geschäftsabschlüssen
-- Durchführung von Marktanalysen und Beratung der Geschäftsleitung
-- Erstellung und Design von Marketing- und Verkaufsmaterialien
-- Verfassen von Vertragsdokumenten und Offerten
+Wir sind ein junges MedTech-Startup sowie offizielles Spinoff der ETH Zürich. Unsere KI-gestützte Software entlastet Ärztinnen und Ärzte bei der Dokumentation und schafft mehr Zeit für die Patientenbetreuung. Die Technologie ist bereits in Schweizer Kliniken im Einsatz und spart dort täglich Stunden an Schreibarbeit.
 
-**Was Sie mitbringen sollten:**
+Aktuell bauen wir unsere Präsenz im DACH-Raum aus und planen, in den kommenden Jahren weiter zu expandieren.
 
-- Fundiertes Wissen über medizinische Prozesse und das Spitalwesen
-- Erfahrung im Kundenkontakt und Verkauf von Softwarelösungen, idealerweise im Gesundheitssektor
-- Fähigkeit, komplexe Verträge zu gestalten und geschäftliche Präsentationen zu erstellen
-- Exzellente Kommunikationsfähigkeiten in Wort und Schrift
-- Analytische Fähigkeiten und schnelle Auffassungsgabe
-- Teamfähigkeit und hohe Anpassungsfähigkeit in einem dynamischen Arbeitsumfeld
+Möchtest du Teil dieser Reise sein und mit uns das Gesundheitswesen neu denken?
+
+**Deine Mission**
+
+So stellen wir uns deine Rolle vor. Vielleicht bringst du aber auch genau das mit, woran wir noch nicht gedacht haben. Wir freuen uns auf deine Ideen.
+
+- Du arbeitest direkt mit den Gründern an Themen von hoher Priorität im gesamten Unternehmen
+- Du übernimmst die Verantwortung für strategische Initiativen von der Idee bis zur Umsetzung
+- Du koordinierst dich mit Teams und Partnern und stellst sicher, dass alles reibungslos abläuft
+- Du unterstützt die Investorenkommunikation, Fundraising und Stakeholder-Updates
+- Du hilfst beim Aufbau interner Prozesse, die skalierbar sind
+- Du tauchst in alles ein, von Marktforschung über Produktideen bis hin zu Kundengesprächen
+- Du hast ein Auge auf die Zahlen und nutzt Daten, um Entscheidungen zu treffen
+- Mitarbeit in Marketing-, Produkt- oder Vertriebsprojekten
+
+**Wen wir suchen**
+
+Wir suchen eher nach grossartigen Persönlichkeiten als nach aussergewöhnlichen Abschlüssen und Lebensläufen. Für uns zählen Motivation, Lernbereitschaft, Eigeninitiative und der Anspruch, in dem, was du tust, sehr gut zu sein.
+
+- Du bist proaktiv, neugierig und packst gerne selbst mit an.
+- Du arbeitest selbstständig und zuverlässig
+- Du kommunizierst klar und offen, egal ob mit Kundinnen, Investoren oder Teammitgliedern
+- Du übernimmst gerne Verantwortung und findest auch in unbekanntem Terrain deinen Weg.
+- Du schreibst gerne und hast ein gutes Gefühl für Sprache
+- Du sprichst fliessend Deutsch und Englisch
+
+**Was wir bieten**
+
+**Hybrides Arbeiten mit persönlichem Austausch**
+
+Du arbeitest dort, wo du am produktivsten bist. Uns ist wichtig, dass wir uns mindestens einmal pro Woche persönlich treffen, um gemeinsam zu wachsen und den Teamspirit zu stärken.
+
+**Ownership ab Tag 1**
+
+Du erhältst von Beginn an Verantwortung und gestaltest die Entwicklung des Unternehmens aktiv mit.
+
+**Zentraler Arbeitsplatz in Zürich**
+
+Unser Büro liegt im Herzen von Zürich, modern ausgestattet und gut erreichbar mit dem öffentlichen Verkehr.
+
+**Wachstum & Entwicklung**
+
+Du lernst täglich dazu, entwickelst neue Fähigkeiten und wächst mit deinen Aufgaben.
+
+**Team mit Drive**
+
+Arbeite Seite an Seite mit engagierten Menschen, die anpacken und mit Leidenschaft etwas bewegen wollen.
+
+**Sinnvolle Arbeit mit Wirkung**
+
+Gestalte mit uns ein Gesundheitswesen, das besser funktioniert. Unsere Lösungen entlasten Ärztinnen und Ärzte und kommen direkt den Patientinnen und Patienten zugute.
 
 **Was wir bieten:**
 
@@ -49,6 +90,12 @@ Wir suchen einen motivierten und aufgeschlossenen Business Developer mit einer P
 **Bewerbung:**
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an sven@houseofcharts.com.
 
-**Schlussdatum für Bewerbungen:** 21.02.25
+**Bereit anzupacken?**
 
-Wir freuen uns darauf, Sie kennenzulernen und vielleicht bald in unserem Team willkommen zu heissen!
+Dann freuen wir uns, von dir zu hören.
+
+Schick uns deinen Lebenslauf oder dein LinkedIn-Profil und ein paar Worte dazu, warum du bei House of Charts mitwirken möchtest.
+
+[https://houseofcharts.notion.site/12b5c790acdc80ce95f2e70c5bd5510c?pvs=105](https://www.notion.so/12b5c790acdc80ce95f2e70c5bd5510c?pvs=21)
+
+**Kontakt**: sven@houseofcharts.com

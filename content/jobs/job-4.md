@@ -52,6 +52,6 @@ Idealerweise hast du bereits Erfahrung in der Einrichtung und Absicherung von IT
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-Schlussdatum für Bewerbungen: 24.03.25
+Schlussdatum für Bewerbungen: 24.08.25
 
 Wir freuen uns darauf, mehr über Sie zu erfahren und Sie vielleicht bald in unserem engagierten Team begrüßen zu dürfen!

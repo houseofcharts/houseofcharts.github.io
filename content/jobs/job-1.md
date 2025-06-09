@@ -4,7 +4,7 @@ image: /images/blog/02.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2024-04-04T05:00:00Z
+date: 2024-05-29T05:00:00Z
 draft: false
 summary: Entwickeln Sie performante, zuverlässige und sichere Systeme mit modernem Tech-Stack. Gestalten Sie unsere Architektur skalierbar und zukunftssicher mit!
 ---
@@ -46,6 +46,6 @@ Wir suchen einen engagierten Software Engineer Praktikant mit einer Leidenschaft
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-Schlussdatum für Bewerbungen: 29.02.25
+Schlussdatum für Bewerbungen: 29.08.25
 
 House of Charts freut sich darauf, Sie kennenzulernen und vielleicht bald in unserem innovativen Team willkommen zu heissen!
