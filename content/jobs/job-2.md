@@ -4,7 +4,7 @@ image: /images/blog/03.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2024-04-04T05:00:00Z
+date: 2024-05-24T05:00:00Z
 draft: false
 summary: Gestalten Sie bahnbrechende KI-Lösungen, indem Sie die Entwicklung unserer LLMs und NLP-Modelle vorantreiben. Optimieren Sie LLMOps-Pipelines und optimieren Sie die Verarbeitung klinischer Daten. Bringen Sie innovative Forschung und Entwicklung voran!
 ---
