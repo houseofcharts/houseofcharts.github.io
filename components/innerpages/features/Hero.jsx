@@ -16,27 +16,11 @@ export default function Hero() {
             left: "18%",
           }}
         >
-          <Image
-            className="w-32px text-gray-900 dark:text-white"
-            src="/assets/images/template/star-1.svg"
-            width={193}
-            height={216}
-            alt="star-1"
-            data-uc-svg=""
-          />
         </div>
         <div
           className="position-absolute rotate-45"
           style={{ top: "15%", right: "18%" }}
         >
-          <Image
-            className="w-24px text-gray-900 dark:text-white"
-            src="/assets/images/template/star-2.svg"
-            width={69}
-            height={95}
-            alt="star-2"
-            data-uc-svg=""
-          />
         </div>
       </div>
       <div className="section-outer panel pt-9 lg:pt-10 pb-6 xl:pb-9">

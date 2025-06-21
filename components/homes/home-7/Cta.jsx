@@ -21,7 +21,7 @@ export default function Cta() {
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column">
                 <a
                   onClick={openContactModal}
-                  className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs"
+                  className="btn btn-red-outline rounded-default"
                   data-uc-toggle=""
                 >
                   <i className="icon-1 unicon-play-outline fw-medium" />

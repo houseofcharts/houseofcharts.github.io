@@ -51,7 +51,7 @@ export default function BacktoTop() {
         </label>
       </div>
       <a
-        className="btn btn-sm bg-primary text-white w-40px h-40px rounded-circle"
+        className="btn btn-sm bg-gray-100 text-dark w-40px h-40px rounded-circle"
         onClick={scrollToTop}
         data-uc-backtotop
       >

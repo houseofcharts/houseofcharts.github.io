@@ -113,32 +113,62 @@
   --color-slate-700: #40444d;
   --color-slate-800: #2b2e33;
   --color-slate-900: #15171a;
-  --color-primary: #12715b;
-  --color-primary-10: #f8fbfa;
-  --color-primary-25: #f3f8f7;
-  --color-primary-50: #e7f1ef;
-  --color-primary-100: #d0e3de;
-  --color-primary-200: #a0c6bd;
-  --color-primary-300: #71aa9d;
-  --color-primary-400: #418d7c;
+  --color-primary: #25B1BF;
+  --color-primary-10: #e9f9fa;
+  --color-primary-25: #d0f2f5;
+  --color-primary-50: #b0e9ef;
+  --color-primary-100: #8edee6;
+  --color-primary-200: #64d1dc;
+  --color-primary-300: #40c3cf;
+  --color-primary-400: #2cb6c3;
   --color-primary-500: var(--color-primary);
-  --color-primary-600: #0e5a49;
-  --color-primary-700: #0b4437;
-  --color-primary-800: #072d24;
-  --color-primary-900: #041712;
-  --color-secondary: #f5eee9;
-  --color-secondary-10: #fffefe;
-  --color-secondary-25: #fffefe;
-  --color-secondary-50: #fefdfd;
-  --color-secondary-100: #fdfcfb;
-  --color-secondary-200: #fbf8f6;
-  --color-secondary-300: #f9f5f2;
-  --color-secondary-400: #f7f1ed;
-  --color-secondary-500: #f5eee9;
-  --color-secondary-600: #c4beba;
-  --color-secondary-700: #938f8c;
-  --color-secondary-800: #625f5d;
-  --color-secondary-900: #31302f;
+  --color-primary-600: #1e8c97;
+  --color-primary-700: #176c74;
+  --color-primary-800: #104a4f;
+  --color-primary-900: #08292a;
+    /* Dark red as primary color */
+  --color-primary-bis: #DE283B;
+  --color-primary-bis-10: #ffecef;
+  --color-primary-bis-25: #ffd9de;
+  --color-primary-bis-50: #ffc4cb;
+  --color-primary-bis-100: #ff9ca6;
+  --color-primary-bis-200: #ff6c7c;
+  --color-primary-bis-300: #f44257;
+  --color-primary-bis-400: #e83144;
+  --color-primary-bis-500: var(--color-primary-bis);
+  --color-primary-bis-600: #b52031;
+  --color-primary-bis-700: #8f1927;
+  --color-primary-bis-800: #69121d;
+  --color-primary-bis-900: #440b13;
+  /* Dark blue as primary color */
+  /* Dark blue as primary color */
+  /* --color-primary: #005461;
+  --color-primary-10: #e2f3f5;
+  --color-primary-25: #c4e7eb;
+  --color-primary-50: #a6dbe1;
+  --color-primary-100: #89cfd7;
+  --color-primary-200: #6bc3cd;
+  --color-primary-300: #4db6c3;
+  --color-primary-400: #2faab9;
+  --color-primary-500: var(--color-primary);
+  --color-primary-600: #00424d;
+  --color-primary-700: #00323b;
+  --color-primary-800: #002229;
+  --color-primary-900: #001014; */
+  /* Dark blue as primary color */
+  --color-secondary: #F5F5F5;
+  --color-secondary-10: #ffffff;
+  --color-secondary-25: #fefefe;
+  --color-secondary-50: #fdfdfd;
+  --color-secondary-100: #fbfbfb;
+  --color-secondary-200: #f0f0f0;
+  --color-secondary-300: #e0e0e0;
+  --color-secondary-400: #d0d0d0;
+  --color-secondary-500: #F5F5F5;
+  --color-secondary-600: #a0a0a0;
+  --color-secondary-700: #707070;
+  --color-secondary-800: #404040;
+  --color-secondary-900: #202020;
   --color-info: #0099cc;
   --color-info-10: #f7fcfd;
   --color-info-25: #f2fafc;
@@ -688,6 +718,21 @@ body {
   letter-spacing: var(--body-font-spacing, normal);
   background-color: var(--body-color-background, inherit);
   color: var(--body-color-text, inherit);
+}
+/* Utility class to color numbers red */
+.number-red, .text-number-red {
+  color: #DE283B !important;
+}
+
+/* If you want to target numbers inside elements, use this: */
+.number-red :is(span, p, h1, h2, h3, h4, h5, h6, div, li, td, th),
+.text-number-red :is(span, p, h1, h2, h3, h4, h5, h6, div, li, td, th) {
+  color: #DE283B !important;
+}
+
+/* Optional: make numbers more uniform */
+.number-red, .text-number-red {
+  font-variant-numeric: lining-nums tabular-nums;
 }
 .link,
 a {
@@ -2514,7 +2559,7 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   --bs-cyan-800: #165a66;
   --bs-cyan-900: #0b2d33;
   --bs-primary-rgb: 18, 113, 91;
-  --bs-secondary-rgb: 245, 238, 233;
+  --bs-secondary-rgb: 241, 241, 241;
   --bs-success-rgb: 76, 175, 80;
   --bs-info-rgb: 0, 153, 204;
   --bs-warning-rgb: 255, 179, 7;
@@ -2834,7 +2879,7 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: rgba(131, 131, 131, 0.25);
+  --bs-border-color: var(--color-primary);
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -3992,12 +4037,28 @@ progress {
   --bs-btn-bg: var(--color-primary);
   --bs-btn-border-color: var(--color-primary);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0f604d;
-  --bs-btn-hover-border-color: #0e5a49;
+  --bs-btn-hover-bg: var(--color-primary-600);
+  --bs-btn-hover-border-color: var(--color-primary-600);
   --bs-btn-focus-shadow-rgb: 54, 134, 116;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0e5a49;
-  --bs-btn-active-border-color: #0e5544;
+  --bs-btn-active-bg: var(--color-primary-400);
+  --bs-btn-active-border-color: var(--color-primary-400);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--color-primary);
+  --bs-btn-disabled-border-color: var(--color-primary);
+}
+.btn-header {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--color-primary-600);
+  --bs-btn-border-color: var(--color-primary-600);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--color-primary-700);
+  --bs-btn-hover-border-color: var(--color-primary-700);
+  --bs-btn-focus-shadow-rgb: 54, 134, 116;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--color-primary-500);
+  --bs-btn-active-border-color: var(--color-primary-500);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: var(--color-primary);
@@ -4056,6 +4117,16 @@ progress {
   --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: var(--radius);
+}
+.btn-red-outline {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: 1px solid var(--color-primary-600)!important;
+  transition: background 0.2s, border-color 0.2s;
+}
+.btn-red-outline:hover, .btn-red-outline:focus {
+  background-color: var(--color-slate-200) !important;
+  color: #000 !important;
 }
 .table {
   --bs-table-color-type: initial;
@@ -5758,8 +5829,14 @@ textarea.form-control-lg {
 .bg-primary,
 .hover\:bg-primary:hover {
   --bs-bg-opacity: 1;
-  background-color: var(--color-primary) !important;
+  background-color: var(--color-primary-500) !important;
 }
+.bg-primary-bis,
+.hover\:bg-primary-bis:hover {
+  --bs-bg-opacity: 1;
+  background-color: var(--color-primary-bis-600) !important;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;

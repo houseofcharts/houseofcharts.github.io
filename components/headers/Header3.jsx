@@ -169,7 +169,7 @@ export default function Header3() {
                 </li>
               </ul>
               <Link
-                className="btn btn-sm btn-primary rounded-default text-white text-none d-none lg:d-inline-flex"
+                className="btn btn-sm btn-header text-white text-none d-none lg:d-inline-flex"
                 href={`/page-pricing`}
               >
                 Start free trial

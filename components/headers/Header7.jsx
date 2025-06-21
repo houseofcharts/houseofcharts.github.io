@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
+import LanguageSelect2 from "../common/LanguageSelect2";
 
 export default function Header7() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -199,11 +200,12 @@ export default function Header7() {
                 */}
               </ul>
               <Link
-                className="btn btn-sm btn-primary rounded-default text-white text-none d-none lg:d-inline-flex"
+                className="btn btn-sm btn-header text-white text-none d-none lg:d-inline-flex"
                 href={`/contact`}
               >
                 Demo buchen
               </Link>
+              <LanguageSelect2 />
               <a
                 className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                 onClick={openMobileMenu}

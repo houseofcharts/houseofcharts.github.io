@@ -16,41 +16,17 @@ export default function Hero() {
             className="position-absolute  rotate-45"
             style={{ top: "35%", left: "47%" }}
           >
-            <Image
-              className="w-32px text-gray-900 dark:text-white"
-              width={193}
-              height={216}
-              alt="star-1"
-              data-uc-svg=""
-              src="/assets/images/template/star-1.svg"
-            />
           </div>
           <div
             className="position-absolute  rotate-45"
             style={{ top: "12%", right: "15%" }}
           >
-            <Image
-              className="w-24px text-gray-900 dark:text-white"
-              width={69}
-              height={95}
-              alt="star-2"
-              data-uc-svg=""
-              src="/assets/images/template/star-2.svg"
-            />
           </div>
 
           <div
             className="position-absolute  rotate-60"
             style={{ top: "44%", right: "18%" }}
           >
-            <Image
-              className="w-24px text-gray-900 dark:text-white"
-              width={69}
-              height={95}
-              alt="star-2"
-              data-uc-svg=""
-              src="/assets/images/template/star-2.svg"
-            />
           </div>
         </div>
         <div className="container max-w-xl">
@@ -58,7 +34,7 @@ export default function Hero() {
             <div className="row child-cols justify-center lg:justify-between items-center gy-4 sm:gy-6 gx-0">
               <div className="col-12 sm:col-9 lg:col-5">
                 <div
-                  className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end"
+                  className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-center rtl:lg:text-end"
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 50; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
@@ -77,7 +53,7 @@ export default function Hero() {
                     </a>
                     <Link
                       href={`/blog`}
-                      className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
+                      className="btn btn-md lg:btn-lg btn-red-outline"
                       data-uc-toggle=""
                     >
                       Mehr erfahren

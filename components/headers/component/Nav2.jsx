@@ -239,7 +239,7 @@ export default function Nav2() {
                   </div>
                   <Link
                     href={`/page-pricing`}
-                    className="btn btn-sm btn-primary"
+                    className="btn btn-sm btn-header"
                   >
                     Start free trial
                   </Link>

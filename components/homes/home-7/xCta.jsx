@@ -14,27 +14,11 @@ export default function Cta() {
             className="position-absolute  rotate-45"
             style={{ top: "40%", left: "20%" }}
           >
-            <Image
-              className="w-24px text-gray-900 dark:text-white"
-              width={193}
-              height={216}
-              alt="star-1"
-              data-uc-svg=""
-              src="/assets/images/template/star-1.svg"
-            />
           </div>
           <div
             className="position-absolute   rotate-45"
             style={{ bottom: "40%", right: "20%" }}
           >
-            <Image
-              className="w-24px text-gray-900 dark:text-white"
-              width={69}
-              height={95}
-              alt="star-2"
-              data-uc-svg=""
-              src="/assets/images/template/star-2.svg"
-            />
           </div>
         </div>
         <div

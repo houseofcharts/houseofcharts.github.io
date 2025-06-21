@@ -61,7 +61,6 @@ export default function Cta() {
               height={95}
               alt="star-2"
               data-uc-svg=""
-              src="/assets/images/template/star-2.svg"
             />
           </div>
           <div
@@ -74,7 +73,6 @@ export default function Cta() {
               height={216}
               alt="star-1"
               data-uc-svg=""
-              src="/assets/images/template/star-1.svg"
             />
           </div>
         </div>

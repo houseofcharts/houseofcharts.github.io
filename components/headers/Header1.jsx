@@ -67,7 +67,7 @@ export default function Header1() {
                 </Link>
               </div>
               <Link
-                className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
+                className="btn btn-sm btn-header text-white text-none d-none lg:d-inline-flex"
                 href={`/page-pricing`}
               >
                 Start free trial
