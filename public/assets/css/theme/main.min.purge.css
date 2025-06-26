@@ -2471,7 +2471,7 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   --bs-pink-10: #fffbfc;
   --bs-pink-25: #fef8fa;
   --bs-pink-50: #fef0f5;
-  --bs-pink-100: #fce1eb;
+  --bs-pink-100: #fee1eb;
   --bs-pink-200: #f9c4d8;
   --bs-pink-300: #f6a6c4;
   --bs-pink-400: #f389b1;
@@ -4128,6 +4128,20 @@ progress {
   background-color: var(--color-slate-200) !important;
   color: #000 !important;
 }
+
+/* Dark mode styles for the outline button */
+:where(.uc-dark) .btn-red-outline {
+  color: var(--color-primary) !important;
+  border: 1px solid var(--color-primary-500)!important;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+:where(.uc-dark) .btn-red-outline:hover,
+:where(.uc-dark) .btn-red-outline:focus {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+}
+
 .table {
   --bs-table-color-type: initial;
   --bs-table-bg-type: initial;
@@ -5840,6 +5854,10 @@ textarea.form-control-lg {
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+.bg-secondary-dark {
+  --bs-bg-opacity: 1;
+  background-color: #404040 !important;
 }
 .bg-dark {
   --bs-bg-opacity: 1;

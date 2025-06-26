@@ -27,7 +27,7 @@ export default function HomePage5() {
           <Hero />
           <div
             id="companies_sponsores"
-            className="companies-sponsores section panel overflow-hidden rounded-bottom-3 bg-secondary dark:bg-gray-700 dark:bg-opacity-50"
+            className="companies-sponsores section panel overflow-hidden rounded-bottom-3 bg-secondary dark:bg-secondary-dark dark:bg-opacity-50"
           >
             <div className="section-outer panel pb-4 sm:pb-8 xl:pb-9">
               <div className="container sm:max-w-lg xl:max-w-xl">

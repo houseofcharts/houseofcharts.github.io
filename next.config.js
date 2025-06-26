@@ -1,7 +1,8 @@
-module.exports = {
-    i18n:  {
-        locales: ['de-CH', 'de-DE', 'en-US'],
-        defaultLocale: 'de-CH',
-        localeDetection: false,
-    }
-};
+const i18nConfig = {
+    locales: ["en", "fr", "de"],
+    defaultLocale: "de",
+    localeDetection: false,
+    prefixDefault: true,
+}
+
+module.exports = i18nConfig;

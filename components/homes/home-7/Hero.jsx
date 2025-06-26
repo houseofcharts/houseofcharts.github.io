@@ -3,8 +3,19 @@ import Brands from "@/components/common/Brands";
 import Link from "next/link";
 import Image from "next/image";
 import { openContactModal } from "@/utlis/toggleContactModal";
+import { useTranslation } from "react-i18next";
+import { useParams } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Hero() {
+  const { i18n, t } = useTranslation("home7");
+  const { locale } = useParams();
+
+  useEffect(() => {
+    if (locale && i18n.language !== locale) {
+      i18n.changeLanguage(locale);
+    }
+  }, [locale]);
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div className="section-outer panel py-6 xl:py-9 pt-9 lg:pt-10 bg-secondary dark:bg-gray-900">
@@ -38,25 +49,24 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 50; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                    Mehr Patienten,
-                    weniger Dokumentation.
+                    {t("hero-header")}
                   </h1>
                   <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Automatisierte Dokumentation für Ihre Klinik. Effizient, präzise, und sicher integriert
+                    {t("hero-subheader")}
                   </p>
                   <div className="vstack sm:hstack gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column">
                     <a
                       onClick={openContactModal}
                       className="btn btn-md lg:btn-lg btn-primary text-white"
                     >
-                      Klinik heute optimieren
+                      {t("hero-button1")}
                     </a>
                     <Link
                       href={`/blog`}
                       className="btn btn-md lg:btn-lg btn-red-outline"
                       data-uc-toggle=""
                     >
-                      Mehr erfahren
+                      {t("hero-button2")}
                     </Link>
                   </div>
                   <p className="text-dark dark:text-white text-opacity-70 sm:mt-1 lg:mt-0">

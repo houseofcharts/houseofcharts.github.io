@@ -1,7 +1,11 @@
-import { factItems } from "@/data/facts";
+// import { factItems } from "@/data/facts";
 import React from "react";
+import initTranslations from "@/app/getServerTranslation";
 
-export default function Facts() {
+
+export default async function Facts({locale}) {
+  const { t } = await initTranslations(locale, ["home7"]);
+  const factItems = t("facts.items", { returnObjects: true });
   return (
     <div
       id="facts_numbers"
@@ -16,14 +20,14 @@ export default function Facts() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h4 md:h3 m-0">
-              Effizienz, die Sie weiterbringt
+              {t("facts-header")}
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-              Eine Lösung, die Prozesse beschleunigt, Ressourcen spart und Nutzer begeistert.
+              {t("facts-subheader")}
               </p>
             </div>
             <div
-              className="panel p-6 xl:p-8 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800"
+              className="panel p-6 xl:p-8 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-700"
               data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
             >
               <div

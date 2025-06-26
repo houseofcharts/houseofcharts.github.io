@@ -1,7 +1,7 @@
 "use client";
 import Context from "@/context/Context";
-import "../public/assets/css/main.css";
-import "../public/assets/custom.scss";
+import "../../public/assets/css/main.css";
+import "../../public/assets/custom.scss";
 import "react-modal-video/scss/modal-video.scss";
 import "photoswipe/dist/photoswipe.css";
 import "rc-slider/assets/index.css";
@@ -15,8 +15,10 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import ContactModal from "@/components/modals/ContactModal";
 import NewsletterModal from "@/components/modals/NewsletterModal";
 import SearchModal from "@/components/modals/SearchModal";
+import '../i18n'; 
+import '../getServerTranslation'; 
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params }) {
   const pathname = usePathname();
   useEffect(() => {
     const elements = document.querySelectorAll("[data-anime]");
@@ -99,7 +101,7 @@ export default function RootLayout({ children }) {
     };
   }, [pathname]);
   return (
-    <html lang="en" dir="ltr">
+    <html lang={params.locale} dir="ltr">
       <body>
         {" "}
         <Context>

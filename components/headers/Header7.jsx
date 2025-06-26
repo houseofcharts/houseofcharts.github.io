@@ -4,10 +4,21 @@ import Link from "next/link";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 import LanguageSelect2 from "../common/LanguageSelect2";
+import i18n from "i18next";
+import { useTranslation } from "react-i18next";
+import { useParams } from "next/navigation";
 
 export default function Header7() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [scrollingUp, setScrollingUp] = useState(false);
+  const { locale } = useParams();
+  const { i18n, t } = useTranslation("home7");
+
+  useEffect(() => {
+    if (locale && i18n.language !== locale) {
+      i18n.changeLanguage(locale);
+    }
+  }, [locale]);
 
   useEffect(() => {
     setPrevScrollPos(window.pageYOffset);
@@ -93,23 +104,23 @@ export default function Header7() {
               <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
                 <li key="about">
                   <Link
-                    href={'/about'}
+                    href={`/${locale}/about`}
                   >
-                    Über uns
+                    {t("header7-nav1")}
                   </Link>
                 </li>
                 <li key="contact">
                   <Link
-                    href={'/contact'}
+                    href={`/${locale}/contact`}
                   >
-                    Kontakt
+                    {t("header7-nav2")}
                   </Link>
                 </li>
                 <li key="careers">
                   <Link
-                    href={'/careers'}
+                    href={`/${locale}/careers`}
                   >
-                    Jobs
+                    {t("header7-nav3")}
                   </Link>
                 </li>
                 {["", "", "", "", "", "", "", "", "", "", "", "", ""].map((item, index) =>
@@ -203,7 +214,7 @@ export default function Header7() {
                 className="btn btn-sm btn-header text-white text-none d-none lg:d-inline-flex"
                 href={`/contact`}
               >
-                Demo buchen
+                {t("header7-demo")}
               </Link>
               <LanguageSelect2 />
               <a

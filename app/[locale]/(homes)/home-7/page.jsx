@@ -12,13 +12,27 @@ import Team from "@/components/homes/home-4/Team";
 import Feedback from "@/components/homes/home-7/Feedback";
 import KeyFeatures from "@/components/homes/home-7/KeyFeatures";
 import React from "react";
+import { initTranslations } from "@/app/getServerTranslation";
+
 export const metadata = {
   title:
     "Home 4 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
-export default function HomePage4() {
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'fr' },
+    { locale: 'de' }, // add your supported locales here
+  ];
+}
+
+
+export default function HomePage4({ params }) {
+  // console.log("Locale from layout injection:", params.locale)
+  const { locale } = params;
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg dom-ready bp-xl bp-xxl">
@@ -26,7 +40,7 @@ export default function HomePage4() {
         <div id="wrapper" className="wrap">
           <Hero />
           <div className="mt-1"></div>
-          <Facts />
+          <Facts locale={locale} />
           <Feedback />
           <KeyFeatures />
           <Features />

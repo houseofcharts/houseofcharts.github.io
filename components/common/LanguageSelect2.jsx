@@ -1,5 +1,5 @@
 "use client";
-const languages = ["En", "Ar", "Ch"];
+const languages = ["De", "En", "Fr"];
 import { useState } from "react";
 
 export default function LanguageSelect2() {

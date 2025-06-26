@@ -5,10 +5,10 @@ export const metadata = {
   description:
     "House of Charts – Die smarte KI-Lösung für schnelle und präzise klinische Dokumentation",
 };
-export default function HomePage1() {
+export default function HomePage1({ params }) {
   return (
     <>
-      <Home7 />
+      <Home7 params={params} />
     </>
   );
 }
