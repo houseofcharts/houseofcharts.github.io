@@ -65,6 +65,21 @@ our_member:
       field: MSc ETH
       bio: Emmanuel besitzt einen Master of Science in Mathematik von der ETH Zürich mit einer Spezialisierung auf maschinelles Lernen und die Verarbeitung natürlicher Sprache. Seine Forschung konzentrierte sich auf die Anwendung neuester Technologien für zuverlässige Dokumentenverarbeitung und -erstellung. Emmanuel sorgt dafür, dass unsere KI- und Automatisierungsprozesse reibungslos funktionieren und von hoher Qualität sind. Es ist ihm wichtig, dass unsere Produkte von höchster Qualität sind und individuell auf die Bedürfnisse unserer Kunden zugeschnitten werden.
       image: /images/about/team/03.jpg
+    - name: Ines Bouchama
+      title: ML & Software Engineer
+      field: BSc EPFL
+      bio: Ines ist Informatikerin mit einem Hintergrund in Computer Science von der ETH Zürich und Communication Systems von der EPFL. Sie bringt fundierte Erfahrung in Machine Learning, multimodalen KI-Systemen und Softwareentwicklung mit. Bei House of Charts arbeitet sie als ML- und Softwareingenieurin an der Weiterentwicklung von Henry, dem KI-Assistenten, der klinische Dokumentation in Minuten statt Stunden ermöglicht. Mit ihrer Leidenschaft für Künstliche Intelligenz und ihrem analytischen Denken trägt Ines dazu bei, innovative und zuverlässige Lösungen zu schaffen, die den klinischen Alltag effizienter und menschlicher machen.
+      image: /images/about/team/ines.png
+    - name: Amit Sant
+      field: BA Berkley
+      bio:
+        Amit ist Software- und Machine-Learning-Ingenieur mit einem Hintergrund in Informatik und Statistik von der University of California, Berkeley, und einem Masterstudium in Computer Science an der ETH Zürich. Er bringt umfassende Erfahrung in der Entwicklung skalierbarer Daten- und KI-Systeme sowie in der angewandten Forschung mit. Bei House of Charts arbeitet Amit an der Weiterentwicklung unserer KI-Lösungen und sorgt dafür, dass komplexe Technologien nahtlos und zuverlässig in klinische Abläufe integriert werden. Mit seiner technischen Exzellenz und seinem Innovationsgeist trägt er entscheidend dazu bei, den klinischen Alltag effizienter und intelligenter zu gestalten.
+      image: /images/about/team/amit.jpg
+    - name: David Wurzer
+      field: MSc Recht & Wirtschaft
+      bio:
+        David verfügt über einen interdisziplinären Hintergrund in Rechts- und Wirtschaftswissenschaften der Universität St. Gallen sowie in Business Information Management der Erasmus Universität Rotterdam. Durch seine Erfahrung in Data Science, Forschung und strategischer Analyse verbindet er wirtschaftliches Denken mit technologischem Verständnis. Als Founder’s Associate bei House of Charts unterstützt David das Team in strategischen, operativen und datengetriebenen Projekten. Mit seiner analytischen Denkweise und seinem Gespür für Effizienz trägt er dazu bei, Innovationen gezielt umzusetzen und das Wachstum des Unternehmens nachhaltig zu gestalten.
+      image: /images/about/team/david.jpg
 
 ## office
 our_office:
