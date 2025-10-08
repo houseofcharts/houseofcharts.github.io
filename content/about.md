@@ -68,7 +68,7 @@ our_member:
     - name: Ines Bouchama
       title: ML & Software Engineer
       field: BSc EPFL
-      bio: Ines hat Communication Systems an der EPFL studiert und absolviert derzeit ihr Masterstudium in Computer Science an der ETH Zürich. Bei House of Charts arbeitet sie als ML- und Softwareingenieurin an der Weiterentwicklung von Henry und nutzt ihre Erfahrung in KI und Softwareentwicklung, um unsere Produkte präziser und benutzerfreundlicher zu gestalten.
+      bio: Ines hat Informatik an der ETH Zürich und der EPFL studiert. Bei House of Charts arbeitet sie als ML- und Softwareingenieurin an der Umsetzung von Henry und nutzt ihre KI-Erfahrung, um unsere Produkte präzise und benutzerfreundlich zu gestalten.
       image: /images/about/team/ines.png
     - name: Amit Sant
       field: BA Berkley
