@@ -152,11 +152,11 @@ const LandingBanner = ({ banner, brands }) => {
           <div className="row overflow-hidden rounded-xl">
             <div className="col-12">
               <div className="row relative justify-center">
-                <div className="banner-content col-10 pt-10 2xl:pt-20 pb-5 2xl:pb-8 text-center">
+                <div className="banner-content col-10 pt-8 2xl:pt-18 pb-2 2xl:pb-8 text-center">
                   {markdownify(
                     banner.title,
                     "h1",
-                    "mb-8 banner-title opacity-0"
+                    "mb-6 banner-title opacity-0"
                   )}
                   <div className="banner-btn opacity-0 sm:space-x-10 flex flex-col sm:flex-row items-center justify-center">
                     {/*<Link className="btn btn-secondary hover:bg-opacity-10 mb-4 sm:mb-0" href={banner.cta_secondary.href}>
@@ -170,7 +170,7 @@ const LandingBanner = ({ banner, brands }) => {
                 </div>
                 <div className="col-7">
                   <ImageFallback
-                    className="banner-img opacity-0 pb-20 2xl:pb-5"
+                    className="banner-img opacity-0 pb-15 2xl:pb-5"
                     src={banner.image}
                     width={975}
                     height={555}
