@@ -59,26 +59,26 @@ our_member:
   list:
     - name: Sven Schüpbach
       field: Dr. med.
-      bio: Sven ist ein technologieaffiner diplomierter Arzt mit einem Abschluss von der Universität Bern. Er verfügt über umfangreiche Erfahrungen in einer grossen Bandbreite von medizinischen Disziplinen. Zudem hat er Krankenhäuser in Bezug auf beste medizinische Praktiken, Prozesse und klinische Digitalstrategien beraten. Er stellt sicher, dass die Technologie von House of Charts den hohen Anforderungen des medizinischen Feldes entspricht und sich in das klinische Umfeld einfügt. Sven ist der Visionär, der kompromisslos darauf abzielt, das Wohlbefinden von Patienten und medizinischem Personal zu steigern, indem er die für Verwaltungsaufgaben aufgewendete Zeit des medizinischen Personals reduziert und die Zeit mit Patienten maximiert.
+      bio: Sven ist Arzt mit Abschluss der Universität Bern und verfügt über breite Erfahrung in verschiedenen medizinischen Disziplinen. Er hat Kliniken zu Best Practices, Prozessen und digitalen Strategien beraten. Bei House of Charts stellt er sicher, dass unsere Technologie den hohen Anforderungen des medizinischen Umfelds entspricht und echte Entlastung für Ärztinnen und Ärzte schafft.
       image: /images/about/team/02.jpg
     - name: Emmanuel Bauer
       field: MSc ETH
-      bio: Emmanuel besitzt einen Master of Science in Mathematik von der ETH Zürich mit einer Spezialisierung auf maschinelles Lernen und die Verarbeitung natürlicher Sprache. Seine Forschung konzentrierte sich auf die Anwendung neuester Technologien für zuverlässige Dokumentenverarbeitung und -erstellung. Emmanuel sorgt dafür, dass unsere KI- und Automatisierungsprozesse reibungslos funktionieren und von hoher Qualität sind. Es ist ihm wichtig, dass unsere Produkte von höchster Qualität sind und individuell auf die Bedürfnisse unserer Kunden zugeschnitten werden.
+      bio: Emmanuel hat einen Master in Mathematik von der ETH Zürich mit Schwerpunkt auf maschinellem Lernen und Sprachverarbeitung. Er sorgt dafür, dass unsere KI-Systeme zuverlässig, präzise und effizient arbeiten. Sein Fokus liegt darauf, technologische Exzellenz mit praxisnaher Anwendung zu verbinden, um messbaren Nutzen für unsere Nutzer zu schaffen.
       image: /images/about/team/03.jpg
     - name: Ines Bouchama
       title: ML & Software Engineer
       field: BSc EPFL
-      bio: Ines ist Informatikerin mit einem Hintergrund in Computer Science von der ETH Zürich und Communication Systems von der EPFL. Sie bringt fundierte Erfahrung in Machine Learning, multimodalen KI-Systemen und Softwareentwicklung mit. Bei House of Charts arbeitet sie als ML- und Softwareingenieurin an der Weiterentwicklung von Henry, dem KI-Assistenten, der klinische Dokumentation in Minuten statt Stunden ermöglicht. Mit ihrer Leidenschaft für Künstliche Intelligenz und ihrem analytischen Denken trägt Ines dazu bei, innovative und zuverlässige Lösungen zu schaffen, die den klinischen Alltag effizienter und menschlicher machen.
+      bio: Ines hat Communication Systems an der EPFL studiert und absolviert derzeit ihr Masterstudium in Computer Science an der ETH Zürich. Bei House of Charts arbeitet sie als ML- und Softwareingenieurin an der Weiterentwicklung von Henry und nutzt ihre Erfahrung in KI und Softwareentwicklung, um unsere Produkte präziser und benutzerfreundlicher zu gestalten.
       image: /images/about/team/ines.png
     - name: Amit Sant
       field: BA Berkley
       bio:
-        Amit ist Software- und Machine-Learning-Ingenieur mit einem Hintergrund in Informatik und Statistik von der University of California, Berkeley, und einem Masterstudium in Computer Science an der ETH Zürich. Er bringt umfassende Erfahrung in der Entwicklung skalierbarer Daten- und KI-Systeme sowie in der angewandten Forschung mit. Bei House of Charts arbeitet Amit an der Weiterentwicklung unserer KI-Lösungen und sorgt dafür, dass komplexe Technologien nahtlos und zuverlässig in klinische Abläufe integriert werden. Mit seiner technischen Exzellenz und seinem Innovationsgeist trägt er entscheidend dazu bei, den klinischen Alltag effizienter und intelligenter zu gestalten.
+        Amit hat Informatik und Statistik an der University of California, Berkeley, studiert und absolviert derzeit sein Masterstudium an der ETH Zürich. Bei House of Charts entwickelt er KI- und Softwarelösungen und sorgt für robuste, skalierbare Systeme.
       image: /images/about/team/amit.jpg
     - name: David Wurzer
       field: MSc Recht & Wirtschaft
       bio:
-        David verfügt über einen interdisziplinären Hintergrund in Rechts- und Wirtschaftswissenschaften der Universität St. Gallen sowie in Business Information Management der Erasmus Universität Rotterdam. Durch seine Erfahrung in Data Science, Forschung und strategischer Analyse verbindet er wirtschaftliches Denken mit technologischem Verständnis. Als Founder’s Associate bei House of Charts unterstützt David das Team in strategischen, operativen und datengetriebenen Projekten. Mit seiner analytischen Denkweise und seinem Gespür für Effizienz trägt er dazu bei, Innovationen gezielt umzusetzen und das Wachstum des Unternehmens nachhaltig zu gestalten.
+        David hat Rechts- und Wirtschaftswissenschaften an der Universität St. Gallen und der Erasmus Universität Rotterdam studiert. Als Founder’s Associate unterstützt er House of Charts in Strategie, Operations und Datenanalyse.
       image: /images/about/team/david.jpg
 
 ## office
