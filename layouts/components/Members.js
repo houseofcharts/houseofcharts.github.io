@@ -17,7 +17,7 @@ const Members = ({ members }) => {
       <div className="row justify-center">
         <div className="lg:col-10">
           <div className="row">
-            {member_list.slice(0, 2).map((member, index) => (
+            {member_list.map((member, index) => (
               <div
                 key={("member-", index)}
                 className="animate mt-10 text-center md:col-6 lg:col-6"
@@ -35,6 +35,9 @@ const Members = ({ members }) => {
               </div>
             ))}
           </div>
+          {/*
+           // add `.slice(0, 2)` above to `member_list` if only first 2 should be 2 per row and
+           // add the below code block to render the rest 3 per row
           <div className="row">
             {member_list.slice(2).map((member, index) => (
               <div
@@ -53,7 +56,7 @@ const Members = ({ members }) => {
                 <p className="mt-4">{member.bio}</p>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -65,11 +65,6 @@ our_member:
       field: MSc ETH
       bio: Emmanuel hat einen Master in Mathematik von der ETH Zürich mit Schwerpunkt auf maschinellem Lernen und Sprachverarbeitung. Er sorgt dafür, dass unsere KI-Systeme zuverlässig, präzise und effizient arbeiten. Sein Fokus liegt darauf, technologische Exzellenz mit praxisnaher Anwendung zu verbinden, um messbaren Nutzen für unsere Nutzer zu schaffen.
       image: /images/about/team/03.jpg
-    - name: Ines Bouchama
-      title: ML & Software Engineer
-      field: BSc EPFL
-      bio: Ines hat Informatik an der ETH Zürich und der EPFL studiert. Bei House of Charts arbeitet sie als ML- und Softwareingenieurin an der Umsetzung von Henry und nutzt ihre KI-Erfahrung, um unsere Produkte präzise und benutzerfreundlich zu gestalten.
-      image: /images/about/team/ines.png
     - name: Amit Sant
       field: BA Berkley
       bio:
