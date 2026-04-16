@@ -119,14 +119,18 @@ testimonial:
       avatar: /images/user-img/1680487524376.jpeg
       profession: Assistentarzt und medizinischer Forscher
       content: "Die Medizin hatte schon immer Mühe mit der Digitalisierung schrittzuhalten. Noch nie verbrachten Ärzte und Ärztinnen so viel Zeit mit administrativen Tätigkeiten. HouseofCharts leistet seinen Beitrag dazu bei, dass Krankenhäuser die aktuellen technologischen Fortschritte nutzen und endlich zeitgemäss arbeiten können. So haben wir in Zukunft wieder mehr Zeit für den direkten Kontakt mit Patienten und Patientinnen."
-    - author: med. pract. Kyra Hofmann
+    - author: Prof. Dr. med. Marc Walter
+      avatar: /images/user-img/1640622937752.jpeg
+      profession: Klinikleiter & Chefarzt, PDAG
+      content: "Henry ist eine wertvolle Unterstützung für unser Team: Er liefert qualitativ hochwertige Austrittsberichte und reduziert den administrativen Aufwand spürbar. Das schafft mehr Zeit für die direkte Patientenversorgung."
+    - author: Dipl. med. Kyra Hofmann
       avatar: /images/user-img/1640622939252.jpeg
-      profession: Oberärztin, Spital Schaffhausen
+      profession: Fachärztin, Klinik Hirslanden
       content: "Die Automatisierung von Berichten durch House of Charts ist eine Innovation, die den medizinischen Alltag revolutionieren kann. In meiner persönlichen Testphase war ich von der Qualität und der Schnelligkeit der erstellten Berichte beeindruckt. Mit House of Charts haben wir eine Lösung zur Reduktion ärztlicher administrativer Aufgaben und gewinnen im klinischen Alltag Zeit für was wirklich wichtig ist: die Zeit am Patienten und die klinische und operative Ausbildung unserer Assistenzärzte/-innen."
-    - author: Dr. med. Joël Galán Sousa
+    - author: Dr. med. Antonia Kählitz
       avatar: /images/user-img/1565858819304.jpeg
-      profession: Facharztanwärter Psychiatrie
-      content: "House of Charts weist mit seinem innovativen und zukunftsweisenden Ansatz der KI-basierten Analyse und Verarbeitung von anonymisierten Patientendaten endlich den Weg in eine Zukunft, in der zeitaufwändige administrativen Aufgaben und Prozesse semiautomatisiert abgewickelt werden und somit Ressourcen für das freimachen, was die Medizin im Kern ausmacht: Die Zeit am Patienten!"
+      profession: Leitende Ärztin, PDAG
+      content: "Henry spart uns enorm viel Zeit! Er liefert inhaltlich gut formulierte Berichte, wodurch auch die Korrekturen wesentlich schneller erledigt werden können. Das nimmt uns sehr viel Arbeit ab und ermöglicht es uns, uns verstärkt auf das Wesentliche zu konzentrieren. Als moderne und sinnvolle Unterstützung im Klinikalltag ist er eine effektive Lösung für unser Team!"
     - author: Kordian Caplazi
       avatar: /images/user-img/1680987324336.jpeg
       profession: Founder, Rimon Technologies
