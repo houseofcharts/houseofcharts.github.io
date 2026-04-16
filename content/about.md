@@ -50,6 +50,11 @@ clients:
     - /images/brands/msft.png
     - /images/brands/boost-winner-transparent.png
     - /images/brands/google-startups.png
+    - /images/brands/eth_spinoff.png
+    - /images/brands/runway.png
+    - /images/brands/bluelion.png
+    - /images/brands/innosuisse.png
+    - /images/brands/futurehealth.png
 
 ## members
 our_member:
@@ -57,19 +62,18 @@ our_member:
   title: Das Team von House of Charts
   content: Unser Team, vereint durch die Vision, den administrativen Aufwand für medizinisches Personal zu reduzieren, </br> ermöglichen mehr Zeit für die direkte Patientenversorgung. Dieses Engagement für Innovation und Effizienz treibt uns an, </br> kontinuierlich Lösungen zu entwickeln, die nicht nur die Arbeitslast verringern, sondern auch die Patientenversorgung verbessern.
   list:
-    - name: Sven Schüpbach
-      field: Dr. med.
-      bio: Sven ist Arzt mit Abschluss der Universität Bern und verfügt über breite Erfahrung in verschiedenen medizinischen Disziplinen. Er hat Kliniken zu Best Practices, Prozessen und digitalen Strategien beraten. Bei House of Charts stellt er sicher, dass unsere Technologie den hohen Anforderungen des medizinischen Umfelds entspricht und echte Entlastung für Ärztinnen und Ärzte schafft.
-      image: /images/about/team/02.jpg
     - name: Emmanuel Bauer
       field: MSc ETH
       bio: Emmanuel hat einen Master in Mathematik von der ETH Zürich mit Schwerpunkt auf maschinellem Lernen und Sprachverarbeitung. Er sorgt dafür, dass unsere KI-Systeme zuverlässig, präzise und effizient arbeiten. Sein Fokus liegt darauf, technologische Exzellenz mit praxisnaher Anwendung zu verbinden, um messbaren Nutzen für unsere Nutzer zu schaffen.
-      image: /images/about/team/03.jpg
+      image: /images/about/team/emmanuel.jpeg
     - name: Amit Sant
       field: BA Berkley
-      bio:
-        Amit hat Informatik und Statistik an der University of California, Berkeley, studiert und absolviert derzeit sein Masterstudium an der ETH Zürich. Bei House of Charts entwickelt er KI- und Softwarelösungen und sorgt für robuste, skalierbare Systeme.
+      bio: Amit hat Informatik und Statistik an der University of California, Berkeley, studiert und absolviert derzeit sein Masterstudium an der ETH Zürich. Bei House of Charts entwickelt er KI- und Softwarelösungen und sorgt für robuste, skalierbare Systeme.
       image: /images/about/team/amit.jpg
+    - name: Nicolas Kucera
+      field: Universität Zürich
+      bio: Nicolas verbindet medizinisches Fachwissen mit technologischer Präzision. Als Medizinstudent an der Universität Zürich und angehender Dr. med. sichert er die Qualität unserer Berichte auf höchstem Niveau. Er steuert die Validierungsprozesse sowohl im laufenden Betrieb als auch bei der Entwicklung neuer Modelle, um maximale Zuverlässigkeit zu garantieren.
+      image: /images/about/team/nicolas.jpeg
     - name: David Wurzer
       field: MSc Recht & Wirtschaft
       bio:

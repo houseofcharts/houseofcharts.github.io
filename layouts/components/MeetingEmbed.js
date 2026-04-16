@@ -12,7 +12,7 @@ const MeetingEmbed = () => {
   }, []); //<script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
 
   return (
-    <div class="meetings-iframe-container" data-src="https://meetings-eu1.hubspot.com/sven-schuepbach?embed=true"></div>
+    <div class="meetings-iframe-container" data-src="https://meetings-eu1.hubspot.com/david-wurzer?embed=true"></div>
   );
 };
 

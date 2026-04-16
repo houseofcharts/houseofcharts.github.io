@@ -2,8 +2,8 @@
 title: Founder's Associate (m/w/d)
 image: /images/blog/01.jpg
 author:
-  name: Sven
-  avatar: /images/author/sven.jpg
+  name: Emmanuel
+  avatar: /images/author/emmanuel.jpg
 date: 2024-06-04T05:00:00Z
 draft: false
 summary: Arbeiten Sie direkt mit unserem CEO, um die Zukunft der medizinischen Technologie zu gestalten! Gewinnen Sie Kunden, verhandeln Sie Geschäftsabschlüsse und entwickeln Sie maßgeschneiderte Lösungen.
@@ -19,7 +19,7 @@ summary: Arbeiten Sie direkt mit unserem CEO, um die Zukunft der medizinischen T
 House of Charts ist ein führendes Startup im Bereich medizinischer KI-Technologien. Wir spezialisieren uns darauf, den administrativen Aufwand für medizinisches Personal zu reduzieren und die Qualität der Patientenbetreuung zu steigern. Unsere fortschrittlichen Lösungen integrieren sich nahtlos in bestehende Klinikinformationssysteme und unterstützen Ärzte bei der effizienten Datenverarbeitung und Entscheidungsfindung.
 
 **Was wir suchen:**
-Als Founders' Associate arbeitest du eng mit Sven (CEO) und Emmanuel (CTO) an wichtigen Themen im Unternehmen.
+Als Founders' Associate arbeitest du eng zusammen mit Emmanuel (CEO & CTO) an wichtigen Themen im Unternehmen.
 
 Du unterstützt bei Planung, Umsetzung und Kommunikation und packst überall dort an, wo du gerade am meisten bewirken kannst. Kein Tag ist wie der andere.
 Du willst echte Startup-Luft schnuppern, suchst Verantwortung und möchtest direkt mit den Gründern zusammenarbeiten? Dann bist du bei House of Charts genau richtig!
@@ -88,7 +88,7 @@ Gestalte mit uns ein Gesundheitswesen, das besser funktioniert. Unsere Lösungen
 - Wettbewerbsfähige Vergütung und Möglichkeiten zur beruflichen Weiterentwicklung
 
 **Bewerbung:**
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an sven@houseofcharts.com.
+Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
 **Bereit anzupacken?**
 
@@ -98,4 +98,4 @@ Schick uns deinen Lebenslauf oder dein LinkedIn-Profil und ein paar Worte dazu, 
 
 [https://houseofcharts.notion.site/12b5c790acdc80ce95f2e70c5bd5510c?pvs=105](https://www.notion.so/12b5c790acdc80ce95f2e70c5bd5510c?pvs=21)
 
-**Kontakt**: sven@houseofcharts.com
+**Kontakt**: emmanuel@houseofcharts.com
