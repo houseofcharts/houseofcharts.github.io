@@ -1,12 +1,12 @@
 ---
-title: Internship in NLP & LLMs (m/w/d)
-image: /images/blog/03.jpg
+title: Founding Engineer (m/w/d)
+image: /images/blog/02.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2024-05-24T05:00:00Z
+date: 2025-06-01T05:00:00Z
 draft: false
-summary: Gestalten Sie bahnbrechende KI-Lösungen, indem Sie die Entwicklung unserer LLMs und NLP-Modelle vorantreiben. Optimieren Sie LLMOps-Pipelines und optimieren Sie die Verarbeitung klinischer Daten. Bringen Sie innovative Forschung und Entwicklung voran!
+summary: Gestalten Sie die technologische Zukunft des Gesundheitswesens mit. Als Founding Engineer übernehmen Sie eine Schlüsselrolle bei der Entwicklung sicherer, skalierbarer und intelligenter Anwendungen, die einen echten Unterschied machen.
 ---
 
 **Standort**: Zürich, Schweiz
@@ -16,36 +16,57 @@ summary: Gestalten Sie bahnbrechende KI-Lösungen, indem Sie die Entwicklung uns
 **Eintrittsdatum**: Nach Vereinbarung
 
 **Über House of Charts**:
-House of Charts ist ein Innovationsführer im Bereich medizinischer KI-Anwendungen, spezialisiert auf die Entwicklung und Integration von fortschrittlichen KI-Lösungen zur Optimierung klinischer Prozesse. Unsere Technologie ermöglicht es medizinischem Fachpersonal, sich mehr auf die Patientenversorgung zu konzentrieren und weniger Zeit mit Verwaltungsaufgaben zu verbringen.
+House of Charts entwickelt KI-basierte Anwendungen zur Entlastung des Gesundheitspersonals und zur Verbesserung der Patientenversorgung. Wir befinden uns an der Schnittstelle von Deep Tech, MedTech und Datensicherheit. Als junges, ambitioniertes Team wollen wir nachhaltige und ethische Technologie für den Gesundheitssektor entwickeln – mit echtem Impact.
 
 **Was wir suchen**:
-Wir suchen einen hochmotivierten und aufgeschlossenen NLP/LLM Engineer Praktikant mit einer ausgeprägten Leidenschaft für Datenwissenschaft, Maschinelles Lernen, KI, NLP und LLMs. Der ideale Kandidat verfügt über umfangreiche Erfahrung im Trainieren von LLMs und andere NLP Modelle, im Umgang mit medizinischen Daten und im Bereich MLOps.
+Wir suchen einen aussergewöhnlichen Founding Engineer mit tiefem technischen Verständnis, Unternehmergeist und ausgeprägten Softskills. Diese Rolle ist ideal für jemanden mit einem MSc oder PhD in Informatik und einem Hintergrund in maschinellem Lernen, Softwareentwicklung und IT-Sicherheit sowie Arbeitserfahrung mitbringt. Sie sind in der Lage, komplexe Full-Stack-Anwendungen zu bauen, zu skalieren und zu sichern – und bereit, über den Tellerrand hinauszublicken.
+
+Sie haben Erfahrung mit der automatischen Zusammenfassung medizinischer Texte und kennen sowohl generative als auch extraktive/discriminative KI-Modelle. Sie sind mit moderner Infrastruktur, agilen Methoden und Kundeninterviews genauso vertraut wie mit Docker und Kubernetes.
 
 **Ihre Aufgaben**:
 
-- Entwicklung und Training von Large Language Models unter Verwendung modernster Techniken wie Supervised Learning, Unsupervised Learning und Reinforcement Learning
-- Implementierung von Information Retrieval Systemen, einschliesslich Satz- und Tokenklassifikation sowie Named Entity Recognition
-- Einsatz und Weiterentwicklung von LLMOps, einschliesslich Datenlabeling, Datenengineering, Training und Evaluationspipelines
-- Beitrag zur Forschung im Bereich Bionlp und zur Minimierung von Halluzinationen in Sprachmodellen
-- Entwicklung und Wartung von Code in einer hochmodernen Cloud-Computing-Umgebung unter Verwendung von Git, Docker und verschiedenen Programmiersprachen
+    Entwicklung und Absicherung cloudbasierter, verteilter Software-Architekturen mit Fokus auf medizinische Textverarbeitung
+    Umsetzung modernster KI-Verfahren (generativ und extraktiv) für reale Gesundheitsanwendungen
+    Aufbau von Data- und MLOps-Prozessen für skalierbare KI-Lösungen
+    Unterstützung des Gründerteams in technischen und operativen Bereichen – hands-on und flexibel
+    Übernahme von Führungsverantwortung innerhalb des ersten Jahres
 
 **Was Sie mitbringen sollten**:
 
-- Tiefgehendes Verständnis in der Arbeit mit LLMs und spezialisierten NLP-Systemen
-- Fähigkeit zur Analyse und Verarbeitung klinischer Daten
-- Starke Kommunikationsfähigkeiten in Deutsch und Englisch sowie mindestens einer weiteren Sprache
-- Profunde Kenntnisse in Python, C++, Cloud-Technologien, GPUs und paralleler Verarbeitung
-- Erfahrung mit Frameworks wie PyTorch, JAX, TensorFlow sowie Tools wie Huggingface und Spacy
-  Wissenschaftliche Forschungserfahrung, insbesondere im Bereich LLMs
+    MSc oder PhD in Informatik oder verwandtem Bereich
+    Forschungserfahrung im Bereich automatischer medizinischer Textzusammenfassungen mit in generativer und extraktiver KI
+    Fundierte Kenntnisse in der Netzwerkarchitektur und im Management von Cloud-Infrastrukturen
+    Erfahrung mit Full-Stack-Entwicklung und verteilten Architekturen
+    Erfahrung mit Containerisierung und Orchestrierungstechnologien wie Docker und Kubernetes
+    Ausgeprägte Fähigkeiten in der Verwaltung von Infrastruktur mit Tools wie Terraform
+    Erfahrung mit der Verwaltung von Datenbanken und verteilten Systemen
+    Ausgeprägte Fähigkeiten in Cloud-Deployment und Cybersicherheit
+    Fliessende Deutsch- oder Englischkenntnisse; zusätzliche Sprachkenntnisse sind von Vorteil
+
+    Sehr gute Kenntnisse in:
+        Deep Learning: PyTorch, TensorFlow, etc
+        Backend: Flask, FastAPI, etc
+        Datenbanken: PostgreSQL, MongoDB, etc
+        Frontend: React/Next.js, Vue.js, etc
+        MLOps: Weights & Biases, MLflow, etc
+        DevOps: Docker, Kubernetes, etc
+        Cloud: Azure, AWS, etc
+        OS: Linux
+        Erfahrung mit agiler Produktentwicklung und Projektmanagement
+        Starkes Gespür für Kundenbedürfnisse und Erfahrung in Produktvalidierung
+        Analytisches Denken, wissenschaftliches Arbeiten, Marktverständnis
+        Teamfähigkeit, Zuverlässigkeit und Eigeninitiative
 
 **Was wir bieten**:
-
-- Die Möglichkeit, an der Spitze der medizinischen KI-Entwicklung zu arbeiten und echte Innovationen zu gestalten
-- Engagierte Zusammenarbeit in einem multidisziplinären Team von KI-Forschern, Software-Entwicklern und Medizinern
-- Ein dynamisches, flexibles und unterstützendes Arbeitsumfeld
-- Wettbewerbsfähige Vergütung und attraktive Sozialleistungen
+    Schlüsselrolle beim Aufbau eines gesundheitsorientierten Tech-Startups mit hohem gesellschaftlichem Impact
+    Direkte Zusammenarbeit mit den Gründern und aktiver Einfluss auf Technologie, Strategie und Kultur
+    Hoher Gestaltungsspielraum und Verantwortung von Anfang an
+    Aussicht auf Führungsrolle und Beteiligungsoptionen
+    Eine Arbeitsumgebung, in der Innovation, Vertrauen und Teamgeist im Mittelpunkt stehen, direkt an der ETH Zürich
 
 **Bewerbung**:
 Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
 
-**Schlussdatum für Bewerbungen:** 15.08.25
+Schlussdatum für Bewerbungen: 20.06.25
+
+Wir freuen uns darauf, mehr über Sie zu erfahren und Sie vielleicht bald in unserem engagierten Team begrüßen zu dürfen!

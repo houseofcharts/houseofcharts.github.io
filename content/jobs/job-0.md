@@ -9,16 +9,14 @@ draft: false
 summary: Stellen Sie sicher, dass unser Produkt die strengsten medizinischen Standards erfüllt und in der klinischen Praxis akzeptiert wird. Verbinden Sie medizinische Expertise mit Produktentwicklung!
 ---
 
-**Standort:** Zürich, Schweiz oder Bern, Schweiz
+**Standort:** Zürich, Schweiz
 
 **Art der Beschäftigung:** Vollzeit / Teilzeit
 
 **Eintrittsdatum:** Nach Vereinbarung
 
 **Warum diese Rolle?**
-Ärztinnen und Ärzte verbringen heute mehr Zeit mit Dokumentation als mit Patientinnen und Patienten. Das ist nicht nur frustrierend – es ist eines der grössten ungelösten Probleme im
-Gesundheitswesen. Genau hier setzen wir an.
-Bei House of Charts entwickeln wir KI-Lösungen, die diese Last spürbar reduzieren. Unsere Produkte sind bereits in mehreren Kliniken im Einsatz, unsere Pilotkunden berichten von 80% Effizienzgewinn bei der klinischen Dokumentation, und wir wachsen schnell. Jetzt suchen wir die ärztliche Persönlichkeit, die diesen Weg mit uns geht – und massgeblich prägt.
+Ärztinnen und Ärzte verbringen heute mehr Zeit mit Dokumentation als mit Patientinnen und Patienten. Das ist nicht nur frustrierend – es ist eines der grössten ungelösten Probleme im Gesundheitswesen. Genau hier setzen wir an. Bei House of Charts entwickeln wir KI-Lösungen, die diese Last spürbar reduzieren. Unsere Produkte sind bereits in mehreren Kliniken im Einsatz, unsere Pilotkunden berichten von 80% Effizienzgewinn bei der klinischen Dokumentation, und wir wachsen schnell. Jetzt suchen wir die ärztliche Persönlichkeit, die diesen Weg mit uns geht – und massgeblich prägt.
 
 **Über House of Charts:**
 Wir sind ein junges, schnell wachsendes HealthTech-Startup mit Sitz in der Schweiz. Unsere KI-Lösungen sind nahtlos in bestehende Klinikinformationssysteme integriert und werden bereits in drei Kliniken aktiv eingesetzt. UnserARR ist im letzten Jahr deutlich gewachsen, eine Finanzierungsrunde wurde erfolgreich abgeschlossen, und wir stehen am Beginn unserer nächsten Wachstumsphase.
@@ -30,7 +28,6 @@ Als Chief Medical Officer sind Sie die zentrale medizinische Stimme bei House of
 - Sie definieren, was klinische Exzellenz bei uns bedeutet. Sie etablieren die Qualitätsstandards für unsere KI-generierten Berichte – von der Prüfmethodik bis zum Freigabeprozess. Diese Strukturen existieren noch nicht. Sie bauen sie auf.
 - Sie bringen die Realität der Versorgung ins Produkt. Sie übersetzen den klinischen Alltag in skalierbare Lösungen – im engen Schulterschluss mit unseren Entwicklungs- und Produktteams.
 - Sie sind das medizinische Gesicht von House of Charts. Gegenüber Kliniken, Partnern, Investoren und der Fachöffentlichkeit. Sie bringen sich aktiv in Kundengespräche und Klinikevaluationen ein, öffnen Türen aufAugenhöhe mit ärztlichen Entscheidern – und tragen damit massgeblich zur Gewinnung neuer Partnerschaften bei. Freude am Aufbau von Beziehungen und ein Gespür für die Bedürfnisse von Klinikkunden sind in dieser Rolle ein echter Gamechanger.
-- Sie verantworten Compliance und Standards. Sie sorgen dafür, dass unsere Produkte regulatorisch, ethisch und klinisch auf höchstem Niveau stehen – in der Schweiz, in Deutschland und darüber hinaus.
 
 **Wie der Alltag bei uns aussieht:**
 Wir sind ein Startup. Das heisst: Strategie und Umsetzung gehen Hand in Hand. Sie werden nicht nur Konzepte entwickeln, sondern auch selbst Berichte prüfen, an Kundengesprächen teilnehmen und mit Entwicklern an Lösungen arbeiten. Bei uns krempelt man die Ärmel hoch – auch als CMO.
