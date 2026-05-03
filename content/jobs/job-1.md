@@ -6,7 +6,7 @@ author:
   avatar: /images/author/emmanuel.jpg
 date: 2026-05-03T05:00:00Z
 draft: false
-summary: Stellen Sie sicher, dass unser Produkt die strengsten medizinischen Standards erfüllt und in der klinischen Praxis akzeptiert wird. Verbinden Sie medizinische Expertise mit Produktentwicklung!
+summary: Übernehmen Sie die Verantwortung für unser kommerzielles Wachstum: Sales, Customer Success und Marketing. Gestalten Sie als CCO die nächste Wachstumsphase eines schnell wachsenden HealthTech-Startups mit.
 ---
 
 **Standort:** Zürich, Schweiz
