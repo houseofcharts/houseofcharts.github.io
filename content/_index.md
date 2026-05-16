@@ -123,10 +123,6 @@ testimonial:
       avatar: /images/user-img/1640622937752.jpeg
       profession: Klinikleiter & Chefarzt, PDAG
       content: "Henry ist eine wertvolle Unterstützung für unser Team: Er liefert qualitativ hochwertige Austrittsberichte und reduziert den administrativen Aufwand spürbar. Das schafft mehr Zeit für die direkte Patientenversorgung."
-    - author: Dipl. med. Kyra Hofmann
-      avatar: /images/user-img/1640622939252.jpeg
-      profession: Fachärztin, Klinik Hirslanden
-      content: "Die Automatisierung von Berichten durch House of Charts ist eine Innovation, die den medizinischen Alltag revolutionieren kann. In meiner persönlichen Testphase war ich von der Qualität und der Schnelligkeit der erstellten Berichte beeindruckt. Mit House of Charts haben wir eine Lösung zur Reduktion ärztlicher administrativer Aufgaben und gewinnen im klinischen Alltag Zeit für was wirklich wichtig ist: die Zeit am Patienten und die klinische und operative Ausbildung unserer Assistenzärzte/-innen."
     - author: Dr. med. Antonia Kählitz
       avatar: /images/user-img/1565858819304.jpeg
       profession: Leitende Ärztin, PDAG
