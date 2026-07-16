@@ -9,6 +9,10 @@
       "url": "/contact"
     },
     {
+      "name": "Newsletter",
+      "url": "/newsletter"
+    },
+    {
       "name": "Jobs",
       "url": "/jobs"
     }

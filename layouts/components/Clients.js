@@ -15,35 +15,29 @@ const Clients = ({ clients }) => {
     <div className="animate from-right col-12 mt-16">
       <Swiper
         loop={true}
-        slidesPerView={3}
+        spaceBetween={30}
         breakpoints={{
-          500: {
-            slidesPerView: 1,
-          },
-          600: {
-            slidesPerView: 2,
-          },
-          992: {
-            slidesPerView: 3,
-          },
+          0: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
+          992: { slidesPerView: 4 },
+          1200: { slidesPerView: 5 },
         }}
-        spaceBetween={20}
         modules={[Autoplay]}
         autoplay={{ delay: 3000 }}
       >
         {clients.brands.map((brand, index) => (
           <SwiperSlide
-            className="h-auto cursor-pointer py-6 px-6 grayscale  transition hover:grayscale-0 lg:px-10"
+            className="cursor-pointer grayscale transition hover:grayscale-0"
             key={"brand-" + index}
           >
-            <div className="relative h-full">
+            <div className="relative flex h-28 w-full items-center justify-center p-4 lg:h-36 lg:p-6 [&_img]:!object-contain">
               <ImageFallback
-                className="object-contain"
                 src={brand}
-                sizes="100vw"
-                alt=""
-                fill={true}
+                width={300}
+                height={150}
+                alt="Client Logo"
                 priority={true}
+                className="max-h-full max-w-full object-contain"
               />
             </div>
           </SwiperSlide>

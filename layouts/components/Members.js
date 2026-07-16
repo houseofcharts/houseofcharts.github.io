@@ -17,9 +17,9 @@ const Members = ({ members }) => {
       <div className="row justify-center">
         <div className="lg:col-10">
           <div className="row justify-center">
-            {member_list.slice(0, 1).map((member, index) => (
+            {member_list.slice(0, 2).map((member, index) => (
               <div
-                key={("member-top")}
+                key={`member-top-${index}`}
                 className="animate mt-10 text-center md:col-8 lg:col-6"
               >
                 <ImageFallback
@@ -35,7 +35,29 @@ const Members = ({ members }) => {
               </div>
             ))}
           </div>
+          {
+           // add `.slice(0, 2)` above to `member_list` if only first 2 should be 2 per row and
+           // add the below code block to render the rest 3 per row
           <div className="row justify-center">
+            {member_list.slice(2).map((member, index) => (
+              <div
+                key={(`member-bottom-${index}`)}
+                className="animate mt-10 text-center md:col-8 lg:col-6"
+              >
+                <ImageFallback
+                  className="mx-auto rounded-full shadow-[10px_10px_0] shadow-primary/10"
+                  src={member.image}
+                  width={245}
+                  height={245}
+                  alt={member.name}
+                />
+                <h4 className="mt-8">{member.name}</h4>
+                <h6 className="mt-3">{member.field}</h6>
+                <p className="mt-4">{member.bio}</p>
+              </div>
+            ))}
+          </div>}
+          {/*<div className="row justify-center">
             {member_list.slice(1, 4).map((member, index) => (
               <div
                 key={("member-bottom-", index)}
@@ -54,28 +76,7 @@ const Members = ({ members }) => {
               </div>
             ))}
           </div>
-          {/*
-           // add `.slice(0, 2)` above to `member_list` if only first 2 should be 2 per row and
-           // add the below code block to render the rest 3 per row
-          <div className="row">
-            {member_list.slice(2).map((member, index) => (
-              <div
-                key={("member-", index + 2)}
-                className="animate mt-10 text-center md:col-4 lg:col-4"
-              >
-                <ImageFallback
-                  className="mx-auto rounded-full shadow-[10px_10px_0] shadow-primary/10"
-                  src={member.image}
-                  width={245}
-                  height={245}
-                  alt={member.name}
-                />
-                <h4 className="mt-8">{member.name}</h4>
-                <h6 className="mt-3">{member.field}</h6>
-                <p className="mt-4">{member.bio}</p>
-              </div>
-            ))}
-          </div> */}
+          */}
         </div>
       </div>
     </div>
