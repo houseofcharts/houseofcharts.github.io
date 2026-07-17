@@ -1,7 +1,7 @@
 ---
-title: "Q1 Updates: KI im Gesundheitswesen"
+title: "Use-Case Henry: Warum medizinische Dokumentation nicht mehr so sein darf, wie früher"
 date: 2026-07-15T14:00:00Z
-meta_title: "Newsletter Ausgabe 1 - House of Charts"
+meta_title: "Newsletter Ausgabe 1"
 description: "Die neuesten Entwicklungen rund um KI-basierte Entlastung für das Gesundheitspersonal."
 layout: "newsletter"
 draft: false
@@ -9,14 +9,14 @@ draft: false
 subtitle: "Willkommen zur ersten Ausgabe unseres Updates."
 ---
 
-Das erste Quartal war für uns ein voller Erfolg und wir freuen uns, die neuesten Entwicklungen mit euch zu teilen. Die Entlastung des Gesundheitspersonals steht mehr denn je im Fokus, und wir haben grosse Schritte gemacht, um unsere KI-basierten Anwendungen weiter zu optimieren.
+Über 50 % der Arbeitszeit von medizinischen Fachpersonen fliessen heute in administrative Aufgaben wie die Dokumentation – Zeit, die eigentlich im Behandlungszimmer und nicht am Schreibtisch verbracht werden sollte. Die direkte Folge: Ärztinnen und Ärzte können signifikant weniger Patientinnen und Patienten persönlich betreuen. Angesichts des chronischen Personalmangels und überlasteter Spitäler drängt sich unweigerlich die Frage auf: Muss die Gesundheitsversorgung des 21. Jahrhunderts wirklich so aussehen?
 
-## Was ist neu?
+## Das Problem: Die Suche im unstrukturierten Heuhaufen
 
-In den letzten Wochen haben wir intensiv an der Schnittstelle von Deep Tech und MedTech gearbeitet. Besonders die Datensicherheit bei der Patientenversorgung war ein zentrales Thema bei unseren aktuellen Implementierungen.
+Medizinische Fachkräfte verlieren täglich wertvolle Stunden damit, sich durch Jahre an unstrukturierten Patientenakten zu wühlen. Diese ineffiziente manuelle Suche nach relevanten vergangenen Diagnosen und Behandlungsplänen ist ein enormer Frustrationsfaktor und massiver Kostentreiber. Wenn Ärzte mehr Zeit mit dem Suchen von Informationen verbringen als mit der Behandlung, leidet unweigerlich die Versorgungsqualität.
 
-* **Performance-Boost:** Unsere Systeme laufen nun noch flüssiger und sparen im klinischen Alltag wertvolle Zeit.
-* **Datenschutz:** Wir haben unsere Infrastruktur weiter gehärtet, um höchste Schweizer Standards zu übertreffen.
-* **Team-Wachstum:** Wir suchen aktuell Verstärkung für unser Gründerteam.
+## Die Lösung: Die Henry App als intelligentes Gedächtnis
 
-Wir danken euch für das kontinuierliche Feedback und freuen uns auf die nächsten Meilensteine!
+Genau hier setzt Henry – er löst das Problem der Informationsflut, indem er historische Patientendaten sekundenschnell durchsucht und die relevanten medizinischen Kontexte genau dann auf den Bildschirm bringt, wenn sie gebraucht werden.
+
+Mit der Automatisierung dieser Kernprozesse konnten wir den Zeitaufwand für klinische Such- und Dokumentationsprozesse in der Praxis bereits um bis zu 80 % reduzieren. Henry gibt Ärztinnen und Ärzten genau das zurück, was im Spitalalltag am wertvollsten ist: Zeit für die Menschen.
