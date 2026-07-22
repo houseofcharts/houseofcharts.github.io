@@ -11,7 +11,11 @@ summary: Stellen Sie sicher, dass unser Produkt die strengsten medizinischen Sta
 
 **Standort:** Zürich, Schweiz
 
+<<<<<<< HEAD
 **Art der Beschäftigung:** Vollzeit/Teilzeit
+=======
+**Art der Beschäftigung:** Vollzeit / Teilzeit
+>>>>>>> main
 
 **Eintrittsdatum:** Nach Vereinbarung
 
