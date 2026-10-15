@@ -3,7 +3,7 @@ title: "'Ärzte nutzen doch ohnehin ChatGPT' – Warum generische KI im Spital z
 date: 2026-07-15T14:00:00Z
 meta_title: "Newsletter Ausgabe 2"
 description: "Die neuesten Entwicklungen rund um KI-basierte Entlastung für das Gesundheitspersonal."
-layout: "newsletter"
+image: "/images/chatbot.png"
 draft: false
 
 subtitle: "Willkommen zur zweiten Ausgabe unseres Updates."

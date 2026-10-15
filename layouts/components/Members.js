@@ -23,7 +23,7 @@ const Members = ({ members }) => {
                 className="animate mt-10 text-center md:col-8 lg:col-6"
               >
                 <ImageFallback
-                  className="mx-auto rounded-full shadow-[10px_10px_0] shadow-primary/10"
+                  className="mx-auto h-[245px] w-[245px] rounded-full object-cover shadow-[10px_10px_0] shadow-primary/10"
                   src={member.image}
                   width={245}
                   height={245}
@@ -45,7 +45,7 @@ const Members = ({ members }) => {
                 className="animate mt-10 text-center md:col-8 lg:col-6"
               >
                 <ImageFallback
-                  className="mx-auto rounded-full shadow-[10px_10px_0] shadow-primary/10"
+                  className="mx-auto h-[245px] w-[245px] rounded-full object-cover shadow-[10px_10px_0] shadow-primary/10"
                   src={member.image}
                   width={245}
                   height={245}
@@ -64,7 +64,7 @@ const Members = ({ members }) => {
                 className="animate mt-10 text-center md:col-4 lg:col-4"
               >
                 <ImageFallback
-                  className="mx-auto rounded-full shadow-[10px_10px_0] shadow-primary/10"
+                  className="mx-auto h-[245px] w-[245px] rounded-full object-cover shadow-[10px_10px_0] shadow-primary/10"
                   src={member.image}
                   width={245}
                   height={245}

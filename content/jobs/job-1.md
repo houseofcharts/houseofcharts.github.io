@@ -59,7 +59,7 @@ Wenn Sie ein grosses Team mit etablierten Playbooks übernehmen wollen, ist das 
 - Ein Team, das anpackt: Klein, ambitioniert, technisch stark und mit dem klaren Anspruch, etwas Bleibendes zu schaffen.
 
 **Bewerbung**:
-Sie wollen ein Unternehmen mitbauen, das im Gesundheitswesen wirklich etwas bewegt? Dann freuen wir uns auf ein Gespräch. Schreiben Sie direkt an Emmanuel Bauer: emmanuel@houseofcharts.com.
+Sie wollen ein Unternehmen mitbauen, das im Gesundheitswesen wirklich etwas bewegt? Dann freuen wir uns auf Ihre Bewerbung: Nutzen Sie den Button «Jetzt bewerben» direkt unterhalb dieser Ausschreibung und laden Sie Ihren Lebenslauf hoch – alles Weitere ist optional.
 
 _Auch wenn Sie nicht alle Punkte zu 100% erfüllen, aber spüren, dass diese Rolle für Sie passt:
 Melden Sie sich. Wir bewerten Profile als Ganzes, nicht als Checkliste._

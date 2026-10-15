@@ -69,22 +69,23 @@ our_member:
       field: MSc ETH
       bio: Emmanuel hat einen Master in Mathematik von der ETH Zürich mit Schwerpunkt auf maschinellem Lernen und Sprachverarbeitung. Er sorgt dafür, dass unsere KI-Systeme zuverlässig, präzise und effizient arbeiten. Sein Fokus liegt darauf, technologische Exzellenz mit praxisnaher Anwendung zu verbinden, um messbaren Nutzen für unsere Nutzer zu schaffen.
       image: /images/about/team/emmanuel.jpeg
-    - name: David A. Bloch
-      field: Attorney at Law
-      bio: "David ist Rechtsanwalt und kennt die unternehmerische Praxis aus erster Hand: Er ist selbst erfolgreicher Gründer des Legal-Tech-Start-ups Legartis. In seiner Rolle als Innosuisse-Coach ist er für House of Charts ein wertvoller Sparringspartner. Mit seiner fundierten Expertise unterstützt er uns bei rechtlichen Belangen, beim Business Development sowie bei Customer Touchpoints."
-      image: /images/about/team/davidbloch.jpg
     - name: Nicolas Kucera
       field: Universität Zürich
       bio: Nicolas verbindet medizinisches Fachwissen mit technologischer Präzision. Als Medizinstudent an der Universität Zürich und angehender Dr. med. sichert er die Qualität unserer Berichte auf höchstem Niveau. Er steuert die Validierungsprozesse sowohl im laufenden Betrieb als auch bei der Entwicklung neuer Modelle, um maximale Zuverlässigkeit zu garantieren.
-      image: /images/about/team/nicolas.jpeg
-    - name: Florian Förg
-      field: MSc ETH
-      bio: Florian absolviert derzeit seinen Master in Cyber Security an der ETH Zürich und verantwortet die grundlegende Funktionsweise sowie die Stabilität unserer Softwarearchitektur. Neben der Sicherstellung einer zuverlässigen Systemperformance treibt er die kontinuierliche, tägliche Optimierung unserer Spracherkennung voran.
-      image: /images/about/team/florian.jpg
+      image: /images/about/team/nicolas.jpg
+    # David A. Bloch ausgeblendet
+    #- name: David A. Bloch
+    #  field: Attorney at Law
+    #  bio: "David ist Rechtsanwalt und kennt die unternehmerische Praxis aus erster Hand: Er ist selbst erfolgreicher Gründer des Legal-Tech-Start-ups Legartis. In seiner Rolle als Innosuisse-Coach ist er für House of Charts ein wertvoller Sparringspartner. Mit seiner fundierten Expertise unterstützt er uns bei rechtlichen Belangen, beim Business Development sowie bei Customer Touchpoints."
+    #  image: /images/about/team/davidbloch.jpg
     - name: David Wurzer
       field: MLE HSG
       bio: David hat Rechts- und Wirtschaftswissenschaften an der Universität St. Gallen und Business Information Management an der Erasmus Universität Rotterdam studiert. Als Head of Law & Business Development unterstützt er House of Charts in Strategie, Operations und Datenanalyse.
       image: /images/about/team/david.jpg
+    - name: Florian Förg
+      field: MSc ETH
+      bio: Florian absolviert derzeit seinen Master in Cyber Security an der ETH Zürich und verantwortet die grundlegende Funktionsweise sowie die Stabilität unserer Softwarearchitektur. Neben der Sicherstellung einer zuverlässigen Systemperformance treibt er die kontinuierliche, tägliche Optimierung unserer Spracherkennung voran.
+      image: /images/about/team/florian.jpg
 
 ## office
 our_office:

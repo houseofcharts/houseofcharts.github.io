@@ -3,7 +3,7 @@ title: "Use-Case Henry: Warum medizinische Dokumentation nicht mehr so sein darf
 date: 2026-07-15T14:00:00Z
 meta_title: "Newsletter Ausgabe 1"
 description: "Die neuesten Entwicklungen rund um KI-basierte Entlastung für das Gesundheitspersonal."
-layout: "newsletter"
+image: "/images/features-01.png"
 draft: false
 
 subtitle: "Willkommen zur ersten Ausgabe unseres Updates."

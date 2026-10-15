@@ -5,6 +5,7 @@ import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { DiscussionEmbed } from "disqus-react";
 import { MDXRemote } from "next-mdx-remote";
+import Link from "next/link";
 //BACK_TO_FULLSTACK: UNCOMMENT & img -> Image in jsx below
 //import Image from "next/image";
 // ALSO REMOVE
@@ -13,8 +14,8 @@ import Cta from "./components/Cta";
 import ImageFallback from "./components/ImageFallback";
 import Job from "./partials/Job";
 
-const JobSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
-  let { description, title, date, image, author } = frontmatter;
+const JobSingle = ({ frontmatter, content, mdxContent, recentPosts, slug }) => {
+  let { description, title, date, image } = frontmatter;
   console.log("hello")
   console.log(description)
   console.log("bye")
@@ -42,21 +43,20 @@ const JobSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
               </div>
               <div className="lg:col-8">
                 {markdownify(title, "h1", "h2 mt-6")}
-                <div className="mt-6 flex items-center">
-                  <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
-                    <ImageFallback
-                      src={author.avatar}
-                      width={50}
-                      height={50}
-                      alt="author"
-                    />
-                  </div>
-                  <div className="pl-5">
-                    <p className="font-medium text-dark">{author.name}</p>
-                  </div>
-                </div>
                 <div className="content mt-16 mb-16 text-left">
                   <MDXRemote {...mdxContent} components={shortcodes} />
+                </div>
+                <div className="mb-16 rounded-2xl bg-theme-light px-8 py-10 text-center">
+                  <h3 className="h4">Interessiert?</h3>
+                  <p className="mt-3">
+                    Laden Sie Ihren Lebenslauf hoch – in zwei Minuten erledigt.
+                  </p>
+                  <Link
+                    href={{ pathname: "/apply", query: { job: slug } }}
+                    className="btn btn-primary mt-6"
+                  >
+                    Jetzt bewerben
+                  </Link>
                 </div>
               </div>
               {disqus.enable && (

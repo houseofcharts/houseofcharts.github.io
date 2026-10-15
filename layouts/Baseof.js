@@ -3,6 +3,7 @@ import { gsap } from "@lib/gsap";
 import { plainify } from "@lib/utils/textConverter";
 import Footer from "@partials/Footer";
 import Header from "@partials/Header";
+import Logo from "@components/Logo";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
@@ -17,6 +18,7 @@ const Base = ({
   image,
   noindex,
   canonical,
+  minimal = false,
   children,
 }) => {
   const { meta_image, meta_author, meta_description } = config.metadata;
@@ -157,7 +159,14 @@ const Base = ({
 
       </Head>
       <GoogleAnaytics GA_MEASUREMENT_ID={process.env.GA_MEASUREMENT_ID ? process.env.GA_MEASUREMENT_ID : "G-HVF2C0X375"}/>
-      <Header />
+      {minimal ? (
+        // reduced header: logo only, no navigation (e.g. application form)
+        <div className="navbar container-xl py-[29px]">
+          <Logo />
+        </div>
+      ) : (
+        <Header />
+      )}
       {/* main site */}
       <main ref={main}>{children}</main>
       <Footer />

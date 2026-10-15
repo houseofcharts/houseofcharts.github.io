@@ -11,11 +11,7 @@ summary: Stellen Sie sicher, dass unser Produkt die strengsten medizinischen Sta
 
 **Standort:** Zürich, Schweiz
 
-<<<<<<< HEAD
-**Art der Beschäftigung:** Vollzeit/Teilzeit
-=======
 **Art der Beschäftigung:** Vollzeit / Teilzeit
->>>>>>> main
 
 **Eintrittsdatum:** Nach Vereinbarung
 
@@ -54,7 +50,7 @@ Gesundheitswesen.
 - Ein Team, das anpackt: Klein, ambitioniert, technisch stark und mit dem klaren Anspruch, etwas Bleibendes zu schaffen.
 
 **Bewerbung**:
-Sie wollen die Medizin neu denken und ein Stück Gesundheitswesen mitgestalten, das es so noch nicht gibt? Dann freuen wir uns auf ein Gespräch. Schreiben Sie direkt an Emmanuel Bauer: emmanuel@houseofcharts.com.
+Sie wollen die Medizin neu denken und ein Stück Gesundheitswesen mitgestalten, das es so noch nicht gibt? Dann freuen wir uns auf Ihre Bewerbung: Nutzen Sie den Button «Jetzt bewerben» direkt unterhalb dieser Ausschreibung und laden Sie Ihren Lebenslauf hoch – alles Weitere ist optional.
 
 _Auch wenn Sie nicht alle Punkte zu 100% erfüllen, aber spüren, dass diese Rolle für Sie passt:
 melden Sie sich. Wir bewerten Profile als Ganzes, nicht als Checkliste._

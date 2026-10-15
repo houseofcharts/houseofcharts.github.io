@@ -65,7 +65,7 @@ Sie haben Erfahrung mit der automatischen Zusammenfassung medizinischer Texte un
     Eine Arbeitsumgebung, in der Innovation, Vertrauen und Teamgeist im Mittelpunkt stehen, direkt an der ETH Zürich
 
 **Bewerbung**:
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) per E-Mail an emmanuel@houseofcharts.com.
+Bitte reichen Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) über unser Bewerbungsformular ein – Button «Jetzt bewerben» direkt unterhalb dieser Ausschreibung.
 
 Schlussdatum für Bewerbungen: 20.06.25
 

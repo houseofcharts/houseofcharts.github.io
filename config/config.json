@@ -20,6 +20,8 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
+    "apply_api_url": "https://apply-hoc-guhrg5ftdpd3h3he.swedencentral-01.azurewebsites.net/api/apply",
+    "apply_fallback_email": "emmanuel@houseofcharts.com",
     "footer_content": "Ihr KI Partner für den klinischen Alltag. </br> Bessere Behandlungsqualität dank administrativer Entlastung.",
     "copyright": "© 2024 House Of Charts"
   },

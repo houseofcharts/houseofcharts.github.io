@@ -37,21 +37,6 @@ const Job = ({ post, i }) => {
         <p className="mt-4">
           {summary}
         </p>
-        <div className="mt-6 flex items-center">
-          <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
-            <ImageFallback
-              src={post.frontmatter.author.avatar}
-              width={50}
-              height={50}
-              alt="author"
-            />
-          </div>
-          <div className="pl-5">
-            <p className="font-medium text-dark">
-              {post.frontmatter.author.name}
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
