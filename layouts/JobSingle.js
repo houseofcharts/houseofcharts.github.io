@@ -1,11 +1,14 @@
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 
+import dateFormatDe from "@lib/utils/dateFormatDe";
+import rollDeadline from "@lib/utils/rollingDeadline";
 import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { DiscussionEmbed } from "disqus-react";
 import { MDXRemote } from "next-mdx-remote";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 //BACK_TO_FULLSTACK: UNCOMMENT & img -> Image in jsx below
 //import Image from "next/image";
 // ALSO REMOVE
@@ -14,11 +17,18 @@ import Cta from "./components/Cta";
 import ImageFallback from "./components/ImageFallback";
 import Job from "./partials/Job";
 
-const JobSingle = ({ frontmatter, content, mdxContent, recentPosts, slug }) => {
+const JobSingle = ({ frontmatter, content, mdxContent, recentPosts, slug, deadline }) => {
   let { description, title, date, image } = frontmatter;
-  console.log("hello")
-  console.log(description)
-  console.log("bye")
+  // start with the build-time value (keeps SSR and hydration identical),
+  // then re-roll on the client in case the last build is older than the deadline
+  const [closingDate, setClosingDate] = useState(deadline);
+  useEffect(() => {
+    const rolled = rollDeadline(frontmatter.deadline, {
+      graceDays: frontmatter.deadline_grace_days,
+      stepMonths: frontmatter.deadline_step_months,
+    });
+    if (rolled) setClosingDate(rolled.toISOString());
+  }, [frontmatter]);
   description = description ? description : content.slice(0, 120);
 
   const { disqus } = config;
@@ -45,6 +55,12 @@ const JobSingle = ({ frontmatter, content, mdxContent, recentPosts, slug }) => {
                 {markdownify(title, "h1", "h2 mt-6")}
                 <div className="content mt-16 mb-16 text-left">
                   <MDXRemote {...mdxContent} components={shortcodes} />
+                  {closingDate && (
+                    <p>
+                      <strong>Schlussdatum für Bewerbungen:</strong>{" "}
+                      {dateFormatDe(closingDate)}
+                    </p>
+                  )}
                 </div>
                 <div className="mb-16 rounded-2xl bg-theme-light px-8 py-10 text-center">
                   <h3 className="h4">Interessiert?</h3>

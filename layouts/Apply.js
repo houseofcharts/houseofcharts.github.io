@@ -10,6 +10,26 @@ const MAX_TOTAL_MB = 25;
 const MAX_DOCUMENTS = 5;
 const OPEN_APPLICATION = "initiativ";
 
+// Self-assessed language level: CEFR codes plus "native", described in plain
+// words so people who never sat a formal test can still pick the right one.
+const LANGUAGE_LEVELS = [
+  { value: "native", rank: 7, label: "Muttersprache" },
+  { value: "C2", rank: 6, label: "Fliessend, nahezu muttersprachlich (C2)" },
+  { value: "C1", rank: 5, label: "Fliessend / verhandlungssicher (C1)" },
+  { value: "B2", rank: 4, label: "Gut, mit kleinen Lücken (B2)" },
+  { value: "B1", rank: 3, label: "Grundkenntnisse, einfache Gespräche (B1)" },
+  { value: "A2", rank: 2, label: "Anfänger, ein paar Sätze (A2)" },
+  { value: "A1", rank: 1, label: "Erste Worte (A1)" },
+  { value: "none", rank: 0, label: "Keine Kenntnisse" },
+];
+const LANGUAGE_NAMES = { de: "Deutsch", en: "Englisch", fr: "Französisch", it: "Italienisch" };
+const MIN_MOTIVATION_DE_CHARS = 80;
+
+const levelRank = (value) => {
+  const l = LANGUAGE_LEVELS.find((x) => x.value === value);
+  return l ? l.rank : -1;
+};
+
 const extensionOf = (name) => {
   const i = name.lastIndexOf(".");
   return i === -1 ? "" : name.slice(i).toLowerCase();
@@ -42,6 +62,8 @@ const Apply = ({ data, jobs = [] }) => {
     phone: "",
     job: "",
     message: "",
+    motivationDe: "",
+    languages: {}, // { de: "C1", en: "native", ... } self-assessed
     consent: false,
     website: "", // honeypot, stays empty for real users
   });
@@ -73,6 +95,31 @@ const Apply = ({ data, jobs = [] }) => {
     setErrors((er) => ({ ...er, [key]: undefined }));
   };
 
+  const updateLanguage = (code) => (e) => {
+    const value = e.target.value;
+    setForm((f) => ({ ...f, languages: { ...f.languages, [code]: value } }));
+    setErrors((er) => ({ ...er, [`lang_${code}`]: undefined }));
+  };
+
+  // Language requirements of the selected position, e.g. { de: "C1", en: "C1" }
+  const selectedJob = jobs.find((j) => j.slug === form.job);
+  const requiredLanguages = (selectedJob && selectedJob.languages) || {};
+  const requiredCodes = Object.keys(requiredLanguages);
+  const requiresGerman = Boolean(requiredLanguages.de);
+
+  // Languages where the applicant rated themselves below the requirement
+  const insufficient = requiredCodes.filter((code) => {
+    const chosen = form.languages[code];
+    return chosen && levelRank(chosen) < levelRank(requiredLanguages[code]);
+  });
+  const blocked = insufficient.length > 0;
+
+  const languageBlockMessage = () => {
+    const names = requiredCodes.map((c) => LANGUAGE_NAMES[c] || c.toUpperCase());
+    const mins = [...new Set(requiredCodes.map((c) => requiredLanguages[c]))].join("/");
+    return `Für diese Stelle sind fliessende ${names.join("- und ")}kenntnisse (mind. ${mins}) Voraussetzung. Mit der gewählten Einstufung können wir Ihre Bewerbung für diese Position leider nicht berücksichtigen.`;
+  };
+
   const validate = () => {
     const er = {};
     if (form.name.trim().length < 2) er.name = "Bitte geben Sie Ihren Namen an.";
@@ -80,6 +127,14 @@ const Apply = ({ data, jobs = [] }) => {
       er.email = "Bitte geben Sie eine gültige E-Mail-Adresse an.";
     if (!form.job) er.job = "Bitte wählen Sie eine Position.";
     if (!form.consent) er.consent = "Bitte stimmen Sie der Datenschutzerklärung zu.";
+
+    requiredCodes.forEach((code) => {
+      if (!form.languages[code]) er[`lang_${code}`] = "Bitte schätzen Sie Ihre Kenntnisse ein.";
+      else if (levelRank(form.languages[code]) < levelRank(requiredLanguages[code]))
+        er[`lang_${code}`] = languageBlockMessage();
+    });
+    if (requiresGerman && form.motivationDe.trim().length < MIN_MOTIVATION_DE_CHARS)
+      er.motivationDe = `Bitte beantworten Sie diese Frage auf Deutsch in mindestens ${MIN_MOTIVATION_DE_CHARS} Zeichen.`;
 
     if (!cv) er.cv = "Bitte laden Sie Ihren Lebenslauf hoch.";
     else if (!CV_EXTENSIONS.includes(extensionOf(cv.name)))
@@ -107,7 +162,6 @@ const Apply = ({ data, jobs = [] }) => {
     if (status === "submitting") return;
     if (!validate()) return;
 
-    const selectedJob = jobs.find((j) => j.slug === form.job);
     const fd = new FormData();
     fd.append("name", form.name.trim());
     fd.append("email", form.email.trim());
@@ -115,6 +169,11 @@ const Apply = ({ data, jobs = [] }) => {
     fd.append("job", form.job);
     fd.append("jobTitle", selectedJob ? selectedJob.title : "Initiativbewerbung");
     fd.append("message", form.message.trim());
+    if (requiresGerman) fd.append("motivationDe", form.motivationDe.trim());
+    requiredCodes.forEach((code) => {
+      fd.append(`language_${code}`, form.languages[code] || "");
+      fd.append(`languageRequired_${code}`, requiredLanguages[code]);
+    });
     fd.append("consent", form.consent ? "true" : "false");
     fd.append("website", form.website);
     fd.append("source", source || document.referrer || "");
@@ -155,7 +214,17 @@ const Apply = ({ data, jobs = [] }) => {
   };
 
   const resetForm = () => {
-    setForm({ name: "", email: "", phone: "", job: "", message: "", consent: false, website: "" });
+    setForm({
+      name: "",
+      email: "",
+      phone: "",
+      job: "",
+      message: "",
+      motivationDe: "",
+      languages: {},
+      consent: false,
+      website: "",
+    });
     setCv(null);
     setDocuments([]);
     setErrors({});
@@ -260,6 +329,72 @@ const Apply = ({ data, jobs = [] }) => {
                     </select>
                   </Field>
                 </div>
+
+                {requiredCodes.length > 0 && (
+                  <>
+                    <div className="md:grid md:grid-cols-2 md:gap-x-6">
+                      {requiredCodes.map((code) => (
+                        <Field
+                          key={code}
+                          label={`${LANGUAGE_NAMES[code] || code.toUpperCase()}kenntnisse`}
+                          htmlFor={`lang_${code}`}
+                          required
+                          error={errors[`lang_${code}`]}
+                          hint="Selbsteinschätzung – kein Test oder Zertifikat nötig. Wählen Sie, was am ehesten zutrifft."
+                        >
+                          <select
+                            id={`lang_${code}`}
+                            name={`language_${code}`}
+                            className={inputClass}
+                            value={form.languages[code] || ""}
+                            onChange={updateLanguage(code)}
+                            disabled={status === "submitting"}
+                            required
+                          >
+                            <option value="">Bitte wählen</option>
+                            {LANGUAGE_LEVELS.map((l) => (
+                              <option key={l.value} value={l.value}>
+                                {l.label}
+                              </option>
+                            ))}
+                          </select>
+                        </Field>
+                      ))}
+                    </div>
+
+                    {blocked && (
+                      <div className="mb-6 rounded-[6px] border border-red-300 bg-red-50 px-4 py-3 text-sm text-red-700">
+                        {languageBlockMessage()} Schauen Sie sich gerne unsere{" "}
+                        <Link href="/jobs" className="underline">
+                          anderen Stellen
+                        </Link>{" "}
+                        an.
+                      </div>
+                    )}
+
+                    {requiresGerman && (
+                      <Field
+                        label="Warum passen Sie zu House of Charts? (bitte auf Deutsch)"
+                        htmlFor="motivationDe"
+                        required
+                        error={errors.motivationDe}
+                        hint="3 bis 4 Sätze genügen. Diese Antwort hilft uns, Ihre Deutschkenntnisse einzuschätzen."
+                      >
+                        <textarea
+                          id="motivationDe"
+                          name="motivationDe"
+                          rows={4}
+                          className={`form-textarea ${inputClass}`}
+                          placeholder="Was reizt Sie an dieser Rolle, und was bringen Sie mit?"
+                          value={form.motivationDe}
+                          onChange={update("motivationDe")}
+                          disabled={status === "submitting"}
+                          required
+                        />
+                      </Field>
+                    )}
+                  </>
+                )}
 
                 <div className="md:grid md:grid-cols-2 md:gap-x-6">
                   <Field
@@ -412,8 +547,8 @@ const Apply = ({ data, jobs = [] }) => {
                   </p>
                   <button
                     type="submit"
-                    className="btn btn-primary w-full sm:w-auto"
-                    disabled={status === "submitting"}
+                    className="btn btn-primary w-full sm:w-auto disabled:cursor-not-allowed disabled:opacity-60"
+                    disabled={status === "submitting" || blocked}
                   >
                     {status === "submitting" ? "Wird gesendet…" : "Bewerbung absenden"}
                   </button>

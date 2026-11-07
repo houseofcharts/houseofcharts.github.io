@@ -4,8 +4,12 @@ image: /images/blog/03.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2026-05-03T05:00:00Z
+date: 2026-11-05T08:00:00Z
+deadline: 2027-01-15
 draft: false
+languages:
+  de: C1
+  en: C1
 summary: Übernehmen Sie die Verantwortung für unser kommerzielles Wachstum; Sales, Customer Success und Marketing. Gestalten Sie als CCO die nächste Wachstumsphase eines schnell wachsenden HealthTech-Startups mit.
 ---
 

@@ -4,8 +4,12 @@ image: /images/blog/01.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2026-04-19T05:00:00Z
+date: 2026-11-06T08:00:00Z
+deadline: 2026-12-31
 draft: false
+languages:
+  de: C1
+  en: C1
 summary: Stellen Sie sicher, dass unser Produkt die strengsten medizinischen Standards erfüllt und in der klinischen Praxis akzeptiert wird. Verbinden Sie medizinische Expertise mit Produktentwicklung!
 ---
 

@@ -4,8 +4,12 @@ image: /images/blog/04.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2026-07-16T10:00:00Z
+date: 2026-11-04T08:00:00Z
+deadline: 2026-12-20
 draft: false
+languages:
+  de: C1
+  en: C1
 summary: Gestalte die Zukunft des Gesundheitswesens proaktiv mit. Als Founders' Associate unterstützt du direkt bei Planung, Umsetzung und Kommunikation und übernimmst ab Tag 1 echte Verantwortung.
 ---
 

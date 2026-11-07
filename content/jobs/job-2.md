@@ -4,9 +4,13 @@ image: /images/blog/02.jpg
 author:
   name: Emmanuel
   avatar: /images/author/emmanuel.jpg
-date: 2025-06-01T05:00:00Z
+date: 2026-11-03T08:00:00Z
+deadline: 2027-01-31
 draft: false
-summary: Gestalten Sie die technologische Zukunft des Gesundheitswesens mit. Als Founding Engineer übernehmen Sie eine Schlüsselrolle bei der Entwicklung sicherer, skalierbarer und intelligenter Anwendungen, die einen echten Unterschied machen.
+languages:
+  de: C1
+  en: C1
+summary: Gestalte die technologische Zukunft des Gesundheitswesens mit. Als Founding Engineer übernimmst Du eine Schlüsselrolle bei der Entwicklung sicherer, skalierbarer und intelligenter Anwendungen, die einen echten Unterschied machen.
 ---
 
 **Standort**: Zürich, Schweiz
@@ -16,57 +20,55 @@ summary: Gestalten Sie die technologische Zukunft des Gesundheitswesens mit. Als
 **Eintrittsdatum**: Nach Vereinbarung
 
 **Über House of Charts**:
-House of Charts entwickelt KI-basierte Anwendungen zur Entlastung des Gesundheitspersonals und zur Verbesserung der Patientenversorgung. Wir befinden uns an der Schnittstelle von Deep Tech, MedTech und Datensicherheit. Als junges, ambitioniertes Team wollen wir nachhaltige und ethische Technologie für den Gesundheitssektor entwickeln – mit echtem Impact.
+House of Charts entwickelt KI-basierte Anwendungen zur Entlastung des Gesundheitspersonals und zur Verbesserung der Patientenversorgung. Wir befinden uns an der Schnittstelle von Deep Tech, MedTech und Datensicherheit. Als junges, ambitioniertes Team wollen wir nachhaltige und ethische Technologie für den Gesundheitssektor entwickeln – mit echtem Impact. Unsere Produkte sind bereits in mehreren Kliniken im Einsatz, unsere Kunden berichten von 80% Effizienzgewinn bei der klinischen Dokumentation und wir wachsen schnell.
 
 **Was wir suchen**:
-Wir suchen einen aussergewöhnlichen Founding Engineer mit tiefem technischen Verständnis, Unternehmergeist und ausgeprägten Softskills. Diese Rolle ist ideal für jemanden mit einem MSc oder PhD in Informatik und einem Hintergrund in maschinellem Lernen, Softwareentwicklung und IT-Sicherheit sowie Arbeitserfahrung mitbringt. Sie sind in der Lage, komplexe Full-Stack-Anwendungen zu bauen, zu skalieren und zu sichern – und bereit, über den Tellerrand hinauszublicken.
+Diese Rolle ist ideal für eine technisch herausragende Persönlichkeit, die komplexe Herausforderungen eigenständig lösen und die technologische Entwicklung eines innovativen Produkts massgeblich mitgestalten möchte.
 
-Sie haben Erfahrung mit der automatischen Zusammenfassung medizinischer Texte und kennen sowohl generative als auch extraktive/discriminative KI-Modelle. Sie sind mit moderner Infrastruktur, agilen Methoden und Kundeninterviews genauso vertraut wie mit Docker und Kubernetes.
+Wir suchen einen Founding Engineer mit einem MSc oder PhD in Informatik, Mathematik oder einem verwandten Fachgebiet sowie fundierter Berufserfahrung in Machine Learning, Softwareentwicklung und insbesondere IT-Sicherheit. Du bist in der Lage, komplexe Full-Stack-Anwendungen eigenständig zu entwickeln, zu skalieren und abzusichern.
 
-**Ihre Aufgaben**:
+Idealerweise bringst Du Erfahrung in der automatisierten Zusammenfassung medizinischer Texte mit und bist sowohl mit generativen als auch mit extraktiven bzw. diskriminativen KI-Modellen im klinischen Kontext vertraut. Darüber hinaus verfügst Du über Kenntnisse moderner Infrastruktur, agiler Entwicklungsmethoden, medizinischer Datenformate und UI/UX-Design sowie praktische Erfahrung mit Docker und Kubernetes. Unternehmerisches Denken, Eigeninitiative und ausgeprägte Soft Skills runden Dein Profil ab.
 
-    Entwicklung und Absicherung cloudbasierter, verteilter Software-Architekturen mit Fokus auf medizinische Textverarbeitung
-    Umsetzung modernster KI-Verfahren (generativ und extraktiv) für reale Gesundheitsanwendungen
-    Aufbau von Data- und MLOps-Prozessen für skalierbare KI-Lösungen
-    Unterstützung des Gründerteams in technischen und operativen Bereichen – hands-on und flexibel
-    Übernahme von Führungsverantwortung innerhalb des ersten Jahres
+**Deine Aufgaben**:
+- Entwicklung und Absicherung cloudbasierter, verteilter Softwarearchitekturen für medizinische Textverarbeitung
+- Umsetzung moderner generativer und extraktiver KI-Verfahren für reale Gesundheitsanwendungen
+- Aufbau von Data- und MLOps-Prozessen für skalierbare KI-Lösungen
+- Technische und operative Unterstützung des Teams
 
-**Was Sie mitbringen sollten**:
+**Anforderungen**:
 
-    MSc oder PhD in Informatik oder verwandtem Bereich
-    Forschungserfahrung im Bereich automatischer medizinischer Textzusammenfassungen mit in generativer und extraktiver KI
-    Fundierte Kenntnisse in der Netzwerkarchitektur und im Management von Cloud-Infrastrukturen
-    Erfahrung mit Full-Stack-Entwicklung und verteilten Architekturen
-    Erfahrung mit Containerisierung und Orchestrierungstechnologien wie Docker und Kubernetes
-    Ausgeprägte Fähigkeiten in der Verwaltung von Infrastruktur mit Tools wie Terraform
-    Erfahrung mit der Verwaltung von Datenbanken und verteilten Systemen
-    Ausgeprägte Fähigkeiten in Cloud-Deployment und Cybersicherheit
-    Fliessende Deutsch- oder Englischkenntnisse; zusätzliche Sprachkenntnisse sind von Vorteil
+*Technische Skills*
+- Fliessende Deutsch- und Englischkenntnisse sind ein Muss; zusätzliche Sprachkenntnisse sind von Vorteil
+- MSc oder PhD in Informatik oder einem verwandten Bereich
+- Ausgeprägte Fähigkeiten in Cloud-Deployment und Cybersicherheit
+- Erfahrung im Bereich der automatisierten Zusammenfassung medizinischer Texte unter Einsatz generativer und extraktiver bzw. diskriminativer KI-Modelle (PyTorch, spaCy, vLLM, SGLang etc.); Forschungserfahrung von Vorteil
+- Erfahrung mit der Verwaltung von Datenbanken und Distributed Systems (PostgreSQL, MongoDB etc.)
+- Fundierte Kenntnisse in der Netzwerkarchitektur und im Management von Cloud-Infrastrukturen
+- Erfahrung mit Containerisierungs- und Orchestrierungstechnologien wie Docker, Kubernetes und VMware
+- Erfahrung mit Full-Stack-Entwicklung und verteilten Architekturen (Frontend: React/Next.js, Vue.js etc.; Backend: Node, Flask, FastAPI etc.)
+- Erfahrung mit UI/UX-Design und ein ausgeprägtes Bewusstsein für Benutzerfreundlichkeit und Feedback-orientiertes Entwickeln
+- Ausgeprägte Fähigkeiten in der Verwaltung von Infrastruktur mit Tools wie Terraform
+- Erfahrung mit agiler Produktentwicklung und Projektmanagement
 
-    Sehr gute Kenntnisse in:
-        Deep Learning: PyTorch, TensorFlow, etc
-        Backend: Flask, FastAPI, etc
-        Datenbanken: PostgreSQL, MongoDB, etc
-        Frontend: React/Next.js, Vue.js, etc
-        MLOps: Weights & Biases, MLflow, etc
-        DevOps: Docker, Kubernetes, etc
-        Cloud: Azure, AWS, etc
-        OS: Linux
-        Erfahrung mit agiler Produktentwicklung und Projektmanagement
-        Starkes Gespür für Kundenbedürfnisse und Erfahrung in Produktvalidierung
-        Analytisches Denken, wissenschaftliches Arbeiten, Marktverständnis
-        Teamfähigkeit, Zuverlässigkeit und Eigeninitiative
+*Soft Skills*
+- Gespür für Kundenbedürfnisse sowie eine feedback- und evidenzorientierte Arbeitsweise
+- Erfahrung in der Produktentwicklung und -validierung
+- Ausgeprägtes analytisches Denkvermögen
+- Fähigkeit zu selbstständigem, wissenschaftlichem Arbeiten
+- Marktverständnis und unternehmerisches Denken
+- Teamfähigkeit und ausgeprägte Kommunikationsfähigkeiten
+- Zuverlässigkeit und Eigeninitiative
 
 **Was wir bieten**:
-    Schlüsselrolle beim Aufbau eines gesundheitsorientierten Tech-Startups mit hohem gesellschaftlichem Impact
-    Direkte Zusammenarbeit mit den Gründern und aktiver Einfluss auf Technologie, Strategie und Kultur
-    Hoher Gestaltungsspielraum und Verantwortung von Anfang an
-    Aussicht auf Führungsrolle und Beteiligungsoptionen
-    Eine Arbeitsumgebung, in der Innovation, Vertrauen und Teamgeist im Mittelpunkt stehen, direkt an der ETH Zürich
+- Schlüsselrolle beim Aufbau eines auf den Gesundheitssektor fokussierten Tech-Startups mit hohem gesellschaftlichem Impact
+- Kurze Entscheidungswege und aktiver Einfluss auf Technologie, Strategie und Kultur
+- Hoher Gestaltungsspielraum und Verantwortung von Anfang an
+- Aussicht auf Führungsrolle (z.B. Tech Lead, Chief Architect, VP Engineering oder CTO)
+- Beteiligungsoptionen (ESOP) und Bonus-Programm bei hoher Leistung
+- Eine Arbeitsumgebung, in der Innovation, Vertrauen und Teamgeist im Mittelpunkt stehen
+- Office an der ETH Zürich (Zentrum)
 
 **Bewerbung**:
-Bitte reichen Sie Ihre vollständigen Bewerbungsunterlagen (Lebenslauf, Motivationsschreiben, Zeugnisse) über unser Bewerbungsformular ein – Button «Jetzt bewerben» direkt unterhalb dieser Ausschreibung.
+Bitte reiche Deine vollständigen Bewerbungsunterlagen (Lebenslauf, Zeugnisse, Motivationsschreiben) über unser Bewerbungsformular ein – Button «Jetzt bewerben» direkt unterhalb dieser Ausschreibung.
 
-Schlussdatum für Bewerbungen: 20.06.25
-
-Wir freuen uns darauf, mehr über Sie zu erfahren und Sie vielleicht bald in unserem engagierten Team begrüßen zu dürfen!
+Wir freuen uns darauf, mehr über Dich zu erfahren und Dich vielleicht bald in unserem engagierten Team begrüssen zu dürfen!

@@ -68,6 +68,8 @@ export const getStaticProps = async ({ params }) => {
       ? getSinglePage(`content/${config.settings.jobs_folder}`).map((job) => ({
           slug: job.slug,
           title: job.frontmatter.title,
+          // required language levels, e.g. { de: "C1", en: "C1" }
+          languages: job.frontmatter.languages || null,
         }))
       : [];
 
